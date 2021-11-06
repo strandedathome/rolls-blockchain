@@ -1,16 +1,16 @@
 import asyncio
 import pytest
 import time
-from hddcoin.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
-from hddcoin.protocols.full_node_protocol import RespondBlock
-from hddcoin.server.server import HDDcoinServer
-from hddcoin.simulator.simulator_protocol import FarmNewBlockProtocol, ReorgProtocol
-from hddcoin.types.peer_info import PeerInfo
-from hddcoin.util.ints import uint16, uint32, uint64
-from hddcoin.wallet.util.transaction_type import TransactionType
-from hddcoin.wallet.transaction_record import TransactionRecord
-from hddcoin.wallet.wallet_node import WalletNode
-from hddcoin.wallet.wallet_state_manager import WalletStateManager
+from rolls.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
+from rolls.protocols.full_node_protocol import RespondBlock
+from rolls.server.server import PecanRollsServer
+from rolls.simulator.simulator_protocol import FarmNewBlockProtocol, ReorgProtocol
+from rolls.types.peer_info import PeerInfo
+from rolls.util.ints import uint16, uint32, uint64
+from rolls.wallet.util.transaction_type import TransactionType
+from rolls.wallet.transaction_record import TransactionRecord
+from rolls.wallet.wallet_node import WalletNode
+from rolls.wallet.wallet_state_manager import WalletStateManager
 from tests.setup_nodes import self_hostname, setup_simulators_and_wallets
 from tests.time_out_assert import time_out_assert, time_out_assert_not_none
 from tests.wallet.cc_wallet.test_cc_wallet import tx_in_pool
@@ -48,7 +48,7 @@ class TestWalletSimulator:
         num_blocks = 10
         full_nodes, wallets = wallet_node
         full_node_api = full_nodes[0]
-        server_1: HDDcoinServer = full_node_api.full_node.server
+        server_1: PecanRollsServer = full_node_api.full_node.server
         wallet_node, server_2 = wallets[0]
 
         wallet = wallet_node.wallet_state_manager.main_wallet
@@ -318,7 +318,7 @@ class TestWalletSimulator:
     #     introducer, introducer_server = await node_iters[2].__anext__()
     #
     #     async def has_full_node():
-    #         outbound: List[WSHDDcoinConnection] = wallet.server.get_outgoing_connections()
+    #         outbound: List[WSPecanRollsConnection] = wallet.server.get_outgoing_connections()
     #         for connection in outbound:
     #             if connection.connection_type is NodeType.FULL_NODE:
     #                 return True

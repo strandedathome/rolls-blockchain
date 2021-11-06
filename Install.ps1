@@ -2,7 +2,7 @@ $ErrorActionPreference = "Stop"
 
 if ([Environment]::Is64BitOperatingSystem -eq $false)
 {
-    Write-Output "HDDcoin requires a 64-bit Windows installation"
+    Write-Output "PecanRolls requires a 64-bit Windows installation"
     Exit 1
 }
 
@@ -51,13 +51,13 @@ pip install --extra-index-url https://pypi.chia.net/simple/ miniupnpc==2.2.2
 pip install --editable . --extra-index-url https://pypi.chia.net/simple/
 
 Write-Output ""
-Write-Output "HDDcoin blockchain .\Install.ps1 complete."
+Write-Output "PecanRolls blockchain .\Install.ps1 complete."
 Write-Output "For assistance join us on Keybase in the #support chat channel:"
-Write-Output "https://keybase.io/team/hddcoin_network.public"
+Write-Output "https://keybase.io/team/rolls_network.public"
 Write-Output ""
-Write-Output "Try the Quick Start Guide to running hddcoin-blockchain:"
-Write-Output "https://github.com/HDDcoin-Network/hddcoin-blockchain/wiki/Quick-Start-Guide"
+Write-Output "Try the Quick Start Guide to running rolls-blockchain:"
+Write-Output "https://github.com/strandedathome/rolls-blockchain/wiki/Quick-Start-Guide"
 Write-Output ""
 Write-Output "To install the GUI type '.\Install-gui.ps1' after '.\venv\scripts\Activate.ps1'."
 Write-Output ""
-Write-Output "Type '.\venv\Scripts\Activate.ps1' and then 'hddcoin init' to begin."
+Write-Output "Type '.\venv\Scripts\Activate.ps1' and then 'rolls init' to begin."
