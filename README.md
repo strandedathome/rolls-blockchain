@@ -13,49 +13,34 @@ PecanRolls core values include green cryptocurrency, long term value, building f
 The goal of PecanRolls is to reshape the global financial system through the power of the blockchain technology, powered by thousands of nodes maintained by the community, and with transparency and a commitment to the environment — thereby taking control from any central entity, person or organization, and giving that control back to the community.
 
 **BLOCKCHAIN SPECIFICATION:**
-- Launch date: July 8th 2021
+- Launch date: Nov 2, 2021
 - Cryptocurrency coin: ROLLS
-- Lowest coin denomination: Bytes
-- Conversion: 1 ROLLS = 1,000,000,000,000 Bytes
+- Lowest coin denomination: pecans
+- Conversion: 1 ROLL = 1,000,000,000,000 pecans
 - Blocks per 24 hours target: 4,608
-- Farmed rewards per block: 2 ROLLS
-- Halving period for block rewards: 3 years
+- Farmed rewards per block: 6 ROLLS
+- 33% reduction period for block rewards: 1 year, then every 6 months until 3 years
 
 **BLOCKCHAIN RESOURCES:**
 - Website: https://pecanrolls.net/
-- Explorer: https://alltheblocks.net/rolls
-- Calculator: https://rollsforkscalculator.com/rolls
-- PecanRolls DB: https://pecanrolls.net/downloads/blockchain_v1_mainnet.sqlite
 
 **COMMUNITIES AND SOCIAL CHANNELS:**
-- Discord: https://discord.gg/AZdGSFnqAR
-- Twitter: https://twitter.com/rolls
-- YouTube: https://www.youtube.com/channel/UChJY3YEOTDBvFJ0vLFEc1Sw
-- Facebook: https://www.facebook.com/PecanRollsNetwork
-- Telegram: https://t.me/PecanRolls_Network
-- Reddit: https://www.reddit.com/r/PecanRollsNetwork
-
+- Discord: https://discord.gg/xA9FHJpfEB
+- Twitter: https://twitter.com/pecanrolls
 
 ***********************************************
 # INSTALL INSTRUCTIONS:
 
 You can install PecanRolls by building from source, or by using the latest binaries for your operating system.
 
-(A.) To **install from available binaries**, download executables from the correct **Releases page**:
+To **build from source**, do the following:
 
-   - for solo farming, get them here ->
-   https://github.com/strandedathome/rolls-blockchain/releases
-   - for pool farming with FoxyPool (OG), get them here ->
-   https://github.com/felixbrucker/rolls-blockchain/releases
-
-
-(B.) To **build from source**, do the following:
-
-```
+***********************************************
 # Update / Upgrade OS
 
-   sudo apt-get update
-   sudo apt-get upgrade -y
+```
+   sudo apt-get update && sudo apt-get upgrade -y
+```
 
 # Install Git
 
