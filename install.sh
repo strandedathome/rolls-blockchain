@@ -1,20 +1,5 @@
 #!/bin/bash
 
-# Check current PecanRolls SSL version to prevent update on old SSL
-if [ -e ../.rolls/mainnet/config/ssl/ca/rolls_ca.crt ]; then
-	ROLLS_SSL_SERIAL=$(openssl x509 -noout -in ../.rolls/mainnet/config/ssl/ca/rolls_ca.crt -serial)
-	if [ $ROLLS_SSL_SERIAL = "serial=5C8A71239328650EB9FEF85CEC32BF779CA6A0C5" ]; then 
-		echo ""
-		echo "WARNING:"
-		echo "Old version of PecanRolls Blockchain SSL has been detected."
-		echo "Please visit https://pecanrolls.net/sslupdate/ for further instructions."
-		echo ""
-		echo "Exiting installer..."
-		echo ""
-		exit 1
-	fi
-fi
-
 set -e
 UBUNTU=false
 DEBIAN=false
@@ -135,47 +120,13 @@ python -m pip install wheel
 python -m pip install --extra-index-url https://pypi.chia.net/simple/ miniupnpc==2.2.2
 python -m pip install -e . --extra-index-url https://pypi.chia.net/simple/
 
-echo "
-       ##############################################   
-     ################################################## 
-    ####    ####################################    ####
-    ####    #########                  #########    ####
-    #############        ##########        #############
-    ##########      ####################     ###########
-    ########     ##########################    #########
-    #######    ##############################    #######
-    #####    ##################################   ######
-    ####    ####################################   #####
-    ####   ###############        ###############   ####
-    ###   ##############            #############    ###
-    ###   #############     ####     #############   ###
-    ###   ############     ######     ############   ###
-    ###   #############    ######    #############   ###
-    ###   #############     ####     ############    ###
-    ####   ########  ####          ##############   ####
-    #####   ########      ######################   #####
-    ######   #########         ################   ######
-    #######    ########             #########    #######
-    ########     ########    ##        ####    #########
-    ###########     #######    #####         ###########
-    ##############         #     #####      ############
-    ##################             ######     ##########
-    #############################     ######     #######
-    ###############################      ##    #########
-    ##################################        ##########
-    ####    #############################   ####    ####
-    ####    ####################################    ####
-     ################################################## 
-       ##############################################         
-    "
-
-echo "PecanRolls blockchain install.sh complete."
+echo ""
+echo ""
+echo "PecanRolls blockchain install.sh complete. You've done it!!"
 echo ""
 echo "Visit our Website to learn more about PecanRolls:"
 echo "https://pecanrolls.net"
 echo ""
-echo "Try the Quick Start Guide to running rolls-blockchain:"
-echo "https://github.com/strandedathome/rolls-blockchain/wiki/Quick-Start-Guide"
 echo ""
 echo "To install the GUI type 'sh install-gui.sh' after '. ./activate'."
 echo ""
