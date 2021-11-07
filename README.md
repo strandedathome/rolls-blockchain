@@ -51,32 +51,22 @@ You can install PecanRolls by building from source, or by using the latest binar
 
 (B.) To **build from source**, do the following:
 
-```
 # Update / Upgrade OS
-
-   sudo apt-get update
-   sudo apt-get upgrade -y
-
+```
+   sudo apt-get update && sudo apt-get upgrade -y
+```
 # Install Git
-
+```
    sudo apt install git -y
-
-# Checkout the correct source (either for solo or pool farming)
-
-   ## for solo farming, use this source ## ->
-   git clone https://github.com/strandedathome/rolls-blockchain.git
-
-   ## for pool farming with FoxyPool (OG), use this source ## ->
-   git clone https://github.com/felixbrucker/rolls-blockchain.git
-
-  
-# Install the Blockchain
-
-   cd rolls-blockchain
-   sh install.sh
-   . ./activate
-   rolls init
-
+```
+# Checkout the repo and install PecanRolls
+```
+   git clone https://github.com/strandedathome/rolls-blockchain.git && cd rolls-blockchain && sh install.sh
+```
+# Activate the virtual environment
+```
+. ./activate && rolls init
+```
 # Install and run the GUI
 
    sh install-gui.sh
@@ -86,22 +76,16 @@ You can install PecanRolls by building from source, or by using the latest binar
 
 If the client does not find any connections automatically, you can add any of the following:
 
-- introducer.pecanrolls.net / Port: 4321
-- dns-introducer.pecanrolls.net / Port: 4321
-- node-1.pecanrolls.net / Port: 4321 / United States
-- node-2.pecanrolls.net / Port: 4321 / United States
-- node-3.pecanrolls.net / Port: 4321 / Hong Kong, China
-- node-4.pecanrolls.net / Port: 4321 / Munich, Germany
-- node-5.pecanrolls.net / Port: 4321 / Singapore, Singapore
-- node-6.pecanrolls.net / Port: 4321 / Bangalore, India
-- node-7.pecanrolls.net / Port: 4321 / Amsterdam, Netherlands
-- node-8.pecanrolls.net / Port: 4321 / United States
-- node-9.pecanrolls.net / Port: 4321 / United States
-- node-10.pecanrolls.net / Port: 4321 / United States
-- node-11.pecanrolls.net / Port: 4321 / United States
-- node-12.pecanrolls.net / Port: 4321 / United States
-- node-13.pecanrolls.net / Port: 4321 / United States
-- node-14.pecanrolls.net / Port: 4321 / United States
+## Introducers
+```
+- introducer.pecanrolls.net • Port: 7654
+- dns-introducer.pecanrolls.net
+```
+## Nodes
+```
+rolls show -a namora.pecanrolls.net:4321
+rolls show -a nebula.pecanrolls.net:4321
+```
 
 ***********************************************
 # UPDATE/UPGRADE INSTRUCTIONS:
