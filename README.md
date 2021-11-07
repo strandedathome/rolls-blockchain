@@ -68,7 +68,7 @@ You can install PecanRolls by building from source, or by using the latest binar
 . ./activate && rolls init
 ```
 # Install and run the GUI
-
+```
    sh install-gui.sh
    cd rolls-blockchain-gui
    npm run electron &
