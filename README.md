@@ -86,22 +86,22 @@ You can install PecanRolls by building from source, or by using the latest binar
 
 If the client does not find any connections automatically, you can add any of the following:
 
-- introducer.pecanrolls.net / Port: 28444
-- dns-introducer.pecanrolls.net / Port: 28444
-- node-1.pecanrolls.net / Port: 28444 / United States
-- node-2.pecanrolls.net / Port: 28444 / United States
-- node-3.pecanrolls.net / Port: 28444 / Hong Kong, China
-- node-4.pecanrolls.net / Port: 28444 / Munich, Germany
-- node-5.pecanrolls.net / Port: 28444 / Singapore, Singapore
-- node-6.pecanrolls.net / Port: 28444 / Bangalore, India
-- node-7.pecanrolls.net / Port: 28444 / Amsterdam, Netherlands
-- node-8.pecanrolls.net / Port: 28444 / United States
-- node-9.pecanrolls.net / Port: 28444 / United States
-- node-10.pecanrolls.net / Port: 28444 / United States
-- node-11.pecanrolls.net / Port: 28444 / United States
-- node-12.pecanrolls.net / Port: 28444 / United States
-- node-13.pecanrolls.net / Port: 28444 / United States
-- node-14.pecanrolls.net / Port: 28444 / United States
+- introducer.pecanrolls.net / Port: 4321
+- dns-introducer.pecanrolls.net / Port: 4321
+- node-1.pecanrolls.net / Port: 4321 / United States
+- node-2.pecanrolls.net / Port: 4321 / United States
+- node-3.pecanrolls.net / Port: 4321 / Hong Kong, China
+- node-4.pecanrolls.net / Port: 4321 / Munich, Germany
+- node-5.pecanrolls.net / Port: 4321 / Singapore, Singapore
+- node-6.pecanrolls.net / Port: 4321 / Bangalore, India
+- node-7.pecanrolls.net / Port: 4321 / Amsterdam, Netherlands
+- node-8.pecanrolls.net / Port: 4321 / United States
+- node-9.pecanrolls.net / Port: 4321 / United States
+- node-10.pecanrolls.net / Port: 4321 / United States
+- node-11.pecanrolls.net / Port: 4321 / United States
+- node-12.pecanrolls.net / Port: 4321 / United States
+- node-13.pecanrolls.net / Port: 4321 / United States
+- node-14.pecanrolls.net / Port: 4321 / United States
 
 ***********************************************
 # UPDATE/UPGRADE INSTRUCTIONS:

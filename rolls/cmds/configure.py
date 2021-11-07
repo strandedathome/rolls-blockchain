@@ -119,7 +119,7 @@ def configure(
 
         elif testnet == "false" or testnet == "f":
             print("Setting Mainnet")
-            mainnet_port = "28444"
+            mainnet_port = "4321"
             mainnet_introducer = "introducer.pecanrolls.net"
             mainnet_dns_introducer = "dns-introducer.pecanrolls.net"
             net = "mainnet"
