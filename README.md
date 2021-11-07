@@ -15,11 +15,14 @@ The goal of PecanRolls is to reshape the global financial system through the pow
 **BLOCKCHAIN SPECIFICATION:**
 - Launch date: July 8th 2021
 - Cryptocurrency coin: ROLLS
-- Lowest coin denomination: Bytes
-- Conversion: 1 ROLLS = 1,000,000,000,000 Bytes
+- Lowest coin denomination: pecans
+- Conversion: 1 ROLLS = 1,000,000,000,000 pecans
 - Blocks per 24 hours target: 4,608
 - Farmed rewards per block: 2 ROLLS
-- Halving period for block rewards: 3 years
+- Halving period for block rewards
+-- 1st year `6`
+-- 2nd year `3`
+-- then `1` block reward indefinitely
 
 **BLOCKCHAIN RESOURCES:**
 - Website: https://pecanrolls.net/
