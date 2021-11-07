@@ -70,8 +70,10 @@ If the client does not find any connections automatically, you can add any of th
 - dns-introducer.pecanrolls.net / Port: 28444
 
 ### Nodes
-- nebula.pecanrolls.net / Port: 7654 / United States
-- namoa.pecanrolls.net / Port: 7654 / United States
+```
+rolls show -a nebula.pecanrolls.net:7654
+rolls show -a namora.pecanrolls.net:7654
+```
 
 ***********************************************
 # UPDATE/UPGRADE INSTRUCTIONS:
