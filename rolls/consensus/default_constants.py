@@ -18,7 +18,7 @@ testnet_kwargs = {
     "EPOCH_BLOCKS": 4608,  # The number of blocks per epoch, mainnet 4608. Must be multiple of SUB_EPOCH_SB
     "SIGNIFICANT_BITS": 8,  # The number of bits to look at in difficulty and min iters. The rest are zeroed
     "DISCRIMINANT_SIZE_BITS": 1024,  # Max is 1024 (based on ClassGroupElement int size)
-    "NUMBER_ZERO_BITS_PLOT_FILTER": 9,  # H(plot signature of the challenge) must start with these many zeroes
+    "NUMBER_ZERO_BITS_PLOT_FILTER": 2,  # H(plot signature of the challenge) must start with these many zeroes
     "MIN_PLOT_SIZE": 32,  # 32 for mainnet
     "MAX_PLOT_SIZE": 50,
     "SUB_SLOT_TIME_TARGET": 600,  # The target number of seconds per slot, mainnet 600
@@ -28,14 +28,14 @@ testnet_kwargs = {
     # Used as the initial cc rc challenges, as well as first block back pointers, and first SES back pointer
     # We override this value based on the chain being run (testnet0, testnet1, mainnet, etc)
     # Default used for tests is std_hash(b'')
-    "GENESIS_CHALLENGE": bytes.fromhex("f663a54192e4fc8832d62c5f914d1c3a15dd2a519c3ca23609a508f4641da23e"),
+    "GENESIS_CHALLENGE": bytes.fromhex("2ad151d9698bf171aaa4438ba4e8232fb97fff93bb36d22bc3fe0993f65361e6"),
     # Forks of rolls should change this value to provide replay attack protection. This is set to mainnet genesis chall
-    "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("49f4afb189342858dba5c1bb6b50b0deaa706088474f0c5431d65b857d54ddb5"),
+    "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("c5c729019fad3a036afbf33a6531531ed95586e1401ef64a37b0248da07a73cd"),
     "GENESIS_PRE_FARM_POOL_PUZZLE_HASH": bytes.fromhex(
-        "5ed49df42106663947059a3323da310f24c804c6cf7420f3c1ac0cffb3f9d2b3"
+        "2636f5eb50c2e84a8d90575177f46f9d2a5c8f4a3a62d0332e395ffe951ee8d4"
     ),
     "GENESIS_PRE_FARM_FARMER_PUZZLE_HASH": bytes.fromhex(
-        "5ed49df42106663947059a3323da310f24c804c6cf7420f3c1ac0cffb3f9d2b3"
+        "2636f5eb50c2e84a8d90575177f46f9d2a5c8f4a3a62d0332e395ffe951ee8d4"
     ),
     "MAX_VDF_WITNESS_SIZE": 64,
     # Size of mempool = 50x the size of block
