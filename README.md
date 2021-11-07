@@ -1,7 +1,5 @@
 # rolls-blockchain 
 
-![Alt text](https://pecanrolls.net/images/rolls_coin_logo_website_75.png)
-
 PecanRolls is an eco-friendly decentralization blockchain based on the Proof of Space and Time (PoST) consensus pioneered by PecanRolls™. It maintains network robustness, in line with Satoshi Nakamoto's principles.
 
 PecanRolls uses the powerful and secure Chialisp language for Smart Contracts, and supports digital money, global payments and applications. PecanRolls is not affiliated with PecanRolls Network, Inc., but uses their open-sourced software as its foundation.
