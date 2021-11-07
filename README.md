@@ -66,8 +66,8 @@ To **build from source**, do the following:
 
 If the client does not find any connections automatically, you can add any of the following:
 
-- introducer.pecanrolls.net / Port: 28444
-- dns-introducer.pecanrolls.net / Port: 28444
+- introducer.pecanrolls.net:4321
+- dns-introducer.pecanrolls.net:4321
 
 ### Nodes
 ```
