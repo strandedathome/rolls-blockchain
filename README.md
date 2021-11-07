@@ -36,34 +36,29 @@ You can install PecanRolls by building from source, or by using the latest binar
 To **build from source**, do the following:
 
 ***********************************************
-# Update / Upgrade OS
+## Update / Upgrade OS
 
 ```
    sudo apt-get update && sudo apt-get upgrade -y
 ```
 
-# Install Git
-
+## Install Git
+```
    sudo apt install git -y
-
-# Checkout the correct source (either for solo or pool farming)
-
-   ## for solo farming, use this source ## ->
-   git clone https://github.com/strandedathome/rolls-blockchain.git
-
-   ## for pool farming with FoxyPool (OG), use this source ## ->
-   git clone https://github.com/felixbrucker/rolls-blockchain.git
+```
 
   
-# Install the Blockchain
-
-   cd rolls-blockchain
-   sh install.sh
+## Install the Blockchain
+```
+   cd rolls-blockchain && sh install.sh
+```
+## Activate virtual environment
+```
    . ./activate
    rolls init
-
+```
 # Install and run the GUI
-
+```
    sh install-gui.sh
    cd rolls-blockchain-gui
    npm run electron &
@@ -73,20 +68,10 @@ If the client does not find any connections automatically, you can add any of th
 
 - introducer.pecanrolls.net / Port: 28444
 - dns-introducer.pecanrolls.net / Port: 28444
-- node-1.pecanrolls.net / Port: 28444 / United States
-- node-2.pecanrolls.net / Port: 28444 / United States
-- node-3.pecanrolls.net / Port: 28444 / Hong Kong, China
-- node-4.pecanrolls.net / Port: 28444 / Munich, Germany
-- node-5.pecanrolls.net / Port: 28444 / Singapore, Singapore
-- node-6.pecanrolls.net / Port: 28444 / Bangalore, India
-- node-7.pecanrolls.net / Port: 28444 / Amsterdam, Netherlands
-- node-8.pecanrolls.net / Port: 28444 / United States
-- node-9.pecanrolls.net / Port: 28444 / United States
-- node-10.pecanrolls.net / Port: 28444 / United States
-- node-11.pecanrolls.net / Port: 28444 / United States
-- node-12.pecanrolls.net / Port: 28444 / United States
-- node-13.pecanrolls.net / Port: 28444 / United States
-- node-14.pecanrolls.net / Port: 28444 / United States
+
+### Nodes
+- nebula.pecanrolls.net / Port: 7654 / United States
+- namoa.pecanrolls.net / Port: 7654 / United States
 
 ***********************************************
 # UPDATE/UPGRADE INSTRUCTIONS:
