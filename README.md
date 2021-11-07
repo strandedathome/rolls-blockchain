@@ -1,4 +1,6 @@
-# rolls-blockchain 
+# rolls-blockchain
+
+![https://github.com/strandedathome/rolls-blockchain/blob/main/spinning-pecan-roll.gif]
 
 PecanRolls is an eco-friendly decentralization blockchain based on the Proof of Space and Time (PoST) consensus pioneered by PecanRolls™. It maintains network robustness, in line with Satoshi Nakamoto's principles.
 
