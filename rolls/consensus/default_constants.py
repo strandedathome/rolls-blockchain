@@ -32,10 +32,10 @@ testnet_kwargs = {
     # Forks of rolls should change this value to provide replay attack protection. This is set to mainnet genesis chall
     "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("f7ceb5888d75cdc4187d43ee84fdbca8423774e86b82c6a97d7972ddaafb22ed"),
     "GENESIS_PRE_FARM_POOL_PUZZLE_HASH": bytes.fromhex(
-        "1154c682989fff1b369fa44c8e74cd6a0ce15e7237687719a811f25edaa2289f"
+        "159766f232a17936fc032a6befc0b2a7d89a126204f3b477d6ffbc6ca919bdc1"
     ),
     "GENESIS_PRE_FARM_FARMER_PUZZLE_HASH": bytes.fromhex(
-        "1154c682989fff1b369fa44c8e74cd6a0ce15e7237687719a811f25edaa2289f"
+        "159766f232a17936fc032a6befc0b2a7d89a126204f3b477d6ffbc6ca919bdc1"
     ),
     "MAX_VDF_WITNESS_SIZE": 64,
     # Size of mempool = 50x the size of block
