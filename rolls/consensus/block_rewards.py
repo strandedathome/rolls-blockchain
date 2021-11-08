@@ -17,7 +17,7 @@ def calculate_pool_reward(height: uint32) -> uint64:
     return uint64(int(0))
 
     if height == 0:
-        return uint64(int((0 / 8) * 1000000 * _pecans_per_roll))
+        return uint64(int((0 / 8) * 0 * _pecans_per_roll))
     elif height < 1 * _blocks_per_year: 
         return uint64(int((0 / 8) * 6 * _pecans_per_roll))
     elif height < 2 * _blocks_per_year: 
