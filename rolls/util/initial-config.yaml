@@ -37,7 +37,7 @@ network_overrides: &network_overrides
       default_full_node_port: 38444
     testnet2:
       address_prefix: "trolls"
-      default_full_node_port: 48444
+      default_full_node_port: 94321
 
 selected_network: &selected_network "mainnet"
 ALERTS_URL: https://download.pecanrolls.net/notify/mainnet_alert.txt
@@ -78,7 +78,7 @@ harvester:
 
   # If True, starts an RPC server at the following port
   start_rpc_server: True
-  rpc_port: 55432
+  rpc_port: 5433
   num_threads: 30
   plots_refresh_parameter:
     interval_seconds: 120 # The interval in seconds to refresh the plot file manager
@@ -135,7 +135,7 @@ farmer:
 
   # If True, starts an RPC server at the following port
   start_rpc_server: True
-  rpc_port: 56543
+  rpc_port: 6544
 
   # To send a share to a pool, a proof of space must have required_iters less than this number
   pool_share_threshold: 1000
@@ -153,7 +153,7 @@ farmer:
 timelord_launcher:
   # The server where the VDF clients will connect to.
   host: *self_hostname
-  port: 27654
+  port: 27000
   # Number of VDF client processes to keep alive in the local machine.
   process_count: 3
   logging: *logging
@@ -179,7 +179,7 @@ timelord:
   # The ip and port where the TCP clients will connect.
   vdf_server:
     host: *self_hostname
-    port: 27654
+    port: 27000
   logging: *logging
   network_overrides: *network_overrides
   selected_network: *selected_network
@@ -218,7 +218,7 @@ full_node:
 
   # If True, starts an RPC server at the following port
   start_rpc_server: True
-  rpc_port: 54321
+  rpc_port: 9877
 
   # Use UPnP to attempt to allow other full nodes to reach your node behind a gateway
   enable_upnp: True
@@ -278,7 +278,7 @@ full_node:
       port: 22345
   introducer_peer:
       host: introducer.pecanrolls.net  # PecanRolls introducer IPv4/IPv6
-      port: 7654
+      port: 4321
   wallet_peer:
     host: *self_hostname
     port: 8765
@@ -294,10 +294,10 @@ full_node:
 
 ui:
    # The ui node server (if run) will run on this port
-  port: 34321
+  port: 9876
 
   # Which port to use to communicate with the full node
-  rpc_port: 54321
+  rpc_port: 9877
 
   # This SSH key is for the ui SSH server
   ssh_filename: config/ssh_host_key
@@ -362,7 +362,7 @@ wallet:
 
   introducer_peer:
     host: introducer.pecanrolls.net # PecanRolls introducer IPv4/IPv6
-    port: 7654
+    port: 4321
 
   ssl:
     private_crt:  "config/ssl/wallet/private_wallet.crt"
