@@ -43,8 +43,8 @@ async def main() -> None:
         print(farmer_prefarm.amount, farmer_amounts)
         assert farmer_amounts == farmer_prefarm.amount // 2
         assert pool_amounts == pool_prefarm.amount // 2
-        address1 = "rolls1ycm0t66sct5y4rvs2agh0ar0n549er628f3dqvew890la9g7ar2q0gcnss"  # PecanRolls reserve account
-        address2 = "rolls1ycm0t66sct5y4rvs2agh0ar0n549er628f3dqvew890la9g7ar2q0gcnss"  # PecanRolls reserve account
+        address1 = "rolls1sfjqkg9sf3jpjaqjnn98er9v0uae7s86tsnsa5375pqns4xqvpkqjahpdv"  # PecanRolls reserve account
+        address2 = "rolls1sfjqkg9sf3jpjaqjnn98er9v0uae7s86tsnsa5375pqns4xqvpkqjahpdv"  # PecanRolls reserve account
 
         ph1 = decode_puzzle_hash(address1)
         ph2 = decode_puzzle_hash(address2)
@@ -58,8 +58,8 @@ async def main() -> None:
 
         print(f"Ph1: {ph1.hex()}")
         print(f"Ph2: {ph2.hex()}")
-        assert ph1.hex() == "5ed49df42106663947059a3323da310f24c804c6cf7420f3c1ac0cffb3f9d2b3"
-        assert ph2.hex() == "5ed49df42106663947059a3323da310f24c804c6cf7420f3c1ac0cffb3f9d2b3"
+        assert ph1.hex() == "82640b20b04c641974129cca7c8cac7f3b9f40fa5c270ed23ea0413854c0606c"
+        assert ph2.hex() == "82640b20b04c641974129cca7c8cac7f3b9f40fa5c270ed23ea0413854c0606c"
 
         p_solution = Program.to(binutils.assemble("()"))
 

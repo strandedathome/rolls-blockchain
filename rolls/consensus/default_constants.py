@@ -28,14 +28,14 @@ testnet_kwargs = {
     # Used as the initial cc rc challenges, as well as first block back pointers, and first SES back pointer
     # We override this value based on the chain being run (testnet0, testnet1, mainnet, etc)
     # Default used for tests is std_hash(b'')
-    "GENESIS_CHALLENGE": bytes.fromhex("00180545189ff317a679d929d3bafab7b41affce4c007ede99c12c73697e34ed"),
+    "GENESIS_CHALLENGE": bytes.fromhex("63cbb5e9594f4964db40070e9719608712bb864a1316aaacc130216e1d388663"),
     # Forks of rolls should change this value to provide replay attack protection. This is set to mainnet genesis chall
-    "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("f7ceb5888d75cdc4187d43ee84fdbca8423774e86b82c6a97d7972ddaafb22ed"),
+    "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("76074ccc677fd9415c707559a69bdd26145babf0f0ccda1c481278f87bb0d4af"),
     "GENESIS_PRE_FARM_POOL_PUZZLE_HASH": bytes.fromhex(
-        "159766f232a17936fc032a6befc0b2a7d89a126204f3b477d6ffbc6ca919bdc1"
+        "rolls1sfjqkg9sf3jpjaqjnn98er9v0uae7s86tsnsa5375pqns4xqvpkqjahpdv"
     ),
     "GENESIS_PRE_FARM_FARMER_PUZZLE_HASH": bytes.fromhex(
-        "159766f232a17936fc032a6befc0b2a7d89a126204f3b477d6ffbc6ca919bdc1"
+        "rolls1sfjqkg9sf3jpjaqjnn98er9v0uae7s86tsnsa5375pqns4xqvpkqjahpdv"
     ),
     "MAX_VDF_WITNESS_SIZE": 64,
     # Size of mempool = 50x the size of block
