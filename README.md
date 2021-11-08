@@ -56,15 +56,15 @@ You can install PecanRolls by building from source, or by using the latest binar
 
 # Update / Upgrade OS
 ```
-   sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 # Install Git
 ```
-   sudo apt install git -y
+sudo apt install git -y
 ```
 # Checkout the repo and install PecanRolls
 ```
-   git clone https://github.com/strandedathome/rolls-blockchain.git && cd rolls-blockchain && sh install.sh
+git clone https://github.com/strandedathome/rolls-blockchain.git && cd rolls-blockchain && sh install.sh
 ```
 # Activate the virtual environment
 ```
@@ -72,9 +72,9 @@ You can install PecanRolls by building from source, or by using the latest binar
 ```
 # Install and run the GUI
 ```
-   sh install-gui.sh
-   cd rolls-blockchain-gui
-   npm run electron &
+sh install-gui.sh
+cd rolls-blockchain-gui
+npm run electron &
 ```
 
 If the client does not find any connections automatically, you can add any of the following:
