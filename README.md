@@ -1,6 +1,6 @@
-# rolls-blockchain 
+# rolls-blockchain
 
-![Alt text](https://pecanrolls.net/images/rolls_coin_logo_website_75.png)
+![spinning pecan roll gif](https://github.com/strandedathome/rolls-blockchain/blob/main/spinning-pecan-roll.gif)
 
 PecanRolls is an eco-friendly decentralization blockchain based on the Proof of Space and Time (PoST) consensus pioneered by PecanRolls™. It maintains network robustness, in line with Satoshi Nakamoto's principles.
 
@@ -13,13 +13,16 @@ PecanRolls core values include green cryptocurrency, long term value, building f
 The goal of PecanRolls is to reshape the global financial system through the power of the blockchain technology, powered by thousands of nodes maintained by the community, and with transparency and a commitment to the environment — thereby taking control from any central entity, person or organization, and giving that control back to the community.
 
 **BLOCKCHAIN SPECIFICATION:**
-- Launch date: July 8th 2021
+- Launch date: Nov 2nd 2021
 - Cryptocurrency coin: ROLLS
-- Lowest coin denomination: Bytes
-- Conversion: 1 ROLLS = 1,000,000,000,000 Bytes
+- Lowest coin denomination: pecans
+- Conversion: 1 ROLLS = 1,000,000,000,000 pecans
 - Blocks per 24 hours target: 4,608
-- Farmed rewards per block: 2 ROLLS
-- Halving period for block rewards: 3 years
+- Farmed rewards per block: 6 ROLLS
+- Halving period for block rewards
+-- 1st year `6`
+-- 2nd year `3`
+-- then `1` block reward indefinitely
 
 **BLOCKCHAIN RESOURCES:**
 - Website: https://pecanrolls.net/
