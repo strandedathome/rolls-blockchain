@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
-import icon from '../../assets/img/rolls_circle.png';
+import icon from '../../components/icons/images/pecanrolls-512.svg';
 
 const GlobalStyle = createGlobalStyle`
   body,
