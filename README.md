@@ -2,15 +2,20 @@
 
 ![spinning pecan roll gif](https://github.com/strandedathome/rolls-blockchain/blob/main/spinning-pecan-roll.gif)
 
-PecanRolls is an eco-friendly decentralization blockchain based on the Proof of Space and Time (PoST) consensus pioneered by PecanRolls™. It maintains network robustness, in line with Satoshi Nakamoto's principles.
+***********************************************
+Remember DOGE?? Yeah, I think we all do. This is kind of like that, it all started as a joke and then it turned into a full-functioning fork of Chia. This is an evolving project, so please be kind with your comments :)
+***********************************************
 
-PecanRolls uses the powerful and secure Chialisp language for Smart Contracts, and supports digital money, global payments and applications. PecanRolls is not affiliated with HDDcoin., but uses their open-sourced software as its foundation.
+Here's the fork stuff, yada yada yada...
 
-Farming PecanRolls does not consume significant amounts of electricity, and utilizes hard drive space, instead of specialized computing hardware that most Proof of Work (PoW) consensus blockchains have come to demand. Moreover, since electrical energy costs for running hard drives is very minimal, due to this low cost of entry, PecanRolls will remain more decentralized and fair, and thus more secure than any Proof of Stake cryptocurrency.
+PecanRolls is an eco-friendly decentralization blockchain based on the Proof of Space and Time (PoST) consensus pioneered by PecanRolls™, it  It maintains network robustness, in line with Satoshi Nakamoto's principles.
 
-PecanRolls core values include green cryptocurrency, long term value, building for the future, strength in community, and maintaining a huge team to ensure long term development.
+PecanRolls uses the powerful and secure Chialisp language for Smart Contracts, and supports digital money, global payments and applications. PecanRolls is not affiliated with [HDDcoin Network](https://hddcoin.org/)., but uses their open-sourced software as its foundation.
 
-The goal of PecanRolls is to reshape the global financial system through the power of the blockchain technology, powered by thousands of nodes maintained by the community, and with transparency and a commitment to the environment — thereby taking control from any central entity, person or organization, and giving that control back to the community.
+Farming PecanRolls is the same as Chia™, it does not consume significant amounts of electricity, and utilizes hard drive space, instead of specialized computing hardware that most Proof of Work (PoW) consensus blockchains have come to demand. Moreover, since electrical energy costs for running hard drives is very minimal, due to this low cost of entry, PecanRolls will remain more decentralized and fair, and thus more secure than any Proof of Stake cryptocurrency.
+
+PecanRolls core values include green cryptocurrency, long term value, building for the future, strength in community, and maintaining a great team to ensure long term development.
+
 
 **BLOCKCHAIN SPECIFICATION:**
 - Launch date: Nov 2nd 2021
@@ -24,35 +29,20 @@ The goal of PecanRolls is to reshape the global financial system through the pow
 -- 2nd year `3`
 -- then `1` block reward indefinitely
 
-**BLOCKCHAIN RESOURCES:**
+**RESOURCES**
 - Website: https://pecanrolls.net/
-- Explorer: https://alltheblocks.net/rolls
-- Calculator: https://rollsforkscalculator.com/rolls
-- PecanRolls DB: https://pecanrolls.net/downloads/blockchain_v1_mainnet.sqlite
 
-**COMMUNITIES AND SOCIAL CHANNELS:**
-- Discord: https://discord.gg/AZdGSFnqAR
-- Twitter: https://twitter.com/rolls
-- YouTube: https://www.youtube.com/channel/UChJY3YEOTDBvFJ0vLFEc1Sw
-- Facebook: https://www.facebook.com/PecanRollsNetwork
-- Telegram: https://t.me/PecanRolls_Network
-- Reddit: https://www.reddit.com/r/PecanRollsNetwork
-
+**COMMUNITIES**
+- Discord: https://discord.gg/xA9FHJpfEB
+- Twitter: https://twitter.com/pecanrolls
+- Reddit: https://www.reddit.com/r/pecanrolls
 
 ***********************************************
-# INSTALL INSTRUCTIONS:
+# INSTALL INSTRUCTIONS
 
-You can install PecanRolls by building from source, or by using the latest binaries for your operating system.
+You can install PecanRolls by building from source
 
-(A.) To **install from available binaries**, download executables from the correct **Releases page**:
-
-   - for solo farming, get them here ->
-   https://github.com/strandedathome/rolls-blockchain/releases
-   - for pool farming with FoxyPool (OG), get them here ->
-   https://github.com/felixbrucker/rolls-blockchain/releases
-
-
-(B.) To **build from source**, do the following:
+To **install from available binaries**
 
 # Update / Upgrade OS
 ```
@@ -70,11 +60,13 @@ git clone https://github.com/strandedathome/rolls-blockchain.git && cd rolls-blo
 ```
 . ./activate && rolls init
 ```
-# Install and run the GUI
+# Install the GUI
 ```
 sh install-gui.sh
-cd rolls-blockchain-gui
-npm run electron &
+```
+# Run the GUI
+```
+cd rolls-blockchain-gui && npm run electron &
 ```
 
 If the client does not find any connections automatically, you can add any of the following:
