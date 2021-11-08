@@ -83,32 +83,32 @@ rolls_formatter.setFiat = (currency, rate, display = null) => {
   units.setUnit(currency, 1 / rate, display);
 };
 
-export const byte_to_rolls = (byte) => {
-  return rolls_formatter(Number.parseInt(byte), 'byte').to('rolls').value();
+export const pecan_to_rolls = (pecan) => {
+  return rolls_formatter(Number.parseInt(pecan), 'pecan').to('rolls').value();
 };
 
-export const rolls_to_byte = (rolls) => {
+export const rolls_to_pecan = (rolls) => {
   return rolls_formatter(Number.parseFloat(Number(rolls)), 'rolls')
-    .to('byte')
+    .to('pecan')
     .value();
 };
 
-export const byte_to_rolls_string = (byte) => {
-  return rolls_formatter(Number(byte), 'byte').to('rolls').toString();
+export const pecan_to_rolls_string = (pecan) => {
+  return rolls_formatter(Number(pecan), 'pecan').to('rolls').toString();
 };
 
-export const byte_to_colouredcoin = (byte) => {
-  return rolls_formatter(Number.parseInt(byte), 'byte')
+export const pecan_to_colouredcoin = (pecan) => {
+  return rolls_formatter(Number.parseInt(pecan), 'pecan')
     .to('colouredcoin')
     .value();
 };
 
-export const colouredcoin_to_byte = (colouredcoin) => {
+export const colouredcoin_to_pecan = (colouredcoin) => {
   return rolls_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
-    .to('byte')
+    .to('pecan')
     .value();
 };
 
-export const byte_to_colouredcoin_string = (byte) => {
-  return rolls_formatter(Number(byte), 'byte').to('colouredcoin').toString();
+export const pecan_to_colouredcoin_string = (pecan) => {
+  return rolls_formatter(Number(pecan), 'pecan').to('colouredcoin').toString();
 };

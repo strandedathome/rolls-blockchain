@@ -11,14 +11,14 @@ testnet_kwargs = {
     # DIFFICULTY_STARTING is the starting difficulty for the first epoch, which is then further
     # multiplied by another factor of DIFFICULTY_CONSTANT_FACTOR, to be used in the VDF iter calculation formula.
     "DIFFICULTY_CONSTANT_FACTOR": 2 ** 64,
-    "DIFFICULTY_STARTING": 10,
+    "DIFFICULTY_STARTING": 1,
     "DIFFICULTY_CHANGE_MAX_FACTOR": 3,  # The next difficulty is truncated to range [prev / FACTOR, prev * FACTOR]
     # These 3 constants must be changed at the same time
     "SUB_EPOCH_BLOCKS": 384,  # The number of blocks per sub-epoch, mainnet 384
     "EPOCH_BLOCKS": 4608,  # The number of blocks per epoch, mainnet 4608. Must be multiple of SUB_EPOCH_SB
     "SIGNIFICANT_BITS": 8,  # The number of bits to look at in difficulty and min iters. The rest are zeroed
     "DISCRIMINANT_SIZE_BITS": 1024,  # Max is 1024 (based on ClassGroupElement int size)
-    "NUMBER_ZERO_BITS_PLOT_FILTER": 9,  # H(plot signature of the challenge) must start with these many zeroes
+    "NUMBER_ZERO_BITS_PLOT_FILTER": 3,  # H(plot signature of the challenge) must start with these many zeroes
     "MIN_PLOT_SIZE": 32,  # 32 for mainnet
     "MAX_PLOT_SIZE": 50,
     "SUB_SLOT_TIME_TARGET": 600,  # The target number of seconds per slot, mainnet 600
@@ -28,9 +28,9 @@ testnet_kwargs = {
     # Used as the initial cc rc challenges, as well as first block back pointers, and first SES back pointer
     # We override this value based on the chain being run (testnet0, testnet1, mainnet, etc)
     # Default used for tests is std_hash(b'')
-    "GENESIS_CHALLENGE": bytes.fromhex("2ad151d9698bf171aaa4438ba4e8232fb97fff93bb36d22bc3fe0993f65361e6"),
+    "GENESIS_CHALLENGE": bytes.fromhex("00180545189ff317a679d929d3bafab7b41affce4c007ede99c12c73697e34ed"),
     # Forks of rolls should change this value to provide replay attack protection. This is set to mainnet genesis chall
-    "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("c5c729019fad3a036afbf33a6531531ed95586e1401ef64a37b0248da07a73cd"),
+    "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("f7ceb5888d75cdc4187d43ee84fdbca8423774e86b82c6a97d7972ddaafb22ed"),
     "GENESIS_PRE_FARM_POOL_PUZZLE_HASH": bytes.fromhex(
         "1154c682989fff1b369fa44c8e74cd6a0ce15e7237687719a811f25edaa2289f"
     ),
