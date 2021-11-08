@@ -4,7 +4,7 @@
 
 PecanRolls is an eco-friendly decentralization blockchain based on the Proof of Space and Time (PoST) consensus pioneered by PecanRolls™. It maintains network robustness, in line with Satoshi Nakamoto's principles.
 
-PecanRolls uses the powerful and secure Chialisp language for Smart Contracts, and supports digital money, global payments and applications. PecanRolls is not affiliated with PecanRolls Network, Inc., but uses their open-sourced software as its foundation.
+PecanRolls uses the powerful and secure Chialisp language for Smart Contracts, and supports digital money, global payments and applications. PecanRolls is not affiliated with HDDcoin., but uses their open-sourced software as its foundation.
 
 Farming PecanRolls does not consume significant amounts of electricity, and utilizes hard drive space, instead of specialized computing hardware that most Proof of Work (PoW) consensus blockchains have come to demand. Moreover, since electrical energy costs for running hard drives is very minimal, due to this low cost of entry, PecanRolls will remain more decentralized and fair, and thus more secure than any Proof of Stake cryptocurrency.
 

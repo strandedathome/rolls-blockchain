@@ -43,8 +43,8 @@ async def main() -> None:
         print(farmer_prefarm.amount, farmer_amounts)
         assert farmer_amounts == farmer_prefarm.amount // 2
         assert pool_amounts == pool_prefarm.amount // 2
-        address1 = "hdd1tm2fmappqenrj3c9ngej8k33pujvspxxea6zpu7p4sx0lvle62es9ae95j"  # PecanRolls Network Inc Reserves Account-1
-        address2 = "hdd1tm2fmappqenrj3c9ngej8k33pujvspxxea6zpu7p4sx0lvle62es9ae95j"  # PecanRolls Network Inc Reserves Account-1
+        address1 = "rolls1ycm0t66sct5y4rvs2agh0ar0n549er628f3dqvew890la9g7ar2q0gcnss"  # PecanRolls reserve account
+        address2 = "rolls1ycm0t66sct5y4rvs2agh0ar0n549er628f3dqvew890la9g7ar2q0gcnss"  # PecanRolls reserve account
 
         ph1 = decode_puzzle_hash(address1)
         ph2 = decode_puzzle_hash(address2)
