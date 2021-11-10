@@ -175,7 +175,7 @@ timelord:
       host: *self_hostname
       port: 4321
   # Maximum number of seconds allowed for a client to reconnect to the server.
-  max_connection_time: 300
+  max_connection_time: 60
   # The ip and port where the TCP clients will connect.
   vdf_server:
     host: *self_hostname
