@@ -20,8 +20,8 @@ PecanRolls core values include green cryptocurrency, long term value, building f
 **BLOCKCHAIN SPECIFICATION:**
 - Launch date: Nov 2nd 2021
 - Cryptocurrency coin: ROLLS
-- Lowest coin denomination: pecans
-- Conversion: 1 ROLLS = 1,000,000,000,000 pecans
+- Lowest coin denomination: pecan
+- Conversion: 1 ROLLS = 1,000,000,000,000 pecan
 - Blocks per 24 hours target: 4,608
 - Farmed rewards per block: 6 ROLLS
 - Halving period for block rewards
