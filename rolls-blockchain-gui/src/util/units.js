@@ -1,22 +1,22 @@
 const units = {
   rolls: 1,
-  byte: 1 / 1e12,
+  pecan: 1 / 1e12,
   colouredcoin: 1 / 1e9,
 };
 
 const aliases = {
-  rolls: ['ch', 'rolls', 'PecanRolls'],
-  byte: ['mj', 'byte'],
+  rolls: ['ro', 'rolls', 'PecanRolls'],
+  pecan: ['pe', 'pecan'],
   colouredcoin: ['cc', 'colouredcoin'],
 };
 
 const display = {
   rolls: {
-    format: '{amount} CH',
+    format: '{amount} RO',
     fractionDigits: 12,
   },
-  byte: {
-    format: '{amount} MJ',
+  pecan: {
+    format: '{amount} PE',
     fractionDigits: 0,
   },
   colouredcoin: {
