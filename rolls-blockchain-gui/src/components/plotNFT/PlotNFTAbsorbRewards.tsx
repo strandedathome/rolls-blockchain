@@ -21,7 +21,7 @@ import usePlotNFTs from '../../hooks/usePlotNFTs';
 import { pwAbsorbRewards } from '../../modules/plotNFT';
 import { SubmitData } from './select/PlotNFTSelectPool';
 import PlotNFTName from './PlotNFTName';
-import { byte_to_rolls, rolls_to_byte } from '../../util/rolls';
+import { pecan_to_rolls, rolls_to_byte } from '../../util/rolls';
 import useStandardWallet from '../../hooks/useStandardWallet';
 
 type FormData = {
@@ -137,7 +137,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
               <Trans>
                 You will recieve{' '}
                 <UnitFormat
-                  value={byte_to_rolls(BigInt(balance))}
+                  value={pecan_to_rolls(BigInt(balance))}
                   display="inline"
                   state={State.SUCCESS}
                 />{' '}

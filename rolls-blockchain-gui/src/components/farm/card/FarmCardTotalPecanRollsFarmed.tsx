@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import { useSelector } from 'react-redux';
 import type { RootState } from '../../../modules/rootReducer';
 import FarmCard from './FarmCard';
-import { byte_to_rolls } from '../../../util/rolls';
+import { pecan_to_rolls } from '../../../util/rolls';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
 
 export default function FarmCardTotalPecanRollsFarmed() {
@@ -20,7 +20,7 @@ export default function FarmCardTotalPecanRollsFarmed() {
   const totalPecanRollsFarmed = useMemo(() => {
     if (farmedAmount !== undefined) {
       const val = BigInt(farmedAmount.toString());
-      return byte_to_rolls(val);
+      return pecan_to_rolls(val);
     }
   }, [farmedAmount]);
 

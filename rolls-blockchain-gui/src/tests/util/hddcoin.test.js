@@ -2,22 +2,22 @@ const rolls = require('../../util/rolls');
 
 describe('rolls', () => {
   it('converts number byte to rolls', () => {
-    const result = rolls.byte_to_rolls(1000000);
+    const result = rolls.pecan_to_rolls(1000000);
 
     expect(result).toBe(0.000001);
   });
   it('converts string byte to rolls', () => {
-    const result = rolls.byte_to_rolls('1000000');
+    const result = rolls.pecan_to_rolls('1000000');
 
     expect(result).toBe(0.000001);
   });
   it('converts number byte to rolls string', () => {
-    const result = rolls.byte_to_rolls_string(1000000);
+    const result = rolls.pecan_to_rolls_string(1000000);
 
     expect(result).toBe('0.000001');
   });
   it('converts string byte to rolls string', () => {
-    const result = rolls.byte_to_rolls_string('1000000');
+    const result = rolls.pecan_to_rolls_string('1000000');
 
     expect(result).toBe('0.000001');
   });

@@ -29,7 +29,7 @@ import {
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Tooltip } from '@material-ui/core';
 import HelpIcon from '@material-ui/icons/Help';
-import { byte_to_rolls_string } from '../../../util/rolls';
+import { pecan_to_rolls_string } from '../../../util/rolls';
 import { useForm, Controller, useFieldArray } from 'react-hook-form';
 import { openDialog } from '../../../modules/dialog';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
@@ -613,7 +613,7 @@ const BalanceCardSubSection = (props) => {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {byte_to_rolls_string(props.balance)} TROLLS
+            {pecan_to_rolls_string(props.balance)} TROLLS
           </Typography>
         </Box>
       </Box>

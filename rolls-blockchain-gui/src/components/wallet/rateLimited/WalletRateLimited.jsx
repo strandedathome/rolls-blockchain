@@ -18,7 +18,7 @@ import {
   send_transaction,
   rl_set_user_info_action,
 } from '../../../modules/message';
-import { byte_to_rolls_string, rolls_to_byte } from '../../../util/rolls';
+import { pecan_to_rolls_string, rolls_to_byte } from '../../../util/rolls';
 import { get_transaction_result } from '../../../util/transaction_result';
 import { openDialog } from '../../../modules/dialog';
 import WalletHistory from '../WalletHistory';
@@ -400,7 +400,7 @@ const RLDetailsCard = (props) => {
               <Typography variant="subtitle1">
                 <Trans>
                   Spending Limit (rolls per interval):{' '}
-                  {byte_to_rolls_string(limit)}
+                  {pecan_to_rolls_string(limit)}
                 </Trans>
               </Typography>
             </Box>
@@ -447,7 +447,7 @@ const RLDetailsCard = (props) => {
               <Typography variant="subtitle1">
                 <Trans>
                   Spending Limit (rolls per interval):{' '}
-                  {byte_to_rolls_string(limit)}
+                  {pecan_to_rolls_string(limit)}
                 </Trans>
               </Typography>
             </Box>
@@ -512,7 +512,7 @@ const BalanceCardSubSection = (props) => {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {byte_to_rolls_string(props.balance)} {currencyCode}
+            {pecan_to_rolls_string(props.balance)} {currencyCode}
           </Typography>
         </Box>
       </Box>

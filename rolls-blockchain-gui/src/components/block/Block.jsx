@@ -28,7 +28,7 @@ import {
   sha256,
 } from '../../util/utils';
 import { getBlockRecord, getBlock } from '../../modules/fullnodeMessages';
-import { byte_to_rolls } from '../../util/rolls';
+import { pecan_to_rolls } from '../../util/rolls';
 import {
   calculatePoolReward,
   calculateBaseFarmerReward,
@@ -172,13 +172,13 @@ export default function Block() {
       ? blockRecord.weight - prevBlockRecord.weight
       : blockRecord?.weight ?? 0;
 
-  const poolReward = byte_to_rolls(calculatePoolReward(blockRecord.height));
-  const baseFarmerReward = byte_to_rolls(
+  const poolReward = pecan_to_rolls(calculatePoolReward(blockRecord.height));
+  const baseFarmerReward = pecan_to_rolls(
     calculateBaseFarmerReward(blockRecord.height),
   );
 
   const rollsFees = blockRecord.fees
-    ? byte_to_rolls(BigInt(blockRecord.fees))
+    ? pecan_to_rolls(BigInt(blockRecord.fees))
     : '';
 
   const rows = [

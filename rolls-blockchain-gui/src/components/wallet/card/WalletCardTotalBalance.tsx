@@ -5,7 +5,7 @@ import WalletGraph from '../WalletGraph';
 import FarmCard from '../../farm/card/FarmCard';
 import useWallet from '../../../hooks/useWallet';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
-import { byte_to_rolls_string } from '../../../util/rolls';
+import { pecan_to_rolls_string } from '../../../util/rolls';
 
 const StyledGraphContainer = styled.div`
   margin-left: -1rem;
@@ -39,7 +39,7 @@ export default function WalletCardTotalBalance(props: Props) {
       }
       value={
         <>
-          {byte_to_rolls_string(value)} {currencyCode}
+          {pecan_to_rolls_string(value)} {currencyCode}
         </>
       }
       description={

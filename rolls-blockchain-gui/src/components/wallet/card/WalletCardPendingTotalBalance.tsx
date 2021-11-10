@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import FarmCard from '../../farm/card/FarmCard';
 import useWallet from '../../../hooks/useWallet';
 import useCurrencyCode from '../../../hooks/useCurrencyCode';
-import { byte_to_rolls_string } from '../../../util/rolls';
+import { pecan_to_rolls_string } from '../../../util/rolls';
 
 type Props = {
   wallet_id: number;
@@ -33,7 +33,7 @@ export default function WalletCardPendingTotalBalance(props: Props) {
       }
       value={
         <>
-          {byte_to_rolls_string(value)} {currencyCode}
+          {pecan_to_rolls_string(value)} {currencyCode}
         </>
       }
     />

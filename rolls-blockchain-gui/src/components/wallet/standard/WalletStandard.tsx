@@ -42,7 +42,7 @@ import {
   send_transaction,
   farm_block,
 } from '../../../modules/message';
-import { /* byte_to_rolls_string, */ rolls_to_byte } from '../../../util/rolls';
+import { /* pecan_to_rolls_string, */ rolls_to_byte } from '../../../util/rolls';
 import { openDialog } from '../../../modules/dialog';
 import { get_transaction_result } from '../../../util/transaction_result';
 import config from '../../../config/config';
@@ -238,7 +238,7 @@ function BalanceCardSubSection(props: BalanceCardSubSectionProps) {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {byte_to_rolls_string(props.balance)} {currencyCode}
+            {pecan_to_rolls_string(props.balance)} {currencyCode}
           </Typography>
         </Box>
       </Box>

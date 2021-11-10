@@ -4,7 +4,7 @@ import { Box, Tooltip, Typography } from '@material-ui/core';
 import { Card, CopyToClipboard, Flex, Table } from '@rolls/core';
 import type { Row } from '../core/components/Table/Table';
 import {
-  byte_to_rolls_string,
+  pecan_to_rolls_string,
   byte_to_colouredcoin_string,
 } from '../../util/rolls';
 import { unix_to_short_date } from '../../util/utils';
@@ -58,11 +58,11 @@ const getCols = (type: WalletType) => [
     field: (row: Row) =>
       type === WalletType.COLOURED_COIN
         ? byte_to_colouredcoin_string(row.amount)
-        : byte_to_rolls_string(row.amount),
+        : pecan_to_rolls_string(row.amount),
     title: <Trans>Amount</Trans>,
   },
   {
-    field: (row: Row) => byte_to_rolls_string(row.fee_amount),
+    field: (row: Row) => pecan_to_rolls_string(row.fee_amount),
     title: <Trans>Fee</Trans>,
   },
 ];
