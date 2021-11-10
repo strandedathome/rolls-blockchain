@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core';
 import { useWatch, useFormContext } from 'react-hook-form';
 import TextField, { TextFieldProps } from '../TextField';
-import { rolls_to_byte } from '../../../../util/rolls';
+import { rolls_to_pecan } from '../../../../util/rolls';
 import useCurrencyCode from '../../../../hooks/useCurrencyCode';
 import FormatLargeNumber from '../FormatLargeNumber';
 import Flex from '../Flex';
@@ -40,7 +40,7 @@ function NumberFormatCustom(props: NumberFormatCustomProps) {
 }
 
 export type AmountProps = TextFieldProps & {
-  children?: (props: { byte: number; value: string | undefined }) => ReactNode;
+  children?: (props: { pecan: number; value: string | undefined }) => ReactNode;
   name?: string;
 };
 
@@ -54,7 +54,7 @@ export default function Amount(props: AmountProps) {
     name,
   });
 
-  const byte = rolls_to_byte(value);
+  const pecan = rolls_to_pecan(value);
 
   return (
     <FormControl variant={variant} fullWidth={fullWidth}>
@@ -75,18 +75,18 @@ export default function Amount(props: AmountProps) {
         <FormHelperText component='div' >
           <Flex alignItems="center" gap={2}>
             <Flex flexGrow={1} gap={1}>
-              {!!byte && (
+              {!!pecan && (
                 <>
-                  <FormatLargeNumber value={byte} />
+                  <FormatLargeNumber value={pecan} />
                   <Box>
-                    <Plural value={byte} one="byte" other="bytes" />
+                    <Plural value={pecan} one="pecan" other="pecans" />
                   </Box>
                 </>
               )}
             </Flex>
             {children &&
               children({
-                byte,
+                pecan,
                 value,
               })}
           </Flex>
