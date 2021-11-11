@@ -13,8 +13,8 @@ network_overrides: &network_overrides
     mainnet:
       NETWORK_TYPE: 0
       GENESIS_CHALLENGE: 625977f95f4415e0c7267516a0de064844c2930f646496ef2b2e681197e0a0f4
-      GENESIS_PRE_FARM_POOL_PUZZLE_HASH: "82640b20b04c641974129cca7c8cac7f3b9f40fa5c270ed23ea0413854c0606c"
-      GENESIS_PRE_FARM_FARMER_PUZZLE_HASH: "82640b20b04c641974129cca7c8cac7f3b9f40fa5c270ed23ea0413854c0606c"
+      GENESIS_PRE_FARM_POOL_PUZZLE_HASH: "c6d73bf92bfb8202531f1203acc71d5d543f16fee9ae89475ef3a9f26077a5bf"
+      GENESIS_PRE_FARM_FARMER_PUZZLE_HASH: "c6d73bf92bfb8202531f1203acc71d5d543f16fee9ae89475ef3a9f26077a5bf"
     # testnet1:
     #   MIN_PLOT_SIZE: 18
     #   GENESIS_CHALLENGE: 9613e9ffe2797bf93ff722b5950022471f6ea625e512bd8b1299e4332512be30 
@@ -175,7 +175,7 @@ timelord:
       host: *self_hostname
       port: 4321
   # Maximum number of seconds allowed for a client to reconnect to the server.
-  max_connection_time: 300
+  max_connection_time: 120
   # The ip and port where the TCP clients will connect.
   vdf_server:
     host: *self_hostname
