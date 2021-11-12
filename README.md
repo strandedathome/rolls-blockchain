@@ -24,7 +24,7 @@ Farming PecanRolls is the same as Chia™, it does not consume significant amoun
 
 
 **BLOCKCHAIN SPECIFICATION:**
-- Launch date: Nov 2nd 2021
+- Launch date: Friday, Nov 10th 2021
 - Cryptocurrency coin: ROLLS
 - Lowest coin denomination: pecan
 - Conversion: 1 ROLL = 1,000,000,000,000 pecan
