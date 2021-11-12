@@ -10,6 +10,11 @@ Remember DOGE?? Yeah, I think we all do. This is kind of like that, it all start
 
 This is intended to be an expedited reward blockchain. Instead of 3 years of `2` block rewards, it is designed to be three times the reward amount [`6`] in a third of the time. The logic is to incentivize early adopters to connect to the blockchain and farm.
 
+#### Reduction periods for block rewards
+* 1st year `6`
+* 2nd year `3`
+* then `1` block reward indefinitely
+
 ### What is different about this fork?
 
 The genesis block is being created directly from the community!
@@ -38,10 +43,6 @@ Farming PecanRolls is the same as Chia™, it does not consume significant amoun
 - Conversion: 1 ROLL = 1,000,000,000,000 pecan
 - Blocks per 24 hours target: 4,608
 - Farmed rewards per block: 6 ROLLS
-#### Reduction periods for block rewards
-* 1st year `6`
-* 2nd year `3`
-* then `1` block reward indefinitely
 
 **RESOURCES**
 - Website: https://pecanrolls.net/
