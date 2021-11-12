@@ -45,12 +45,12 @@ Farming PecanRolls is the same as Chia™, it does not consume significant amoun
 - Farmed rewards per block: 6 ROLLS
 
 **RESOURCES**
-- Website: https://pecanrolls.net/
+- Website: https://pecanrolls.net/ (work in progress)
 
 **COMMUNITIES**
 - Discord: https://discord.gg/xA9FHJpfEB
 - Twitter: https://twitter.com/pecanrolls
-- Reddit: https://www.reddit.com/r/pecanrolls
+- Reddit: https://www.reddit.com/r/pecanrolls (new)
 
 ***********************************************
 # INSTALL INSTRUCTIONS
