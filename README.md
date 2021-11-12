@@ -75,13 +75,8 @@ sh install-gui.sh
 cd rolls-blockchain-gui && npm run electron &
 ```
 
-If the client does not find any connections automatically, you can add any of the following:
+If you aren't finding nodes, try the connections below (this will be updated in time):
 
-## Introducers
-```
-- introducer.pecanrolls.net
-- dns-introducer.pecanrolls.net
-```
 ## Nodes (copy and paste into terminal after . ./activate)
 ```
 rolls show -a nebula.pecanrolls.net:4321
