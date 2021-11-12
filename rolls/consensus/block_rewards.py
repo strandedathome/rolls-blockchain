@@ -1,4 +1,4 @@
-from rollss.util.ints import uint32, uint64
+from rolls.util.ints import uint32, uint64
 
 # 1 PecanRolls coin = 1,000,000,000,000 = 1 trillion pecan.
 _pecan_per_rolls = 1000000000000
