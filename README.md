@@ -25,9 +25,9 @@ PecanRolls core values include green cryptocurrency, long term value, building f
 - Blocks per 24 hours target: 4,608
 - Farmed rewards per block: 6 ROLLS
 - Halving period for block rewards
--- 1st year `6`
--- 2nd year `3`
--- then `1` block reward indefinitely
+* 1st year `6`
+* 2nd year `3`
+* then `1` block reward indefinitely
 
 **RESOURCES**
 - Website: https://pecanrolls.net/
