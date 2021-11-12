@@ -24,7 +24,7 @@ PecanRolls core values include green cryptocurrency, long term value, building f
 - Conversion: 1 ROLLS = 1,000,000,000,000 pecan
 - Blocks per 24 hours target: 4,608
 - Farmed rewards per block: 6 ROLLS
-- Halving period for block rewards
+#### Reduction periods for block rewards
 * 1st year `6`
 * 2nd year `3`
 * then `1` block reward indefinitely
@@ -73,13 +73,13 @@ If the client does not find any connections automatically, you can add any of th
 
 ## Introducers
 ```
-- introducer.pecanrolls.net • Port: 7654
+- introducer.pecanrolls.net
 - dns-introducer.pecanrolls.net
 ```
-## Nodes
+## Nodes (copy and paste into terminal after . ./activate)
 ```
-rolls show -a namora.pecanrolls.net:4321
 rolls show -a nebula.pecanrolls.net:4321
+rolls show -a 68.44.57.32:4321
 ```
 
 ***********************************************
