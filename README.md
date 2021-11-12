@@ -1,4 +1,4 @@
-# ꩜ Welcome to the PecanRolls Blockchain! ꩜
+# Welcome to the PecanRolls Blockchain! ꩜
 
 ![spinning pecan roll gif](https://github.com/strandedathome/rolls-blockchain/blob/main/spinning-pecan-roll.gif)
 
