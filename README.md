@@ -8,20 +8,26 @@ Remember DOGE?? Yeah, I think we all do. This is kind of like that, it all start
 
 Here's the fork stuff, yada yada yada...
 
-PecanRolls is an eco-friendly decentralization blockchain based on the Proof of Space and Time (PoST) consensus pioneered by PecanRolls™, it  It maintains network robustness, in line with Satoshi Nakamoto's principles.
+PecanRolls is an eco-friendly decentralized blockchain based on the Proof of Space and Time (PoST) consensus pioneered by Chia™. It maintains network robustness, in line with Satoshi Nakamoto's principles.
 
-PecanRolls uses the powerful and secure Chialisp language for Smart Contracts, and supports digital money, global payments and applications. PecanRolls is not affiliated with [HDDcoin Network](https://hddcoin.org/)., but uses their open-sourced software as its foundation.
+PecanRolls uses Chialisp language for Smart Contracts, and supports digital money, global payments and applications. PecanRolls is not affiliated with [HDDcoin Network](https://hddcoin.org/)., but uses their open-sourced software as its foundation.
 
-Farming PecanRolls is the same as Chia™, it does not consume significant amounts of electricity, and utilizes hard drive space, instead of specialized computing hardware that most Proof of Work (PoW) consensus blockchains have come to demand. Moreover, since electrical energy costs for running hard drives is very minimal, due to this low cost of entry, PecanRolls will remain more decentralized and fair, and thus more secure than any Proof of Stake cryptocurrency.
+Farming PecanRolls is the same as Chia™, it does not consume significant amounts of electricity, and utilizes hard drive space, instead of specialized computing hardware that most Proof of Work (PoW) blockchains like Ethereum (soon to not be PoW) or Ravencoin. Since electricity costs for running hard drives is very minimal, due to this low cost of entry, PecanRolls will remain more decentralized and fair, and thus more secure than any Proof of Stake cryptocurrency.
 
-PecanRolls core values include green cryptocurrency, long term value, building for the future, strength in community, and maintaining a great team to ensure long term development.
+## PecanRolls Core Values
+* transparency
+* green cryptocurrency
+* long term value
+* innovation for the future
+* strength in community
+* build and maintain a collaborative team
 
 
 **BLOCKCHAIN SPECIFICATION:**
 - Launch date: Nov 2nd 2021
 - Cryptocurrency coin: ROLLS
 - Lowest coin denomination: pecan
-- Conversion: 1 ROLLS = 1,000,000,000,000 pecan
+- Conversion: 1 ROLL = 1,000,000,000,000 pecan
 - Blocks per 24 hours target: 4,608
 - Farmed rewards per block: 6 ROLLS
 #### Reduction periods for block rewards
@@ -90,22 +96,22 @@ You can update PecanRolls from a previous version by downloading and installing 
 ```
 # Checkout the source and update
 
-  cd rolls-blockchain
-  . ./activate
-  rolls stop -d all
-  deactivate
-  git fetch
-  git checkout main
-  git reset --hard FETCH_HEAD --recurse-submodules
-  sh install.sh
-  . ./activate
-  rolls init
+cd rolls-blockchain
+. ./activate
+rolls stop -d all
+deactivate
+git fetch
+git checkout main
+git reset --hard FETCH_HEAD --recurse-submodules
+sh install.sh
+. ./activate
+rolls init
 
 # Update the GUI
 
-  cd rolls-blockchain-gui
-  git fetch
-  cd ..
-  chmod +x ./install-gui.sh
-  ./install-gui.sh
+cd rolls-blockchain-gui
+git fetch
+cd ..
+chmod +x ./install-gui.sh
+./install-gui.sh
 ```
