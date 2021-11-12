@@ -17,7 +17,7 @@ This is intended to be an expedited, _**accelerated rewards**_ blockchain. Inste
 
 ### What is different about this fork?
 
-The genesis block is being created directly from the community!
+The genesis block is being created directly from the community! Also, the accelerated rewards system.
 
 Here's the fork stuff, yada yada yada...
 
