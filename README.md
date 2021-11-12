@@ -98,9 +98,9 @@ rolls show -a 68.44.57.32:4321
 
 You can update PecanRolls from a previous version by downloading and installing the latest executable for your operating system, available from the correct **Releases page**, as described above, or by building from source:
 
-```
-# Checkout the source and update
 
+# Checkout the source and update
+```
 cd rolls-blockchain
 . ./activate
 rolls stop -d all
@@ -111,9 +111,9 @@ git reset --hard FETCH_HEAD --recurse-submodules
 sh install.sh
 . ./activate
 rolls init
-
+```
 # Update the GUI
-
+```
 cd rolls-blockchain-gui
 git fetch
 cd ..
