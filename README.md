@@ -6,6 +6,14 @@
 Remember DOGE?? Yeah, I think we all do. This is kind of like that, it all started as a joke and then it turned into a full-functioning fork of Chia. This is an evolving project, so please be kind with your comments :)
 ***********************************************
 
+### What is the goal of PecanRolls?
+
+This is intended to be an expedited reward blockchain. Instead of 3 years of `2` block rewards, it is designed to be three times the reward amount [`6`] in a third of the time. The logic is to incentivize early adopters to connect to the blockchain and farm.
+
+### What is different about this fork?
+
+The genesis block is being created directly from the community!
+
 Here's the fork stuff, yada yada yada...
 
 PecanRolls is an eco-friendly decentralized blockchain based on the Proof of Space and Time (PoST) consensus pioneered by Chia™. It maintains network robustness, in line with Satoshi Nakamoto's principles.
