@@ -85,6 +85,7 @@ If the client does not find any connections automatically, you can add any of th
 ## Nodes (copy and paste into terminal after . ./activate)
 ```
 rolls show -a nebula.pecanrolls.net:4321
+rolls show -a namora.pecanrolls.net:4321
 rolls show -a 68.44.57.32:4321
 ```
 
