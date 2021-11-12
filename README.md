@@ -60,7 +60,7 @@ git clone https://github.com/strandedathome/rolls-blockchain.git && cd rolls-blo
 ```
 . ./activate && rolls init
 ```
-# Install the GUI
+# Install the GUI (optional)
 ```
 sh install-gui.sh
 ```
