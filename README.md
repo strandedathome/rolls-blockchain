@@ -6,6 +6,8 @@
 Remember DOGE?? Yeah, I think we all do. This is kind of like that, it all started as a joke and then it turned into a full-functioning fork of Chia. This is an evolving project, so please be kind with your comments :)
 ***********************************************
 
+[![Test Install Scripts](https://github.com/strandedathome/rolls-blockchain/actions/workflows/test-install-scripts.yml/badge.svg?branch=1.2.1090)](https://github.com/strandedathome/rolls-blockchain/actions/workflows/test-install-scripts.yml)
+
 ### What is the goal of PecanRolls?
 
 This is intended to be an expedited, _**accelerated rewards**_ blockchain. Instead of 3 years of `2` block rewards, it is designed to be three times the reward amount [`6`] in a third of the time. The logic is to incentivize early adopters to connect to the blockchain and farm.
