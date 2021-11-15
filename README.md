@@ -21,6 +21,8 @@ This is intended to be an expedited, _**accelerated rewards**_ blockchain. Inste
 
 The genesis block is being created directly from the community! Also, the accelerated rewards system.
 
+The way many forks work currently is `2` rewards over the course of a few years, then halving. The Rolls blockchain is increasing the `2` rewards to `6` but over the course of one year. This will reward early adopters and increase the coin amount in the first year only, then halving to `3` around the start of the second year.
+
 Here's the fork stuff, yada yada yada...
 
 PecanRolls is an eco-friendly decentralized blockchain based on the Proof of Space and Time (PoST) consensus pioneered by Chia™. It maintains network robustness, in line with Satoshi Nakamoto's principles.
