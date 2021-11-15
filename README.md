@@ -6,7 +6,9 @@
 Remember DOGE?? Yeah, I think we all do. This is kind of like that, it all started as a joke and then it turned into a full-functioning fork of Chia. This is an evolving project, so please be kind with your comments :)
 ***********************************************
 
+[//]: # Badges
 [![Test Install Scripts](https://github.com/strandedathome/rolls-blockchain/actions/workflows/test-install-scripts.yml/badge.svg?branch=1.2.1090)](https://github.com/strandedathome/rolls-blockchain/actions/workflows/test-install-scripts.yml)
+[![CodeQL](https://github.com/strandedathome/rolls-blockchain/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/strandedathome/rolls-blockchain/actions/workflows/codeql-analysis.yml)
 
 ### What is the goal of PecanRolls?
 
