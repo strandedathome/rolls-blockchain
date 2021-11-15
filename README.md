@@ -6,6 +6,8 @@
 Remember DOGE?? Yeah, I think we all do. This is kind of like that, it all started as a joke and then it turned into a full-functioning fork of Chia. This is an evolving project, so please be kind with your comments :)
 ***********************************************
 
+[![Test Install Scripts](https://github.com/strandedathome/rolls-blockchain/actions/workflows/test-install-scripts.yml/badge.svg?branch=1.2.1090)](https://github.com/strandedathome/rolls-blockchain/actions/workflows/test-install-scripts.yml)
+
 ### What is the goal of PecanRolls?
 
 This is intended to be an expedited, _**accelerated rewards**_ blockchain. Instead of 3 years of `2` block rewards, it is designed to be three times the reward amount [`6`] in a third of the time. The logic is to incentivize early adopters to connect to the blockchain and farm.
@@ -18,6 +20,8 @@ This is intended to be an expedited, _**accelerated rewards**_ blockchain. Inste
 ### What is different about this fork?
 
 The genesis block is being created directly from the community! Also, the accelerated rewards system.
+
+The way many forks work currently is `2` rewards over the course of a few years, then halving. The Rolls blockchain is increasing the `2` rewards to `6` but over the course of one year. This will reward early adopters and increase the coin amount in the first year only, then halving to `3` around the start of the second year.
 
 Here's the fork stuff, yada yada yada...
 
@@ -36,7 +40,8 @@ Farming PecanRolls is the same as Chia™, it does not consume significant amoun
 * build and maintain a collaborative team
 
 
-**BLOCKCHAIN SPECIFICATION:**
+### BLOCKCHAIN SPECIFICATIONS
+- **Prefarm: 1M**
 - Launch date: Friday, Nov 12th 2021
 - Cryptocurrency coin: ROLLS
 - Lowest coin denomination: pecan
