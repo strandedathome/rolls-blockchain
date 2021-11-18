@@ -10,6 +10,7 @@ Remember DOGE?? Yeah, I think we all do. This is kind of like that, it all start
 [![Test Install Scripts](https://github.com/strandedathome/rolls-blockchain/actions/workflows/test-install-scripts.yml/badge.svg?branch=1.2.1090)](https://github.com/strandedathome/rolls-blockchain/actions/workflows/test-install-scripts.yml)
 [![CodeQL](https://github.com/strandedathome/rolls-blockchain/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/strandedathome/rolls-blockchain/actions/workflows/codeql-analysis.yml)
 [![MacOS installer on Catalina and Python 3.8](https://github.com/strandedathome/rolls-blockchain/actions/workflows/build-macos-installer.yml/badge.svg)](https://github.com/strandedathome/rolls-blockchain/actions/workflows/build-macos-installer.yml)
+[![Windows Installer on Windows 10 and Python 3.9](https://github.com/strandedathome/rolls-blockchain/actions/workflows/build-windows-installer.yml/badge.svg)](https://github.com/strandedathome/rolls-blockchain/actions/workflows/build-windows-installer.yml)
 
 ### What is the goal of PecanRolls?
 
