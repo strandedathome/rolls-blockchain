@@ -22,12 +22,12 @@ describe('rolls', () => {
     expect(result).toBe('0.000001');
   });
   it('converts number rolls to byte', () => {
-    const result = rolls.rolls_to_byte(0.000001);
+    const result = rolls.rolls_to_pecan(0.000001);
 
     expect(result).toBe(1000000);
   });
   it('converts string rolls to byte', () => {
-    const result = rolls.rolls_to_byte('0.000001');
+    const result = rolls.rolls_to_pecan('0.000001');
 
     expect(result).toBe(1000000);
   });

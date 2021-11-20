@@ -20,7 +20,7 @@ import {
 } from '../../../modules/createWallet';
 import { useStyles } from './WalletCreate';
 import { create_rl_admin_action } from '../../../modules/message';
-import { rolls_to_byte } from '../../../util/rolls';
+import { rolls_to_pecan } from '../../../util/rolls';
 import { openDialog } from '../../../modules/dialog';
 
 export const customStyles = makeStyles((theme) => ({
@@ -156,12 +156,12 @@ export const CreateRLAdminWallet = () => {
     dispatch(createState(true, true));
     const interval = interval_input.value;
     const interval_value = Number.parseInt(Number(interval));
-    const rollsper = rolls_to_byte(rollsper_input.value);
+    const rollsper = rolls_to_pecan(rollsper_input.value);
     const rollsper_value = Number.parseInt(Number(rollsper));
     const userpubkey = userpubkey_input.value;
-    const amount = rolls_to_byte(amount_input.value);
+    const amount = rolls_to_pecan(amount_input.value);
     const amount_value = Number.parseInt(Number(amount));
-    // var fee = rolls_to_byte(fee_input.value);
+    // var fee = rolls_to_pecan(fee_input.value);
     // TODO(lipa): send fee to server
     // const fee_value = parseInt(Number(fee));
     dispatch(

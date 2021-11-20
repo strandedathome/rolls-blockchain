@@ -42,7 +42,7 @@ import {
   send_transaction,
   farm_block,
 } from '../../../modules/message';
-import { /* pecan_to_rolls_string, */ rolls_to_byte } from '../../../util/rolls';
+import { /* pecan_to_rolls_string, */ rolls_to_pecan } from '../../../util/rolls';
 import { openDialog } from '../../../modules/dialog';
 import { get_transaction_result } from '../../../util/transaction_result';
 import config from '../../../config/config';
@@ -463,8 +463,8 @@ function SendCard(props: SendCardProps) {
       address = address.slice(2);
     }
 
-    const amountValue = Number.parseFloat(rolls_to_byte(amount));
-    const feeValue = Number.parseFloat(rolls_to_byte(fee));
+    const amountValue = Number.parseFloat(rolls_to_pecan(amount));
+    const feeValue = Number.parseFloat(rolls_to_pecan(fee));
 
     dispatch(send_transaction(wallet_id, amountValue, feeValue, address));
 

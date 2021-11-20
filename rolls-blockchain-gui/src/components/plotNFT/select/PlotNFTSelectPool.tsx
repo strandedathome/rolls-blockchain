@@ -11,7 +11,7 @@ import PlotNFTSelectBase from './PlotNFTSelectBase';
 import normalizeUrl from '../../../util/normalizeUrl';
 import getPoolInfo from '../../../util/getPoolInfo';
 import InitialTargetState from '../../../types/InitialTargetState';
-import { rolls_to_byte } from '../../../util/rolls';
+import { rolls_to_pecan } from '../../../util/rolls';
 import useStandardWallet from '../../../hooks/useStandardWallet';
 import PlotNFTSelectFaucet from './PlotNFTSelectFaucet';
 
@@ -43,7 +43,7 @@ async function prepareSubmitData(data: FormData): SubmitData {
     initialTargetState.relative_lock_height = relative_lock_height;
   }
 
-  const feeBytes = rolls_to_byte(fee);
+  const feeBytes = rolls_to_pecan(fee);
 
   return {
     fee: feeBytes,

@@ -15,7 +15,7 @@ import {
 import { AlertDialog, Card, Flex } from '@rolls/core';
 import isElectron from 'is-electron';
 import { newBuy, newSell, addTrade, resetTrades } from '../../modules/trade';
-import { rolls_to_byte, colouredcoin_to_byte } from '../../util/rolls';
+import { rolls_to_pecan, colouredcoin_to_byte } from '../../util/rolls';
 import { openDialog } from '../../modules/dialog';
 import { create_trade_action } from '../../modules/trade_messages';
 import { COLOURED_COIN } from '../../util/wallet_types';
@@ -82,7 +82,7 @@ export default function CreateOffer() {
     const byte =
       wallets[wallet_id.value].type === COLOURED_COIN
         ? colouredcoin_to_byte(amount_input.value)
-        : rolls_to_byte(amount_input.value);
+        : rolls_to_pecan(amount_input.value);
 
     const trade =
       buy_or_sell.value === 1

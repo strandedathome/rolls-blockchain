@@ -21,7 +21,7 @@ import usePlotNFTs from '../../hooks/usePlotNFTs';
 import { pwAbsorbRewards } from '../../modules/plotNFT';
 import { SubmitData } from './select/PlotNFTSelectPool';
 import PlotNFTName from './PlotNFTName';
-import { pecan_to_rolls, rolls_to_byte } from '../../util/rolls';
+import { pecan_to_rolls, rolls_to_pecan } from '../../util/rolls';
 import useStandardWallet from '../../hooks/useStandardWallet';
 
 type FormData = {
@@ -64,7 +64,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
 
       const { fee } = data;
 
-      const feeBytes = rolls_to_byte(fee);
+      const feeBytes = rolls_to_pecan(fee);
 
       if (walletId === undefined || !address) {
         return;

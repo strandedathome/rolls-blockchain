@@ -18,7 +18,7 @@ import {
   send_transaction,
   rl_set_user_info_action,
 } from '../../../modules/message';
-import { pecan_to_rolls_string, rolls_to_byte } from '../../../util/rolls';
+import { pecan_to_rolls_string, rolls_to_pecan } from '../../../util/rolls';
 import { get_transaction_result } from '../../../util/transaction_result';
 import { openDialog } from '../../../modules/dialog';
 import WalletHistory from '../WalletHistory';
@@ -652,8 +652,8 @@ const SendCard = (props) => {
       );
       return;
     }
-    const amount = rolls_to_byte(amount_input.value);
-    const fee = rolls_to_byte(fee_input.value);
+    const amount = rolls_to_pecan(amount_input.value);
+    const fee = rolls_to_pecan(fee_input.value);
 
     if (address.startsWith('0x') || address.startsWith('0X')) {
       address = address.slice(2);

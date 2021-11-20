@@ -20,7 +20,7 @@ import {
 } from '../../../modules/createWallet';
 import { useStyles } from './WalletCreate';
 import { create_cc_action } from '../../../modules/message';
-import { rolls_to_byte } from '../../../util/rolls';
+import { rolls_to_pecan } from '../../../util/rolls';
 import { openDialog } from '../../../modules/dialog';
 
 export const customStyles = makeStyles((theme) => ({
@@ -83,8 +83,8 @@ export const CreateNewCCWallet = () => {
       return;
     }
     dispatch(createState(true, true));
-    const amount = rolls_to_byte(amount_input.value);
-    const fee = rolls_to_byte(fee_input.value);
+    const amount = rolls_to_pecan(amount_input.value);
+    const fee = rolls_to_pecan(fee_input.value);
     dispatch(create_cc_action(amount, fee));
   }
 
