@@ -16,7 +16,7 @@ dependencies = [
     "concurrent-log-handler==0.9.19",  # Conchurrently log and rotate logs
     "cryptography==3.4.7",  # Python cryptography library for TLS - keyring conflict
     "fasteners==0.16.3",  # For interprocess file locking
-    "keyring==23.0.1",  # Store keys in MacOS Keychain, Windows Credential Locker
+    "keyring==23.2.1",  # Store keys in MacOS Keychain, Windows Credential Locker
     "keyrings.cryptfile==1.3.4",  # Secure storage for keys on Linux (Will be replaced)
     #  keyrings.cryptfile moved from 1.3.8 to 1.3.4 for Ubuntu
     "PyYAML==5.4.1",  # Used for config file format
