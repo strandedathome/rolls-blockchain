@@ -1,6 +1,6 @@
 # Welcome to the PecanRolls Blockchain! ꩜
 
-![spinning pecan roll gif](https://github.com/strandedathome/rolls-blockchain/blob/main/spinning-pecan-roll.gif)
+![spinning pecan roll gif](https://github.com/strandedathome/rolls-blockchain/blob/main/pecanroll-spinning-128.gif)
 
 ***********************************************
 Remember DOGE?? Yeah, I think we all do. This is kind of like that, it all started as a joke and then it turned into a full-functioning fork of Chia. This is an evolving project, so please be kind with your comments :)
