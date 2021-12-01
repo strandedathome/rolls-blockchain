@@ -1,6 +1,7 @@
 import React from 'react';
 import { Backdrop, CircularProgress } from '@material-ui/core';
 import styled from 'styled-components';
+import Rolls_Loading from '../../../../assets/img/pecanroll-spinning-128.gif';
 
 const StyledBackdrop = styled(Backdrop)`
   z-index: 2000;
@@ -15,7 +16,8 @@ export default function Spinner(props: Props) {
 
   return (
     <StyledBackdrop open={show}>
-      <CircularProgress color="inherit" />
+      <img src={Rolls_Loading} alt="loading..." />
+      {/* <CircularProgress color="inherit" /> */}
     </StyledBackdrop>
   );
 }

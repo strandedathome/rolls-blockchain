@@ -12,17 +12,22 @@ import {
   Tooltip,
   TablePagination,
 } from '@material-ui/core';
+import RollsPalette from '../../../layout/RollsPalette'
 
 const StyledTableHead = styled(TableHead)`
   background-color: ${({ theme }) =>
-    theme.palette.type === 'dark' ? '#202020' : '#eeeeee'};
+    theme.palette.type === 'dark' ? `${RollsPalette.rolls_black}` : '#eeeeee'};
   font-weight: 500;
 `;
 
 export const StyledTableRow = styled(TableRow)`
   &:nth-of-type(even) {
     background-color: ${({ theme }) =>
-      theme.palette.type === 'dark' ? '#515151' : '#FAFAFA'};
+      theme.palette.type === 'dark' ? `${RollsPalette.rolls_dark}` : '#FAFAFA'};
+  }
+  &:nth-of-type(odd) {
+    background-color: ${({ theme }) =>
+      theme.palette.type === 'dark' ? `${RollsPalette.rolls_darkest}` : '#FAFAFA'};
   }
 `;
 
