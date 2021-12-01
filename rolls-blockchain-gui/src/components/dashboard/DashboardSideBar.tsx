@@ -9,7 +9,7 @@ import {
   Keys as KeysIcon,
   Home as HomeIcon,
   Plot as PlotIcon,
-  Home as BlocksIcon,
+  Blocks as BlocksIcon,
   Settings as SettingsIcon,
 } from '@rolls/icons';
 import { Flex, SideBarItem } from '@rolls/core';
@@ -45,8 +45,8 @@ export default function DashboardSideBar() {
           exact
         />
         <SideBarItem
-          to="/blocks"
-          icon={<HomeIcon fontSize="large" />}
+          to="dashboard/blocks"
+          icon={<BlocksIcon fontSize="large" />}
           title={<Trans>Blocks</Trans>}
           exact
         />

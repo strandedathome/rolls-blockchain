@@ -48,6 +48,10 @@ msgstr ""
 "دروگر (Harvester) یک سرویس در حال اجرا بر روی ماشینی است که پلات (ها) در عمل آنجا ذخیره شده اند. مزرعه دار (Farmer) و دروگر برای دیدن وضعیت رشته (Chain) با گره کامل در تعامل هستند. شبکه دروگر های متصل خود را در زیر ببینید. \n"
 "بیشتر فرار بگیرید"
 
+#: src/components/fullNode/FullNodeConnections.tsx:82
+msgid "ACTIONS"
+msgstr ""
+
 #: src/electron/main.tsx:475
 #: src/electron/main.tsx:562
 msgid "About PecanRolls Blockchain"
@@ -67,10 +71,9 @@ msgstr "پذیرش شده در زمان:"
 msgid "Action"
 msgstr "عملیات"
 
+#: src/components/blocks/PoolOverview.tsx:69
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:82
-#: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "عملیات"
 
@@ -253,7 +256,7 @@ msgstr "بلوک با هش {headerHash}"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Block with hash {headerHash} does not exist."
 
-#: src/components/fullNode/FullNode.jsx:311
+#: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "بلوک ها"
 
@@ -332,9 +335,9 @@ msgstr "Change"
 msgid "Change Passphrase"
 msgstr ""
 
+#: src/components/blocks/PoolOverview.tsx:115
 #: src/components/plotNFT/PlotNFTCard.tsx:408
 #: src/components/plotNFT/PlotNFTChangePool.tsx:110
-#: src/components/pool/PoolOverview.tsx:115
 msgid "Change Pool"
 msgstr "Change Pool"
 
@@ -350,8 +353,8 @@ msgstr "تعداد پلات ها را انتخاب کنید"
 msgid "Choose Plot Size"
 msgstr "مقدار فضای پلات را انتخاب کنید"
 
+#: src/components/blocks/PoolOverview.tsx:92
 #: src/components/plotNFT/PlotNFTCard.tsx:384
-#: src/components/pool/PoolOverview.tsx:92
 msgid "Claim Rewards"
 msgstr "Claim Rewards"
 
@@ -360,7 +363,7 @@ msgstr "Claim Rewards"
 msgid "Close"
 msgstr "بستن"
 
-#: src/components/app/AppRouter.tsx:42
+#: src/components/app/AppRouter.tsx:43
 msgid "Closing down node and server"
 msgstr "بستن گره و سرور"
 
@@ -452,7 +455,7 @@ msgstr ""
 msgid "Connected"
 msgstr "متصل شد"
 
-#: src/components/app/AppRouter.tsx:61
+#: src/components/app/AppRouter.tsx:62
 msgid "Connecting to wallet"
 msgstr "اتصال به کیف پول"
 
@@ -466,8 +469,8 @@ msgid "Connection Status:"
 msgstr "وضعیت اتصال:"
 
 #: src/components/fullNode/FullNodeConnections.tsx:75
-msgid "Connection type"
-msgstr "نوع اتصال"
+#~ msgid "Connection type"
+#~ msgstr "نوع اتصال"
 
 #: src/components/fullNode/FullNodeConnections.tsx:109
 msgid "Connections"
@@ -858,7 +861,7 @@ msgstr ""
 msgid "Failed to update passphrase: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
+#: src/components/dashboard/DashboardSideBar.tsx:66
 #: src/components/wallet/coloured/WalletColoured.tsx:610
 #: src/components/wallet/standard/WalletStandard.tsx:525
 msgid "Farm"
@@ -921,10 +924,10 @@ msgstr "مزرعه داری"
 msgid "Farming Status"
 msgstr "وضعیت مزرعه داری"
 
+#: src/components/blocks/PoolInfo.tsx:17
 #: src/components/core/components/Fee/Fee.tsx:48
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
-#: src/components/pool/PoolInfo.tsx:17
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
@@ -971,6 +974,8 @@ msgstr "Filename"
 msgid "Final folder location"
 msgstr "Final folder location"
 
+#: src/components/blocks/Blocks.tsx:43
+#: src/components/blocks/Blocks.tsx:98
 #: src/components/fullNode/FullNode.jsx:43
 #: src/components/fullNode/FullNode.jsx:98
 msgid "Finished"
@@ -988,14 +993,15 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "سوالات متداول"
 
+#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:323
+#: src/components/fullNode/FullNode.jsx:106
 msgid "Full Node"
 msgstr "گره کامل"
 
 #: src/components/fullNode/FullNode.jsx:326
-msgid "Full Node Overview"
-msgstr "Full Node Overview"
+#~ msgid "Full Node Overview"
+#~ msgstr "Full Node Overview"
 
 #: src/components/fullNode/FullNode.jsx:267
 #~ msgid "Full Node Status"
@@ -1013,13 +1019,17 @@ msgstr "Generate New Colour"
 #~ msgid "Get Pool Login Link"
 #~ msgstr "Get Pool Login Link"
 
-#: src/components/pool/PoolOverview.tsx:176
+#: src/components/blocks/PoolOverview.tsx:176
 msgid "Grid view"
 msgstr "Grid view"
 
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "کلید های سلسله مراتب قطعی(HD)، نوعی طرح کلید عمومی/شخصی هستند، که یک کلید شخصی می تواند نزدیک به بیشمار عدد از کلید های عمومی مختلف (و بنابراین کیف پول چندین آدرس را دریافت می‌کند) که در نهایت همگی به یک کلید شخصی باز می‌گردند و قابل خرج کردن با آن کلید می‌شوند."
+
+#: src/components/fullNode/FullNodeConnections.tsx:79
+msgid "HEIGHT"
+msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Harvester ID"
@@ -1029,6 +1039,7 @@ msgstr "کلید های سلسله مراتب قطعی(HD)، نوعی طرح ک�
 msgid "Harvester Plots"
 msgstr "دروکننده محیط کشت محلی"
 
+#: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
 msgid "Header Hash"
 msgstr "عنوان هش"
@@ -1038,8 +1049,8 @@ msgid "Header hash"
 msgstr "عنوان هش"
 
 #: src/components/block/Block.jsx:202
+#: src/components/blocks/Blocks.tsx:81
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
 msgstr "Height"
 
@@ -1065,8 +1076,12 @@ msgid "Host Name"
 msgstr "نام میزبان(هاست)"
 
 #: src/components/fullNode/FullNodeConnections.tsx:40
-msgid "IP address"
-msgstr "IP address"
+msgid "IP"
+msgstr ""
+
+#: src/components/fullNode/FullNodeConnections.tsx:40
+#~ msgid "IP address"
+#~ msgstr "IP address"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:75
 msgid "IP address / host"
@@ -1084,6 +1099,7 @@ msgstr "Import Wallet from Mnemonics"
 msgid "Import from Mnemonics (24 words)"
 msgstr "Import from Mnemonics (24 words)"
 
+#: src/components/blocks/Blocks.tsx:45
 #: src/components/fullNode/FullNode.jsx:45
 msgid "In Progress"
 msgstr "In Progress"
@@ -1133,14 +1149,14 @@ msgstr "Invalid state"
 msgid "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
 msgstr "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
 
+#: src/components/blocks/PoolOverview.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:406
-#: src/components/pool/PoolOverview.tsx:113
 msgid "Join Pool"
 msgstr "Join Pool"
 
+#: src/components/blocks/PoolHero.tsx:31
 #: src/components/plot/add/PlotAddNFT.tsx:59
 #: src/components/plot/add/PlotAddNFT.tsx:141
-#: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr "Join a Pool"
 
@@ -1176,7 +1192,7 @@ msgstr "مقدار حجم-K"
 msgid "Keyring migration failed: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:72
 msgid "Keys"
 msgstr "Keys"
 
@@ -1211,13 +1227,13 @@ msgstr "Learn More"
 msgid "Leaving Pool"
 msgstr "Leaving Pool"
 
-#: src/components/pool/PoolOverview.tsx:176
+#: src/components/blocks/PoolOverview.tsx:176
 msgid "List view"
 msgstr "List view"
 
-#: src/components/pool/Pool.tsx:21
-msgid "Loading Plot NFTs"
-msgstr "Loading Plot NFTs"
+#: src/components/blocks/Blocks.tsx:144
+#~ msgid "Loading Plot NFTs"
+#~ msgstr "Loading Plot NFTs"
 
 #: src/components/wallet/Wallets.tsx:117
 msgid "Loading list of wallets"
@@ -1231,7 +1247,7 @@ msgstr "Loading..."
 #~ msgid "Local Harvester Plots"
 #~ msgstr "Local Harvester Plots"
 
-#: src/components/app/AppRouter.tsx:68
+#: src/components/app/AppRouter.tsx:69
 msgid "Logging in"
 msgstr "Logging in"
 
@@ -1288,8 +1304,8 @@ msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "آدرس های مقصد خود را برای پاداش های مزرعه داری مدیریت کنید"
 
 #: src/components/fullNode/FullNodeConnections.tsx:68
-msgid "MiB Up/Down"
-msgstr "MiB آپلود/دانلود"
+#~ msgid "MiB Up/Down"
+#~ msgstr "MiB آپلود/دانلود"
 
 #: src/components/selectKey/SelectKey.tsx:137
 msgid "Migrate"
@@ -1312,7 +1328,7 @@ msgstr ""
 msgid "Migration required to support passphrase protection"
 msgstr ""
 
-#: src/components/pool/PoolInfo.tsx:27
+#: src/components/blocks/PoolInfo.tsx:27
 msgid "Minimum Difficulty"
 msgstr "Minimum Difficulty"
 
@@ -1331,6 +1347,10 @@ msgstr ""
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 msgid "My Pubkey"
 msgstr "My Pubkey"
+
+#: src/components/fullNode/FullNodeConnections.tsx:36
+msgid "NODE ID"
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardNetworkName.tsx:19
 msgid "Network Name"
@@ -1394,7 +1414,6 @@ msgstr "بدون کلید خصوصی برای یک یا هر دو آدرس. فق
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
-#: src/components/fullNode/FullNodeConnections.tsx:36
 msgid "Node ID"
 msgstr "شناسه گره"
 
@@ -1485,6 +1504,10 @@ msgstr ""
 #: src/components/wallet/WalletHistory.tsx:23
 msgid "Outgoing"
 msgstr "در حال خروج"
+
+#: src/components/fullNode/FullNodeConnections.tsx:46
+msgid "PORT"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:129
 #: src/components/app/AppKeyringMigrator.tsx:130
@@ -1716,7 +1739,7 @@ msgstr "Plot Id"
 msgid "Plot Key"
 msgstr "Plot Key"
 
-#: src/components/pool/PoolOverview.tsx:40
+#: src/components/blocks/PoolOverview.tsx:40
 msgid "Plot NFT"
 msgstr "Plot NFT"
 
@@ -1757,7 +1780,7 @@ msgstr "پلات کپی این {0} پلات است"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 
-#: src/components/dashboard/DashboardSideBar.tsx:55
+#: src/components/dashboard/DashboardSideBar.tsx:61
 msgid "Plots"
 msgstr "Plots"
 
@@ -1801,8 +1824,8 @@ msgid "Points Successful in Last 24 Hours"
 msgstr "Points Successful in Last 24 Hours"
 
 #: src/components/pool/Pool.tsx:25
-msgid "Pool"
-msgstr "استخر"
+#~ msgid "Pool"
+#~ msgstr "استخر"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:100
 msgid "Pool Contract Address"
@@ -1875,7 +1898,6 @@ msgstr "Pooling"
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:46
 msgid "Port"
 msgstr "Port"
 
@@ -1924,7 +1946,7 @@ msgstr "اثباتِ مقدار فضا"
 msgid "Proofs Found"
 msgstr "اثبات های یافت شده"
 
-#: src/components/pool/PoolInfo.tsx:22
+#: src/components/blocks/PoolInfo.tsx:22
 msgid "Protocol Version"
 msgstr "Protocol Version"
 
@@ -1968,6 +1990,10 @@ msgstr "حداکثر مقدار استفاده از فضای رم"
 #: src/components/wallet/create/WalletCreate.jsx:246
 #~ msgid "RLListItems.title"
 #~ msgstr ""
+
+#: src/components/fullNode/FullNodeConnections.tsx:75
+msgid "ROLE"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreateList.tsx:42
 msgid "Rate Limited"
@@ -2018,7 +2044,7 @@ msgstr ""
 msgid "Refresh Plots"
 msgstr "تازه سازی پلات ها"
 
-#: src/components/pool/PoolInfo.tsx:32
+#: src/components/blocks/PoolInfo.tsx:32
 msgid "Relative Lock Height"
 msgstr "Relative Lock Height"
 
@@ -2188,7 +2214,7 @@ msgstr ""
 msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:73
+#: src/components/dashboard/DashboardSideBar.tsx:79
 #: src/components/settings/Settings.tsx:239
 msgid "Settings"
 msgstr ""
@@ -2232,7 +2258,7 @@ msgstr ""
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "از افزودن پوشه نهایی به برداشت گر(harvester) برای مزرعه داری، صرفه نظر شود"
 
-#: src/components/pool/PoolHero.tsx:26
+#: src/components/blocks/PoolHero.tsx:26
 msgid "Smooth out your ROLLS farming rewards by joining a pool."
 msgstr "Smooth out your ROLLS farming rewards by joining a pool."
 
@@ -2272,16 +2298,17 @@ msgstr "مدت فاصله خرج کردن (تعداد بلوک ها)"
 msgid "Spending Limit (rolls per interval): {0}"
 msgstr "محدودیت خرج کردن (چیـا بر فاصله): {0}"
 
+#: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
 msgstr "حالت"
 
+#: src/components/blocks/PoolOverview.tsx:44
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:60
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:68
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
-#: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
 #: src/components/wallet/WalletStatusCard.tsx:22
@@ -2374,7 +2401,7 @@ msgstr "Syncing <0/>/<1/>"
 #~ msgid "TROLLS User Transaction Fees"
 #~ msgstr ""
 
-#: src/components/pool/PoolInfo.tsx:37
+#: src/components/blocks/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
 msgstr "Target Puzzle Hash"
 
@@ -2551,6 +2578,7 @@ msgstr "این معامله در این ارتفاع بلوکی شامل زنج�
 msgid "This version of PecanRolls is no longer compatible with the blockchain and can not safely farm."
 msgstr "این ورژن از چیـا دیگر با با شبکه بلوکی سازگاری ندارد و نمی‌تواند با امنیت به مزرعه داری بپردازد."
 
+#: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
 msgstr "Time Created"
@@ -2641,15 +2669,20 @@ msgstr "Transactions Filter Hash"
 msgid "Type"
 msgstr "Type"
 
+#: src/components/fullNode/FullNodeConnections.tsx:68
+msgid "UP/DOWN (M)"
+msgstr ""
+
 #: src/components/plot/add/PlotAdd.tsx:101
 msgid "Unable to create plot NFT"
 msgstr "Unable to create plot NFT"
 
+#: src/components/blocks/PoolOverview.tsx:66
 #: src/components/plotNFT/PlotNFTCard.tsx:150
-#: src/components/pool/PoolOverview.tsx:66
 msgid "Unclaimed Rewards"
 msgstr "Unclaimed Rewards"
 
+#: src/components/blocks/Blocks.tsx:98
 #: src/components/fullNode/FullNode.jsx:98
 msgid "Unfinished"
 msgstr "Unfinished"
@@ -2752,7 +2785,7 @@ msgstr "در انتظار همگام سازی"
 msgid "Waiting for the transaction to be confirmed"
 msgstr "Waiting for the transaction to be confirmed"
 
-#: src/components/pool/PoolOverview.tsx:185
+#: src/components/blocks/PoolOverview.tsx:185
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Wallet Status:"
 msgstr "Wallet Status:"
@@ -2789,7 +2822,7 @@ msgstr ""
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:50
+#: src/components/dashboard/DashboardSideBar.tsx:56
 #: src/components/wallet/Wallets.tsx:118
 msgid "Wallets"
 msgstr "کیف پول ها"
@@ -2906,7 +2939,7 @@ msgstr ""
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
-#: src/components/pool/PoolJoin.tsx:37
+#: src/components/blocks/PoolJoin.tsx:37
 msgid "You need to claim your rewards first"
 msgstr "You need to claim your rewards first"
 
@@ -2942,7 +2975,7 @@ msgstr "اتصالات گره کامل شما"
 msgid "Your Harvester Network"
 msgstr "شبکه برداشت کننده های شما"
 
-#: src/components/pool/PoolOverview.tsx:160
+#: src/components/blocks/PoolOverview.tsx:160
 msgid "Your Pool Overview"
 msgstr "نمای کلی استخر شما"
 

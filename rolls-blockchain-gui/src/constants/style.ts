@@ -1,9 +1,10 @@
 import { makeStyles } from '@material-ui/core/styles';
 import { Theme } from '@material-ui/core';
+import RollsPalette from '../components/layout/RollsPalette';
 
 export default makeStyles((theme: Theme) => ({
   root: {
-    background: 'linear-gradient(45deg, #181818 30%, #333333 90%)',
+    background: 'linear-gradient(45deg, #171019 30%, #221825 90%)',
     height: '100%',
   },
   paper: {

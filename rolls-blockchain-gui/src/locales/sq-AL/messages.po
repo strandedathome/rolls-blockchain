@@ -46,6 +46,10 @@ msgstr "Rekomandohen 128 copëza"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Korrësi eshte nje shërbim i cili është i integruar në pajisjen ku Plot(s) janë ruajtur. Një fermer dhe një korrës komunikojnë me një nyje që të shikojnë gjëndjen e zinxhirit. Shiko rrjetin e korrësave të lidhur më posht Mëso më shumë"
 
+#: src/components/fullNode/FullNodeConnections.tsx:82
+msgid "ACTIONS"
+msgstr ""
+
 #: src/electron/main.tsx:475
 #: src/electron/main.tsx:562
 msgid "About PecanRolls Blockchain"
@@ -65,10 +69,9 @@ msgstr "Të pranuara gjatë kohës:"
 msgid "Action"
 msgstr "Veprim"
 
+#: src/components/blocks/PoolOverview.tsx:69
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:82
-#: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "Veprimet"
 
@@ -249,7 +252,7 @@ msgstr "Blloku me kodimin {headerHash}"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Blloku me kodimin {headerHash} nuk ekziston."
 
-#: src/components/fullNode/FullNode.jsx:311
+#: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "Blloqet"
 
@@ -328,9 +331,9 @@ msgstr "Ndrysho"
 msgid "Change Passphrase"
 msgstr ""
 
+#: src/components/blocks/PoolOverview.tsx:115
 #: src/components/plotNFT/PlotNFTCard.tsx:408
 #: src/components/plotNFT/PlotNFTChangePool.tsx:110
-#: src/components/pool/PoolOverview.tsx:115
 msgid "Change Pool"
 msgstr "Ndrysho Pollin"
 
@@ -346,8 +349,8 @@ msgstr "Zgjidh numrin e Ploteve"
 msgid "Choose Plot Size"
 msgstr "Zgjill madhesinë e plotit"
 
+#: src/components/blocks/PoolOverview.tsx:92
 #: src/components/plotNFT/PlotNFTCard.tsx:384
-#: src/components/pool/PoolOverview.tsx:92
 msgid "Claim Rewards"
 msgstr "Merr Shpërblimet"
 
@@ -356,7 +359,7 @@ msgstr "Merr Shpërblimet"
 msgid "Close"
 msgstr "Mbyll"
 
-#: src/components/app/AppRouter.tsx:42
+#: src/components/app/AppRouter.tsx:43
 msgid "Closing down node and server"
 msgstr "Po mbyllim nodën dhe serverin"
 
@@ -448,7 +451,7 @@ msgstr ""
 msgid "Connected"
 msgstr "Lidhur"
 
-#: src/components/app/AppRouter.tsx:61
+#: src/components/app/AppRouter.tsx:62
 msgid "Connecting to wallet"
 msgstr "Po lidhet me portofolin"
 
@@ -462,8 +465,8 @@ msgid "Connection Status:"
 msgstr "Gjëndja Lidhjes:"
 
 #: src/components/fullNode/FullNodeConnections.tsx:75
-msgid "Connection type"
-msgstr "Tipi i Lidhjes"
+#~ msgid "Connection type"
+#~ msgstr "Tipi i Lidhjes"
 
 #: src/components/fullNode/FullNodeConnections.tsx:109
 msgid "Connections"
@@ -852,7 +855,7 @@ msgstr ""
 msgid "Failed to update passphrase: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
+#: src/components/dashboard/DashboardSideBar.tsx:66
 #: src/components/wallet/coloured/WalletColoured.tsx:610
 #: src/components/wallet/standard/WalletStandard.tsx:525
 msgid "Farm"
@@ -915,10 +918,10 @@ msgstr "Farming"
 msgid "Farming Status"
 msgstr "Statusi i Farming"
 
+#: src/components/blocks/PoolInfo.tsx:17
 #: src/components/core/components/Fee/Fee.tsx:48
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
-#: src/components/pool/PoolInfo.tsx:17
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
@@ -965,6 +968,8 @@ msgstr "Emri i skedarit"
 msgid "Final folder location"
 msgstr "Vëndi i vendosjes së Skedarit"
 
+#: src/components/blocks/Blocks.tsx:43
+#: src/components/blocks/Blocks.tsx:98
 #: src/components/fullNode/FullNode.jsx:43
 #: src/components/fullNode/FullNode.jsx:98
 msgid "Finished"
@@ -982,14 +987,15 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Pyetjet më të shpeshta"
 
+#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:323
+#: src/components/fullNode/FullNode.jsx:106
 msgid "Full Node"
 msgstr "Nyja e plotë"
 
 #: src/components/fullNode/FullNode.jsx:326
-msgid "Full Node Overview"
-msgstr "Pasqyrë e plotë e nyjes"
+#~ msgid "Full Node Overview"
+#~ msgstr "Pasqyrë e plotë e nyjes"
 
 #: src/components/fullNode/FullNode.jsx:267
 #~ msgid "Full Node Status"
@@ -1007,13 +1013,17 @@ msgstr "Gjenero një ngjyrë tjetër"
 #~ msgid "Get Pool Login Link"
 #~ msgstr "Get Pool Login Link"
 
-#: src/components/pool/PoolOverview.tsx:176
+#: src/components/blocks/PoolOverview.tsx:176
 msgid "Grid view"
 msgstr "Pamje si tabelë"
 
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "Çelësat HD ose celsat Hierarchical Deterministic janë një lloj skeme çelësi publik / çelës privat ku një çelës privat mund të ketë një numër gati të pafund të çelësave të ndryshëm publik (dhe për këtë portofoli  mer adresa të shumëta) që të gjithë do të kthehen përsëri dhe do të shpenzohen nga një Celës  privat i vetëm."
+
+#: src/components/fullNode/FullNodeConnections.tsx:79
+msgid "HEIGHT"
+msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Harvester ID"
@@ -1023,6 +1033,7 @@ msgstr "Çelësat HD ose celsat Hierarchical Deterministic janë një lloj skeme
 msgid "Harvester Plots"
 msgstr "Parcela korrëse"
 
+#: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
 msgid "Header Hash"
 msgstr "Koka e kodit"
@@ -1032,8 +1043,8 @@ msgid "Header hash"
 msgstr "Koka e kodit"
 
 #: src/components/block/Block.jsx:202
+#: src/components/blocks/Blocks.tsx:81
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
 msgstr "Lartësia"
 
@@ -1059,8 +1070,12 @@ msgid "Host Name"
 msgstr "Emri i hostit"
 
 #: src/components/fullNode/FullNodeConnections.tsx:40
-msgid "IP address"
-msgstr "Adresa IP"
+msgid "IP"
+msgstr ""
+
+#: src/components/fullNode/FullNodeConnections.tsx:40
+#~ msgid "IP address"
+#~ msgstr "Adresa IP"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:75
 msgid "IP address / host"
@@ -1078,6 +1093,7 @@ msgstr "Importo Portofolin nga Mnemonics"
 msgid "Import from Mnemonics (24 words)"
 msgstr "Import nga Mnemonics (24 fjalë)"
 
+#: src/components/blocks/Blocks.tsx:45
 #: src/components/fullNode/FullNode.jsx:45
 msgid "In Progress"
 msgstr "Në progres"
@@ -1127,14 +1143,14 @@ msgstr "Gjendje e pavlefshme"
 msgid "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
 msgstr "Shtë një lidhje identifikimi një herë që mund të përdoret për t'u identifikuar në faqen e internetit të një poll. Ai përmban një nënshkrim duke përdorur çelësin e fermerit nga parcela NFT. Jo të gjitha pollet e mbështesin këtë veçori."
 
+#: src/components/blocks/PoolOverview.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:406
-#: src/components/pool/PoolOverview.tsx:113
 msgid "Join Pool"
 msgstr "Bashkohu me Pollin"
 
+#: src/components/blocks/PoolHero.tsx:31
 #: src/components/plot/add/PlotAddNFT.tsx:59
 #: src/components/plot/add/PlotAddNFT.tsx:141
-#: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr "Bashkohu me një poll"
 
@@ -1170,7 +1186,7 @@ msgstr "Madhësia K"
 msgid "Keyring migration failed: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:72
 msgid "Keys"
 msgstr "Çelësi"
 
@@ -1205,13 +1221,13 @@ msgstr "Mëso më shumë"
 msgid "Leaving Pool"
 msgstr "Largimi nga polli"
 
-#: src/components/pool/PoolOverview.tsx:176
+#: src/components/blocks/PoolOverview.tsx:176
 msgid "List view"
 msgstr "Pamje si listë"
 
-#: src/components/pool/Pool.tsx:21
-msgid "Loading Plot NFTs"
-msgstr "Po ngarkon plotet e NFT"
+#: src/components/blocks/Blocks.tsx:144
+#~ msgid "Loading Plot NFTs"
+#~ msgstr "Po ngarkon plotet e NFT"
 
 #: src/components/wallet/Wallets.tsx:117
 msgid "Loading list of wallets"
@@ -1225,7 +1241,7 @@ msgstr "Po ngarkohet..."
 #~ msgid "Local Harvester Plots"
 #~ msgstr "Local Harvester Plots"
 
-#: src/components/app/AppRouter.tsx:68
+#: src/components/app/AppRouter.tsx:69
 msgid "Logging in"
 msgstr "Duke u loguar"
 
@@ -1282,8 +1298,8 @@ msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "Menaxhoni adresat tuaja të synuara për shpërblimet tuaja të fermerit"
 
 #: src/components/fullNode/FullNodeConnections.tsx:68
-msgid "MiB Up/Down"
-msgstr "MiB Lart / Poshtë"
+#~ msgid "MiB Up/Down"
+#~ msgstr "MiB Lart / Poshtë"
 
 #: src/components/selectKey/SelectKey.tsx:137
 msgid "Migrate"
@@ -1306,7 +1322,7 @@ msgstr ""
 msgid "Migration required to support passphrase protection"
 msgstr ""
 
-#: src/components/pool/PoolInfo.tsx:27
+#: src/components/blocks/PoolInfo.tsx:27
 msgid "Minimum Difficulty"
 msgstr "Vështirësia minimale"
 
@@ -1325,6 +1341,10 @@ msgstr ""
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 msgid "My Pubkey"
 msgstr "Pubkey im"
+
+#: src/components/fullNode/FullNodeConnections.tsx:36
+msgid "NODE ID"
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardNetworkName.tsx:19
 msgid "Network Name"
@@ -1388,7 +1408,6 @@ msgstr "Nuk ka çelësa privatë për një ose për të dy adresat. Sigurohu vet
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
-#: src/components/fullNode/FullNodeConnections.tsx:36
 msgid "Node ID"
 msgstr "ID e nyjes"
 
@@ -1479,6 +1498,10 @@ msgstr ""
 #: src/components/wallet/WalletHistory.tsx:23
 msgid "Outgoing"
 msgstr "Dalëse"
+
+#: src/components/fullNode/FullNodeConnections.tsx:46
+msgid "PORT"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:129
 #: src/components/app/AppKeyringMigrator.tsx:130
@@ -1710,7 +1733,7 @@ msgstr "Id e plotit"
 msgid "Plot Key"
 msgstr "Çelësi i plotit"
 
-#: src/components/pool/PoolOverview.tsx:40
+#: src/components/blocks/PoolOverview.tsx:40
 msgid "Plot NFT"
 msgstr "Ploti NFT"
 
@@ -1751,7 +1774,7 @@ msgstr "Ploti është dublikatë e {0}"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr "Ploti Nft po kalon në (gjendjen e synuar). Kjo mund të zgjasë pak. Ju lutemi mos e mbyllni aplikacionin derisa të finalizohet kjo."
 
-#: src/components/dashboard/DashboardSideBar.tsx:55
+#: src/components/dashboard/DashboardSideBar.tsx:61
 msgid "Plots"
 msgstr "Plotet"
 
@@ -1795,8 +1818,8 @@ msgid "Points Successful in Last 24 Hours"
 msgstr "Pikët e Suksesshme në 24 Orët e Fundit"
 
 #: src/components/pool/Pool.tsx:25
-msgid "Pool"
-msgstr "Polli"
+#~ msgid "Pool"
+#~ msgstr "Polli"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:100
 msgid "Pool Contract Address"
@@ -1869,7 +1892,6 @@ msgstr "Lidhur"
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:46
 msgid "Port"
 msgstr "Porta"
 
@@ -1918,7 +1940,7 @@ msgstr "Prova e Madhësisë së Hapësirës"
 msgid "Proofs Found"
 msgstr "Dëshmitë e gjetura"
 
-#: src/components/pool/PoolInfo.tsx:22
+#: src/components/blocks/PoolInfo.tsx:22
 msgid "Protocol Version"
 msgstr "Versioni i Protokollit"
 
@@ -1962,6 +1984,10 @@ msgstr "Përdorimi maksimal i RAM-it"
 #: src/components/wallet/create/WalletCreate.jsx:246
 #~ msgid "RLListItems.title"
 #~ msgstr ""
+
+#: src/components/fullNode/FullNodeConnections.tsx:75
+msgid "ROLE"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreateList.tsx:42
 msgid "Rate Limited"
@@ -2012,7 +2038,7 @@ msgstr ""
 msgid "Refresh Plots"
 msgstr "Rifresko plotet"
 
-#: src/components/pool/PoolInfo.tsx:32
+#: src/components/blocks/PoolInfo.tsx:32
 msgid "Relative Lock Height"
 msgstr "Lartësia relative e bllokimit"
 
@@ -2182,7 +2208,7 @@ msgstr ""
 msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:73
+#: src/components/dashboard/DashboardSideBar.tsx:79
 #: src/components/settings/Settings.tsx:239
 msgid "Settings"
 msgstr ""
@@ -2226,7 +2252,7 @@ msgstr ""
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Kalon duke shtuar një direktori përfundimtare"
 
-#: src/components/pool/PoolHero.tsx:26
+#: src/components/blocks/PoolHero.tsx:26
 msgid "Smooth out your ROLLS farming rewards by joining a pool."
 msgstr "Z'busni shpërblimet tuaja ROLLS duke u bashkuar me një poll."
 
@@ -2266,16 +2292,17 @@ msgstr "Gjatësia e intervalit të shpenzimeve (numri i blloqeve)"
 msgid "Spending Limit (rolls per interval): {0}"
 msgstr "Kufiri i shpenzimeve (rolls për interval): {0}"
 
+#: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
 msgstr "Krahina"
 
+#: src/components/blocks/PoolOverview.tsx:44
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:60
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:68
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
-#: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
 #: src/components/wallet/WalletStatusCard.tsx:22
@@ -2368,7 +2395,7 @@ msgstr "Sinkronizimi <0/>/<1/>"
 #~ msgid "TROLLS User Transaction Fees"
 #~ msgstr ""
 
-#: src/components/pool/PoolInfo.tsx:37
+#: src/components/blocks/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
 msgstr "Synoni Puzzle Hash"
 
@@ -2543,6 +2570,7 @@ msgstr "Kjo tregti u përfshi në bllokimin në këtë lartësi të bllokut"
 msgid "This version of PecanRolls is no longer compatible with the blockchain and can not safely farm."
 msgstr "Ky version i PecanRolls nuk është më i pajtueshëm me blockchain dhe nuk mund të fermojë në mënyrë të sigurt."
 
+#: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
 msgstr "Koha qe u Kriua"
@@ -2633,15 +2661,20 @@ msgstr "Filteri I Transaksioneve"
 msgid "Type"
 msgstr "Tipi"
 
+#: src/components/fullNode/FullNodeConnections.tsx:68
+msgid "UP/DOWN (M)"
+msgstr ""
+
 #: src/components/plot/add/PlotAdd.tsx:101
 msgid "Unable to create plot NFT"
 msgstr "Në pamundësi për të krijuar plotin NFT"
 
+#: src/components/blocks/PoolOverview.tsx:66
 #: src/components/plotNFT/PlotNFTCard.tsx:150
-#: src/components/pool/PoolOverview.tsx:66
 msgid "Unclaimed Rewards"
 msgstr "Shpërblime të pakërkuara"
 
+#: src/components/blocks/Blocks.tsx:98
 #: src/components/fullNode/FullNode.jsx:98
 msgid "Unfinished"
 msgstr "E papërfunduar"
@@ -2744,7 +2777,7 @@ msgstr "Prisni për sinkronizim"
 msgid "Waiting for the transaction to be confirmed"
 msgstr "Në pritje të konfirmimit të transaksionit"
 
-#: src/components/pool/PoolOverview.tsx:185
+#: src/components/blocks/PoolOverview.tsx:185
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Wallet Status:"
 msgstr "Statusi i Portofolit:"
@@ -2781,7 +2814,7 @@ msgstr ""
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:50
+#: src/components/dashboard/DashboardSideBar.tsx:56
 #: src/components/wallet/Wallets.tsx:118
 msgid "Wallets"
 msgstr "Kuletat"
@@ -2894,7 +2927,7 @@ msgstr "Ju keni {0}% të hapësirës në rrjet, kështu që prodhimi i një bllo
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
-#: src/components/pool/PoolJoin.tsx:37
+#: src/components/blocks/PoolJoin.tsx:37
 msgid "You need to claim your rewards first"
 msgstr "Së pari duhet të kërkoni shpërblimet tuaja"
 
@@ -2930,7 +2963,7 @@ msgstr "Lidhja juaj e plotë e nyjes"
 msgid "Your Harvester Network"
 msgstr "Rrjeti juaj Harvester"
 
-#: src/components/pool/PoolOverview.tsx:160
+#: src/components/blocks/PoolOverview.tsx:160
 msgid "Your Pool Overview"
 msgstr "Përmbledhja juaj e pollit"
 

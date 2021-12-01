@@ -9,6 +9,7 @@ import {
 } from '@material-ui/core';
 import Flex from '../Flex';
 import TooltipIcon from '../TooltipIcon';
+import RollsPalette from '../../../layout/RollsPalette'
 
 const StyledCardTitle = styled(Box)`
   padding: ${({ theme }) => `${theme.spacing(2)}px ${theme.spacing(2)}px`};
@@ -17,6 +18,8 @@ const StyledCardTitle = styled(Box)`
 const StyledCardMaterial = styled(({ cursor, opacity, clickable, ...rest }) => (
   <CardMaterial {...rest}/>
 ))`
+  background-color: ${RollsPalette.rolls_dark};
+  border-radius: 1rem;
   cursor: ${({ clickable }) => clickable ? 'pointer' : 'default'};
   opacity: ${({ disabled }) => disabled ? '0.5': '1'};
 

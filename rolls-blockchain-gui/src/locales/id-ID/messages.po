@@ -46,6 +46,10 @@ msgstr "Disarankan menggunakan 128 bucket"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Harvester adalah layanan yang berjalan pada komputer dimana plot disimpan. Farmer dan Harvester terhubung dengan jaringan untuk memeriksa status rantai. Tampilkan jaringan Harvester terhubung anda di bawah ini Pelajari lebih lanjut"
 
+#: src/components/fullNode/FullNodeConnections.tsx:82
+msgid "ACTIONS"
+msgstr ""
+
 #: src/electron/main.tsx:475
 #: src/electron/main.tsx:562
 msgid "About PecanRolls Blockchain"
@@ -65,10 +69,9 @@ msgstr "Diterima pada saat:"
 msgid "Action"
 msgstr "Tindakan"
 
+#: src/components/blocks/PoolOverview.tsx:69
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:82
-#: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "Tindakan"
 
@@ -249,7 +252,7 @@ msgstr "Blok dengan hash {headerHash}"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Blok dengan hash {headerHash} tidak ada."
 
-#: src/components/fullNode/FullNode.jsx:311
+#: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "Blok-blok"
 
@@ -328,9 +331,9 @@ msgstr "Ubah"
 msgid "Change Passphrase"
 msgstr ""
 
+#: src/components/blocks/PoolOverview.tsx:115
 #: src/components/plotNFT/PlotNFTCard.tsx:408
 #: src/components/plotNFT/PlotNFTChangePool.tsx:110
-#: src/components/pool/PoolOverview.tsx:115
 msgid "Change Pool"
 msgstr "Ubah Pool"
 
@@ -346,8 +349,8 @@ msgstr "Pilih Jumlah Plot"
 msgid "Choose Plot Size"
 msgstr "Pilih Ukuran Plot"
 
+#: src/components/blocks/PoolOverview.tsx:92
 #: src/components/plotNFT/PlotNFTCard.tsx:384
-#: src/components/pool/PoolOverview.tsx:92
 msgid "Claim Rewards"
 msgstr "Ambil Hadiah"
 
@@ -356,7 +359,7 @@ msgstr "Ambil Hadiah"
 msgid "Close"
 msgstr "Tutup"
 
-#: src/components/app/AppRouter.tsx:42
+#: src/components/app/AppRouter.tsx:43
 msgid "Closing down node and server"
 msgstr "Menutup node dan server"
 
@@ -448,7 +451,7 @@ msgstr ""
 msgid "Connected"
 msgstr "Tersambung"
 
-#: src/components/app/AppRouter.tsx:61
+#: src/components/app/AppRouter.tsx:62
 msgid "Connecting to wallet"
 msgstr "Menyambungkan ke wallet"
 
@@ -462,8 +465,8 @@ msgid "Connection Status:"
 msgstr "Status Koneksi:"
 
 #: src/components/fullNode/FullNodeConnections.tsx:75
-msgid "Connection type"
-msgstr "Jenis koneksi"
+#~ msgid "Connection type"
+#~ msgstr "Jenis koneksi"
 
 #: src/components/fullNode/FullNodeConnections.tsx:109
 msgid "Connections"
@@ -852,7 +855,7 @@ msgstr ""
 msgid "Failed to update passphrase: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
+#: src/components/dashboard/DashboardSideBar.tsx:66
 #: src/components/wallet/coloured/WalletColoured.tsx:610
 #: src/components/wallet/standard/WalletStandard.tsx:525
 msgid "Farm"
@@ -915,10 +918,10 @@ msgstr "Farming"
 msgid "Farming Status"
 msgstr "Status Farming"
 
+#: src/components/blocks/PoolInfo.tsx:17
 #: src/components/core/components/Fee/Fee.tsx:48
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
-#: src/components/pool/PoolInfo.tsx:17
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
@@ -965,6 +968,8 @@ msgstr "Nama file"
 msgid "Final folder location"
 msgstr "Lokasi folder akhir"
 
+#: src/components/blocks/Blocks.tsx:43
+#: src/components/blocks/Blocks.tsx:98
 #: src/components/fullNode/FullNode.jsx:43
 #: src/components/fullNode/FullNode.jsx:98
 msgid "Finished"
@@ -982,14 +987,15 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Frequently Asked Questions"
 
+#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:323
+#: src/components/fullNode/FullNode.jsx:106
 msgid "Full Node"
 msgstr "Full Node"
 
 #: src/components/fullNode/FullNode.jsx:326
-msgid "Full Node Overview"
-msgstr "Gambaran node Total"
+#~ msgid "Full Node Overview"
+#~ msgstr "Gambaran node Total"
 
 #: src/components/fullNode/FullNode.jsx:267
 #~ msgid "Full Node Status"
@@ -1007,13 +1013,17 @@ msgstr "Hasilkan Warna Baru"
 #~ msgid "Get Pool Login Link"
 #~ msgstr "Get Pool Login Link"
 
-#: src/components/pool/PoolOverview.tsx:176
+#: src/components/blocks/PoolOverview.tsx:176
 msgid "Grid view"
 msgstr "Tampilan grid"
 
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD atau kunci Hierarchical Deterministic adalah salah satu skema kunci publik/privat dimana satu kunci privat dapat memiliki kunci publik nyaris tak terbatas (dan juga alamat penerimaan dompet) yang ujungnya akan kembali ke dan dapat digunakan oleh satu kunci privat."
+
+#: src/components/fullNode/FullNodeConnections.tsx:79
+msgid "HEIGHT"
+msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Harvester ID"
@@ -1023,6 +1033,7 @@ msgstr "HD atau kunci Hierarchical Deterministic adalah salah satu skema kunci p
 msgid "Harvester Plots"
 msgstr "Plot Harvester Lokal"
 
+#: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
 msgid "Header Hash"
 msgstr "Kepala hash"
@@ -1032,8 +1043,8 @@ msgid "Header hash"
 msgstr "Kepala hash"
 
 #: src/components/block/Block.jsx:202
+#: src/components/blocks/Blocks.tsx:81
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
 msgstr "Tinggi"
 
@@ -1059,8 +1070,12 @@ msgid "Host Name"
 msgstr "Nama Host"
 
 #: src/components/fullNode/FullNodeConnections.tsx:40
-msgid "IP address"
-msgstr "Alamat IP"
+msgid "IP"
+msgstr ""
+
+#: src/components/fullNode/FullNodeConnections.tsx:40
+#~ msgid "IP address"
+#~ msgstr "Alamat IP"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:75
 msgid "IP address / host"
@@ -1078,6 +1093,7 @@ msgstr "Impor Dompet elektronik dari Mnemonik"
 msgid "Import from Mnemonics (24 words)"
 msgstr "Impor dari Mnemonic (24 kata)"
 
+#: src/components/blocks/Blocks.tsx:45
 #: src/components/fullNode/FullNode.jsx:45
 msgid "In Progress"
 msgstr "Sedang Berlangsung"
@@ -1127,14 +1143,14 @@ msgstr "Keadaan Salah"
 msgid "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
 msgstr ""
 
+#: src/components/blocks/PoolOverview.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:406
-#: src/components/pool/PoolOverview.tsx:113
 msgid "Join Pool"
 msgstr "Gabung ke Pool"
 
+#: src/components/blocks/PoolHero.tsx:31
 #: src/components/plot/add/PlotAddNFT.tsx:59
 #: src/components/plot/add/PlotAddNFT.tsx:141
-#: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr "Gabung ke Pool"
 
@@ -1170,7 +1186,7 @@ msgstr "Ukuran-K"
 msgid "Keyring migration failed: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:72
 msgid "Keys"
 msgstr "Keys"
 
@@ -1205,13 +1221,13 @@ msgstr "Pelajari Lebih Lanjut"
 msgid "Leaving Pool"
 msgstr "Meninggalkan Pool"
 
-#: src/components/pool/PoolOverview.tsx:176
+#: src/components/blocks/PoolOverview.tsx:176
 msgid "List view"
 msgstr "Tampilan daftar"
 
-#: src/components/pool/Pool.tsx:21
-msgid "Loading Plot NFTs"
-msgstr "Memuat Plot NFT"
+#: src/components/blocks/Blocks.tsx:144
+#~ msgid "Loading Plot NFTs"
+#~ msgstr "Memuat Plot NFT"
 
 #: src/components/wallet/Wallets.tsx:117
 msgid "Loading list of wallets"
@@ -1225,7 +1241,7 @@ msgstr "Memuat..."
 #~ msgid "Local Harvester Plots"
 #~ msgstr "Local Harvester Plots"
 
-#: src/components/app/AppRouter.tsx:68
+#: src/components/app/AppRouter.tsx:69
 msgid "Logging in"
 msgstr "Sedang masuk"
 
@@ -1282,8 +1298,8 @@ msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "Kelola Alamat Tujuan Upah Farming Anda"
 
 #: src/components/fullNode/FullNodeConnections.tsx:68
-msgid "MiB Up/Down"
-msgstr "MiB Naik/Turun"
+#~ msgid "MiB Up/Down"
+#~ msgstr "MiB Naik/Turun"
 
 #: src/components/selectKey/SelectKey.tsx:137
 msgid "Migrate"
@@ -1306,7 +1322,7 @@ msgstr ""
 msgid "Migration required to support passphrase protection"
 msgstr ""
 
-#: src/components/pool/PoolInfo.tsx:27
+#: src/components/blocks/PoolInfo.tsx:27
 msgid "Minimum Difficulty"
 msgstr "Kesulitan Minimum"
 
@@ -1325,6 +1341,10 @@ msgstr "Wallet DID"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 msgid "My Pubkey"
 msgstr "Pubkey saya"
+
+#: src/components/fullNode/FullNodeConnections.tsx:36
+msgid "NODE ID"
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardNetworkName.tsx:19
 msgid "Network Name"
@@ -1388,7 +1408,6 @@ msgstr "Tiada kod pribadi untuk satu atau semua alamat. Hanya selamat jika mengh
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
-#: src/components/fullNode/FullNodeConnections.tsx:36
 msgid "Node ID"
 msgstr "Nod ID"
 
@@ -1479,6 +1498,10 @@ msgstr "Hanya satu fail backup dibenarkan."
 #: src/components/wallet/WalletHistory.tsx:23
 msgid "Outgoing"
 msgstr "Keluar"
+
+#: src/components/fullNode/FullNodeConnections.tsx:46
+msgid "PORT"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:129
 #: src/components/app/AppKeyringMigrator.tsx:130
@@ -1710,7 +1733,7 @@ msgstr "ID Plot"
 msgid "Plot Key"
 msgstr "Key Plot"
 
-#: src/components/pool/PoolOverview.tsx:40
+#: src/components/blocks/PoolOverview.tsx:40
 msgid "Plot NFT"
 msgstr "Plot NFT"
 
@@ -1751,7 +1774,7 @@ msgstr "Plot ini duplikat dari {0}"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:55
+#: src/components/dashboard/DashboardSideBar.tsx:61
 msgid "Plots"
 msgstr "Plot-Plot"
 
@@ -1797,8 +1820,8 @@ msgid "Points Successful in Last 24 Hours"
 msgstr ""
 
 #: src/components/pool/Pool.tsx:25
-msgid "Pool"
-msgstr ""
+#~ msgid "Pool"
+#~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:100
 msgid "Pool Contract Address"
@@ -1871,7 +1894,6 @@ msgstr ""
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:46
 msgid "Port"
 msgstr "Port"
 
@@ -1920,7 +1942,7 @@ msgstr "Ukuran Bukti Dari Ruang"
 msgid "Proofs Found"
 msgstr "Bukti Ditemukan"
 
-#: src/components/pool/PoolInfo.tsx:22
+#: src/components/blocks/PoolInfo.tsx:22
 msgid "Protocol Version"
 msgstr ""
 
@@ -1964,6 +1986,10 @@ msgstr "Penggunaan RAM tertinggi"
 #: src/components/wallet/create/WalletCreate.jsx:246
 #~ msgid "RLListItems.title"
 #~ msgstr ""
+
+#: src/components/fullNode/FullNodeConnections.tsx:75
+msgid "ROLE"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreateList.tsx:42
 msgid "Rate Limited"
@@ -2014,7 +2040,7 @@ msgstr "Dapatkan kembali dompet"
 msgid "Refresh Plots"
 msgstr "Segarkan data Plot-Plot"
 
-#: src/components/pool/PoolInfo.tsx:32
+#: src/components/blocks/PoolInfo.tsx:32
 msgid "Relative Lock Height"
 msgstr ""
 
@@ -2184,7 +2210,7 @@ msgstr ""
 msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:73
+#: src/components/dashboard/DashboardSideBar.tsx:79
 #: src/components/settings/Settings.tsx:239
 msgid "Settings"
 msgstr ""
@@ -2228,7 +2254,7 @@ msgstr ""
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Lewati saja penambahan sebuah direktori akhir ke harvester unuk farming"
 
-#: src/components/pool/PoolHero.tsx:26
+#: src/components/blocks/PoolHero.tsx:26
 msgid "Smooth out your ROLLS farming rewards by joining a pool."
 msgstr ""
 
@@ -2268,16 +2294,17 @@ msgstr "Durasi Interval Pengeluaran (jumlah blok)"
 msgid "Spending Limit (rolls per interval): {0}"
 msgstr "Batas Pengeluaran (rolls per jarak waktu): {0}"
 
+#: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
 msgstr "Keadaan"
 
+#: src/components/blocks/PoolOverview.tsx:44
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:60
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:68
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
-#: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
 #: src/components/wallet/WalletStatusCard.tsx:22
@@ -2370,7 +2397,7 @@ msgstr "Sinkronisasi <0/>/<1/>"
 #~ msgid "TROLLS User Transaction Fees"
 #~ msgstr ""
 
-#: src/components/pool/PoolInfo.tsx:37
+#: src/components/blocks/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
 msgstr ""
 
@@ -2545,6 +2572,7 @@ msgstr "Perdagangan ini sudah termasuk di blockchain pada ketinggian block ini"
 msgid "This version of PecanRolls is no longer compatible with the blockchain and can not safely farm."
 msgstr "Versi PecanRolls anda tidak serasi kepada blockchain dan tidak boleh ditransaksi."
 
+#: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
 msgstr "Waktu Dibuat"
@@ -2635,15 +2663,20 @@ msgstr "Seleksi Hash Transaksi"
 msgid "Type"
 msgstr "Jenis"
 
+#: src/components/fullNode/FullNodeConnections.tsx:68
+msgid "UP/DOWN (M)"
+msgstr ""
+
 #: src/components/plot/add/PlotAdd.tsx:101
 msgid "Unable to create plot NFT"
 msgstr ""
 
+#: src/components/blocks/PoolOverview.tsx:66
 #: src/components/plotNFT/PlotNFTCard.tsx:150
-#: src/components/pool/PoolOverview.tsx:66
 msgid "Unclaimed Rewards"
 msgstr ""
 
+#: src/components/blocks/Blocks.tsx:98
 #: src/components/fullNode/FullNode.jsx:98
 msgid "Unfinished"
 msgstr "Belum Selesai"
@@ -2746,7 +2779,7 @@ msgstr "Menunggu sikronisasi"
 msgid "Waiting for the transaction to be confirmed"
 msgstr "Menunggu transaksi untuk di konfirmasi"
 
-#: src/components/pool/PoolOverview.tsx:185
+#: src/components/blocks/PoolOverview.tsx:185
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Wallet Status:"
 msgstr "Status Dompet:"
@@ -2783,7 +2816,7 @@ msgstr "Berkas tidak ada"
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:50
+#: src/components/dashboard/DashboardSideBar.tsx:56
 #: src/components/wallet/Wallets.tsx:118
 msgid "Wallets"
 msgstr "Wallets"
@@ -2896,7 +2929,7 @@ msgstr "Anda memiliki {0}% dari total ruang di jaringan, maka farming 1 blok aka
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
-#: src/components/pool/PoolJoin.tsx:37
+#: src/components/blocks/PoolJoin.tsx:37
 msgid "You need to claim your rewards first"
 msgstr "Anda harus mengambil penghargaan terlebih dahulu"
 
@@ -2932,7 +2965,7 @@ msgstr "Koneksi Full Node Anda"
 msgid "Your Harvester Network"
 msgstr "Jaringan Harvester Anda"
 
-#: src/components/pool/PoolOverview.tsx:160
+#: src/components/blocks/PoolOverview.tsx:160
 msgid "Your Pool Overview"
 msgstr "Gambaran Pool Anda"
 

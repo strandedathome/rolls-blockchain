@@ -46,6 +46,10 @@ msgstr "128 muistilohkoa on suositusmäärä"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Harvesteri on palvelu koneella, jolle plot-tiedostot on tallennettu. Farmari ja harvesteri ovat yhteydessä noodiin, jolta saavat lohkoketjun tilatiedot. Katso alta yhdistetyt harvesteripalvelut"
 
+#: src/components/fullNode/FullNodeConnections.tsx:82
+msgid "ACTIONS"
+msgstr ""
+
 #: src/electron/main.tsx:475
 #: src/electron/main.tsx:562
 msgid "About PecanRolls Blockchain"
@@ -65,10 +69,9 @@ msgstr "Hyväksyntäajankohta:"
 msgid "Action"
 msgstr "Toiminto"
 
+#: src/components/blocks/PoolOverview.tsx:69
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:82
-#: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "Toiminnot"
 
@@ -249,7 +252,7 @@ msgstr "Lohko tiivisteellä {headerHash}"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Lohkoa tunnistetiivisteellä {headerHash} ei ole olemassa."
 
-#: src/components/fullNode/FullNode.jsx:311
+#: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "Lohkot"
 
@@ -328,9 +331,9 @@ msgstr "Vaihda"
 msgid "Change Passphrase"
 msgstr ""
 
+#: src/components/blocks/PoolOverview.tsx:115
 #: src/components/plotNFT/PlotNFTCard.tsx:408
 #: src/components/plotNFT/PlotNFTChangePool.tsx:110
-#: src/components/pool/PoolOverview.tsx:115
 msgid "Change Pool"
 msgstr "Vaihda Poolia"
 
@@ -346,8 +349,8 @@ msgstr "Anna Plot-tiedostojen Määrä"
 msgid "Choose Plot Size"
 msgstr "Anna Tiedoston Koko"
 
+#: src/components/blocks/PoolOverview.tsx:92
 #: src/components/plotNFT/PlotNFTCard.tsx:384
-#: src/components/pool/PoolOverview.tsx:92
 msgid "Claim Rewards"
 msgstr "Lunasta Palkkiot"
 
@@ -356,7 +359,7 @@ msgstr "Lunasta Palkkiot"
 msgid "Close"
 msgstr "Sulje"
 
-#: src/components/app/AppRouter.tsx:42
+#: src/components/app/AppRouter.tsx:43
 msgid "Closing down node and server"
 msgstr "Suljetaan noodi ja palvelut"
 
@@ -448,7 +451,7 @@ msgstr ""
 msgid "Connected"
 msgstr "Yhdistetty"
 
-#: src/components/app/AppRouter.tsx:61
+#: src/components/app/AppRouter.tsx:62
 msgid "Connecting to wallet"
 msgstr "Yhdistetään lompakkoon"
 
@@ -462,8 +465,8 @@ msgid "Connection Status:"
 msgstr "Yhteyden Tila:"
 
 #: src/components/fullNode/FullNodeConnections.tsx:75
-msgid "Connection type"
-msgstr "Yhteystyyppi"
+#~ msgid "Connection type"
+#~ msgstr "Yhteystyyppi"
 
 #: src/components/fullNode/FullNodeConnections.tsx:109
 msgid "Connections"
@@ -852,7 +855,7 @@ msgstr ""
 msgid "Failed to update passphrase: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
+#: src/components/dashboard/DashboardSideBar.tsx:66
 #: src/components/wallet/coloured/WalletColoured.tsx:610
 #: src/components/wallet/standard/WalletStandard.tsx:525
 msgid "Farm"
@@ -915,10 +918,10 @@ msgstr "Tuotetaan Farmissa"
 msgid "Farming Status"
 msgstr "Farmituotannon Tila"
 
+#: src/components/blocks/PoolInfo.tsx:17
 #: src/components/core/components/Fee/Fee.tsx:48
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
-#: src/components/pool/PoolInfo.tsx:17
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
@@ -965,6 +968,8 @@ msgstr "Tiedoston nimi"
 msgid "Final folder location"
 msgstr "Lopullinen hakemisto"
 
+#: src/components/blocks/Blocks.tsx:43
+#: src/components/blocks/Blocks.tsx:98
 #: src/components/fullNode/FullNode.jsx:43
 #: src/components/fullNode/FullNode.jsx:98
 msgid "Finished"
@@ -982,14 +987,15 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Usein Kysytyt Kysymykset"
 
+#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:323
+#: src/components/fullNode/FullNode.jsx:106
 msgid "Full Node"
 msgstr "Verkkonoodi"
 
 #: src/components/fullNode/FullNode.jsx:326
-msgid "Full Node Overview"
-msgstr "Koko Noodin Yleiskatsaus"
+#~ msgid "Full Node Overview"
+#~ msgstr "Koko Noodin Yleiskatsaus"
 
 #: src/components/fullNode/FullNode.jsx:267
 #~ msgid "Full Node Status"
@@ -1007,13 +1013,17 @@ msgstr "Luo lompakko väritetyille kolikoille"
 #~ msgid "Get Pool Login Link"
 #~ msgstr "Get Pool Login Link"
 
-#: src/components/pool/PoolOverview.tsx:176
+#: src/components/blocks/PoolOverview.tsx:176
 msgid "Grid view"
 msgstr "Taulukkonäkymä"
 
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD- eli hierarkis-deterministiset avaimet ovat julkisen ja salaisen avaimen toteutus, jossa yhtä salaista avainta kohti voi olla lähes loputon määrä julkisia avaimia (ja lompakon osoitteita). Kaikki nämä osoitteet/avaimet osoittavat samaan salaiseen avaimeen."
+
+#: src/components/fullNode/FullNodeConnections.tsx:79
+msgid "HEIGHT"
+msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Harvester ID"
@@ -1023,6 +1033,7 @@ msgstr "HD- eli hierarkis-deterministiset avaimet ovat julkisen ja salaisen avai
 msgid "Harvester Plots"
 msgstr "Harvesterin Plotit"
 
+#: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
 msgid "Header Hash"
 msgstr "Lohkotunniste"
@@ -1032,8 +1043,8 @@ msgid "Header hash"
 msgstr "Lohkotunniste"
 
 #: src/components/block/Block.jsx:202
+#: src/components/blocks/Blocks.tsx:81
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
 msgstr "Lohkokorkeus"
 
@@ -1059,8 +1070,12 @@ msgid "Host Name"
 msgstr "Palvelimen nimi"
 
 #: src/components/fullNode/FullNodeConnections.tsx:40
-msgid "IP address"
-msgstr "IP-osoite"
+msgid "IP"
+msgstr ""
+
+#: src/components/fullNode/FullNodeConnections.tsx:40
+#~ msgid "IP address"
+#~ msgstr "IP-osoite"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:75
 msgid "IP address / host"
@@ -1078,6 +1093,7 @@ msgstr "Tuo Lompakko Muistisanoista"
 msgid "Import from Mnemonics (24 words)"
 msgstr "Tuo Muistisanoista (24)"
 
+#: src/components/blocks/Blocks.tsx:45
 #: src/components/fullNode/FullNode.jsx:45
 msgid "In Progress"
 msgstr "Käynnissä"
@@ -1127,14 +1143,14 @@ msgstr "Virheellinen tila"
 msgid "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
 msgstr "Kertaluonteinen kirjautumislinkki, jota voidaan käyttää kirjautumiseen poolin verkkosivuilla. Sisältää allekirjoituksen käyttäen viljelijän avainta Plot-NFT:stä Kaikki poolit eivät tue tätä ominaisuutta."
 
+#: src/components/blocks/PoolOverview.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:406
-#: src/components/pool/PoolOverview.tsx:113
 msgid "Join Pool"
 msgstr "Liity Pooliin"
 
+#: src/components/blocks/PoolHero.tsx:31
 #: src/components/plot/add/PlotAddNFT.tsx:59
 #: src/components/plot/add/PlotAddNFT.tsx:141
-#: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr "Liity Pooliin"
 
@@ -1170,7 +1186,7 @@ msgstr "K-Arvo"
 msgid "Keyring migration failed: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:72
 msgid "Keys"
 msgstr "Avaimet"
 
@@ -1205,13 +1221,13 @@ msgstr "Lisätietoja"
 msgid "Leaving Pool"
 msgstr "Poistuminen Poolista"
 
-#: src/components/pool/PoolOverview.tsx:176
+#: src/components/blocks/PoolOverview.tsx:176
 msgid "List view"
 msgstr "Luettelonäkymä"
 
-#: src/components/pool/Pool.tsx:21
-msgid "Loading Plot NFTs"
-msgstr "Ladataan Plot-NFT:itä"
+#: src/components/blocks/Blocks.tsx:144
+#~ msgid "Loading Plot NFTs"
+#~ msgstr "Ladataan Plot-NFT:itä"
 
 #: src/components/wallet/Wallets.tsx:117
 msgid "Loading list of wallets"
@@ -1225,7 +1241,7 @@ msgstr "Lataa..."
 #~ msgid "Local Harvester Plots"
 #~ msgstr "Local Harvester Plots"
 
-#: src/components/app/AppRouter.tsx:68
+#: src/components/app/AppRouter.tsx:69
 msgid "Logging in"
 msgstr "Kirjaudutaan"
 
@@ -1282,8 +1298,8 @@ msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "Hallitse Farmaripalkkioiden Kohdeosoitteita"
 
 #: src/components/fullNode/FullNodeConnections.tsx:68
-msgid "MiB Up/Down"
-msgstr "MiB Lähetys/Lataus"
+#~ msgid "MiB Up/Down"
+#~ msgstr "MiB Lähetys/Lataus"
 
 #: src/components/selectKey/SelectKey.tsx:137
 msgid "Migrate"
@@ -1306,7 +1322,7 @@ msgstr ""
 msgid "Migration required to support passphrase protection"
 msgstr ""
 
-#: src/components/pool/PoolInfo.tsx:27
+#: src/components/blocks/PoolInfo.tsx:27
 msgid "Minimum Difficulty"
 msgstr "Pienin Vaikeustaso"
 
@@ -1325,6 +1341,10 @@ msgstr "Oma hajautettu DID-lompakko"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 msgid "My Pubkey"
 msgstr "Julkinen Avaimeni"
+
+#: src/components/fullNode/FullNodeConnections.tsx:36
+msgid "NODE ID"
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardNetworkName.tsx:19
 msgid "Network Name"
@@ -1388,7 +1408,6 @@ msgstr "Jompaan kumpaan tai kumpaankaan osoitteeseen ei ole yksitysiä avaimia. 
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
-#: src/components/fullNode/FullNodeConnections.tsx:36
 msgid "Node ID"
 msgstr "Noodin tunnus"
 
@@ -1479,6 +1498,10 @@ msgstr "Vain yksi varmuuskopiotiedosto on sallittu."
 #: src/components/wallet/WalletHistory.tsx:23
 msgid "Outgoing"
 msgstr "Lähtevä"
+
+#: src/components/fullNode/FullNodeConnections.tsx:46
+msgid "PORT"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:129
 #: src/components/app/AppKeyringMigrator.tsx:130
@@ -1710,7 +1733,7 @@ msgstr "Plotin Tunnus"
 msgid "Plot Key"
 msgstr "Plotin Avain"
 
-#: src/components/pool/PoolOverview.tsx:40
+#: src/components/blocks/PoolOverview.tsx:40
 msgid "Plot NFT"
 msgstr "Plot-NFT"
 
@@ -1751,7 +1774,7 @@ msgstr "Plotti on {0}:n duplikaatti"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr "Plot-NFT on siirtymässä (kohdetilaan). Tämä voi kestää jonkin aikaa. Älä sulje sovellusta ennen kuin tämä on valmis."
 
-#: src/components/dashboard/DashboardSideBar.tsx:55
+#: src/components/dashboard/DashboardSideBar.tsx:61
 msgid "Plots"
 msgstr "Plotit"
 
@@ -1795,8 +1818,8 @@ msgid "Points Successful in Last 24 Hours"
 msgstr "Pisteitä onnistuneesti viimeisen 24 tunnin aikana"
 
 #: src/components/pool/Pool.tsx:25
-msgid "Pool"
-msgstr "Pooli"
+#~ msgid "Pool"
+#~ msgstr "Pooli"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:100
 msgid "Pool Contract Address"
@@ -1869,7 +1892,6 @@ msgstr "Poolataan"
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:46
 msgid "Port"
 msgstr "Portti"
 
@@ -1918,7 +1940,7 @@ msgstr "Tilatodisteavaruuden Koko"
 msgid "Proofs Found"
 msgstr "Todisteita Löytynyt"
 
-#: src/components/pool/PoolInfo.tsx:22
+#: src/components/blocks/PoolInfo.tsx:22
 msgid "Protocol Version"
 msgstr "Protokollaversio"
 
@@ -1962,6 +1984,10 @@ msgstr "RAM enimmäismäärä"
 #: src/components/wallet/create/WalletCreate.jsx:246
 #~ msgid "RLListItems.title"
 #~ msgstr ""
+
+#: src/components/fullNode/FullNodeConnections.tsx:75
+msgid "ROLE"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreateList.tsx:42
 msgid "Rate Limited"
@@ -2012,7 +2038,7 @@ msgstr "Palauta Lompakko"
 msgid "Refresh Plots"
 msgstr "Päivitä Plot-tiedostot"
 
-#: src/components/pool/PoolInfo.tsx:32
+#: src/components/blocks/PoolInfo.tsx:32
 msgid "Relative Lock Height"
 msgstr "Suhteellisen Lukituksen Korkeus"
 
@@ -2182,7 +2208,7 @@ msgstr ""
 msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:73
+#: src/components/dashboard/DashboardSideBar.tsx:79
 #: src/components/settings/Settings.tsx:239
 msgid "Settings"
 msgstr ""
@@ -2226,7 +2252,7 @@ msgstr ""
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Ei lisää lopullista hakemistoa harvesteriin farmaroitavaksi"
 
-#: src/components/pool/PoolHero.tsx:26
+#: src/components/blocks/PoolHero.tsx:26
 msgid "Smooth out your ROLLS farming rewards by joining a pool."
 msgstr "Tasaa ROLLS-farmauspalkkioita liittymällä pooliin."
 
@@ -2266,16 +2292,17 @@ msgstr "Käyttöajanjakson pituus (lohkojen määrä)"
 msgid "Spending Limit (rolls per interval): {0}"
 msgstr "Käyttöraja (PecanRollsa/ajanjakso):{0}"
 
+#: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
 msgstr "Tila"
 
+#: src/components/blocks/PoolOverview.tsx:44
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:60
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:68
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
-#: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
 #: src/components/wallet/WalletStatusCard.tsx:22
@@ -2368,7 +2395,7 @@ msgstr "Synkronoi <0/>/<1/>"
 #~ msgid "TROLLS User Transaction Fees"
 #~ msgstr ""
 
-#: src/components/pool/PoolInfo.tsx:37
+#: src/components/blocks/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
 msgstr "Palkkion Osoitetiiviste"
 
@@ -2543,6 +2570,7 @@ msgstr "Kauppa on sisällytetty lohkoketjuun tässä lohkokorkeudessa"
 msgid "This version of PecanRolls is no longer compatible with the blockchain and can not safely farm."
 msgstr "Tämä PecanRollsn versio ei ole enää yhteensopiva lohkoketjun kanssa."
 
+#: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
 msgstr "Luontiaika"
@@ -2633,15 +2661,20 @@ msgstr "Transaktion Filtteritiiviste"
 msgid "Type"
 msgstr "Tyyppi"
 
+#: src/components/fullNode/FullNodeConnections.tsx:68
+msgid "UP/DOWN (M)"
+msgstr ""
+
 #: src/components/plot/add/PlotAdd.tsx:101
 msgid "Unable to create plot NFT"
 msgstr "Ei voitu luoda Plotti-NFT:tä."
 
+#: src/components/blocks/PoolOverview.tsx:66
 #: src/components/plotNFT/PlotNFTCard.tsx:150
-#: src/components/pool/PoolOverview.tsx:66
 msgid "Unclaimed Rewards"
 msgstr "Lunastamattomat palkkiot"
 
+#: src/components/blocks/Blocks.tsx:98
 #: src/components/fullNode/FullNode.jsx:98
 msgid "Unfinished"
 msgstr "Kesken"
@@ -2744,7 +2777,7 @@ msgstr "Odota synkroinointia"
 msgid "Waiting for the transaction to be confirmed"
 msgstr "Odotetaan, että tapahtuma on vahvistettu"
 
-#: src/components/pool/PoolOverview.tsx:185
+#: src/components/blocks/PoolOverview.tsx:185
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Wallet Status:"
 msgstr "Lompakon Tila:"
@@ -2781,7 +2814,7 @@ msgstr "Lompakkoa ei löydy"
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:50
+#: src/components/dashboard/DashboardSideBar.tsx:56
 #: src/components/wallet/Wallets.tsx:118
 msgid "Wallets"
 msgstr "Lompakot"
@@ -2894,7 +2927,7 @@ msgstr "Sinulla on {0}% verkossa olevasta tilasta, joten lohkon farmarointi vie 
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
-#: src/components/pool/PoolJoin.tsx:37
+#: src/components/blocks/PoolJoin.tsx:37
 msgid "You need to claim your rewards first"
 msgstr "Sinun täytyy lunastaa ensin palkkiosi"
 
@@ -2930,7 +2963,7 @@ msgstr "Noodin Yhteys"
 msgid "Your Harvester Network"
 msgstr "Harvesteriverkkosi"
 
-#: src/components/pool/PoolOverview.tsx:160
+#: src/components/blocks/PoolOverview.tsx:160
 msgid "Your Pool Overview"
 msgstr "Poolin Yleiskatsaus"
 

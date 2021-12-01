@@ -3,6 +3,7 @@ import { AppBar, Toolbar, Box } from '@material-ui/core';
 import styled from 'styled-components';
 import { Flex, DarkModeToggle, LocaleToggle } from '@rolls/core';
 import { defaultLocale, locales } from '../../config/locales';
+import RollsPalette from '../layout/RollsPalette';
 
 const StyledWrapper = styled(Box)`
   padding-top: ${({ theme }) => `${theme.spacing(3)}px`};
@@ -11,7 +12,8 @@ const StyledWrapper = styled(Box)`
   flex-grow: 1;
   background: ${({ theme }) =>
     theme.palette.type === 'dark'
-      ? `linear-gradient(45deg, #222222 30%, #333333 90%)`
+      // opening screen
+      ? `linear-gradient(45deg, ${RollsPalette.rolls_darkest} 30%, ${RollsPalette.rolls_dark} 90%)`
       : `linear-gradient(45deg, #FEFEFE 30%, #fdfdfd 90%)`};
 `;
 

@@ -46,6 +46,10 @@ msgstr "建議使用 128 個桶"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "收割機是在實際存放耕地的機器上運作的服務。塊農和收割機會與一個完整節點溝通以取得區塊鍵狀態。以下是你的收割機與塊農網路 學習更多"
 
+#: src/components/fullNode/FullNodeConnections.tsx:82
+msgid "ACTIONS"
+msgstr ""
+
 #: src/electron/main.tsx:475
 #: src/electron/main.tsx:562
 msgid "About PecanRolls Blockchain"
@@ -65,10 +69,9 @@ msgstr "接受於："
 msgid "Action"
 msgstr "動作"
 
+#: src/components/blocks/PoolOverview.tsx:69
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:82
-#: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "動作"
 
@@ -249,7 +252,7 @@ msgstr "帶雜湊值 {headerHash} 的區塊"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "帶雜湊值 {headerHash} 的區塊不存在。"
 
-#: src/components/fullNode/FullNode.jsx:311
+#: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "區塊"
 
@@ -328,9 +331,9 @@ msgstr "變更"
 msgid "Change Passphrase"
 msgstr ""
 
+#: src/components/blocks/PoolOverview.tsx:115
 #: src/components/plotNFT/PlotNFTCard.tsx:408
 #: src/components/plotNFT/PlotNFTChangePool.tsx:110
-#: src/components/pool/PoolOverview.tsx:115
 msgid "Change Pool"
 msgstr "變更農會"
 
@@ -346,8 +349,8 @@ msgstr "選擇耕地數量"
 msgid "Choose Plot Size"
 msgstr "選擇耕地大小"
 
+#: src/components/blocks/PoolOverview.tsx:92
 #: src/components/plotNFT/PlotNFTCard.tsx:384
-#: src/components/pool/PoolOverview.tsx:92
 msgid "Claim Rewards"
 msgstr "領取獎勵"
 
@@ -356,7 +359,7 @@ msgstr "領取獎勵"
 msgid "Close"
 msgstr "關閉"
 
-#: src/components/app/AppRouter.tsx:42
+#: src/components/app/AppRouter.tsx:43
 msgid "Closing down node and server"
 msgstr "關閉節點和伺服器"
 
@@ -448,7 +451,7 @@ msgstr ""
 msgid "Connected"
 msgstr "已連線"
 
-#: src/components/app/AppRouter.tsx:61
+#: src/components/app/AppRouter.tsx:62
 msgid "Connecting to wallet"
 msgstr "連線至錢包中"
 
@@ -462,8 +465,8 @@ msgid "Connection Status:"
 msgstr "連線狀態："
 
 #: src/components/fullNode/FullNodeConnections.tsx:75
-msgid "Connection type"
-msgstr "連線類型"
+#~ msgid "Connection type"
+#~ msgstr "連線類型"
 
 #: src/components/fullNode/FullNodeConnections.tsx:109
 msgid "Connections"
@@ -852,7 +855,7 @@ msgstr ""
 msgid "Failed to update passphrase: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:60
+#: src/components/dashboard/DashboardSideBar.tsx:66
 #: src/components/wallet/coloured/WalletColoured.tsx:610
 #: src/components/wallet/standard/WalletStandard.tsx:525
 msgid "Farm"
@@ -915,10 +918,10 @@ msgstr "耕種中"
 msgid "Farming Status"
 msgstr "耕種狀態"
 
+#: src/components/blocks/PoolInfo.tsx:17
 #: src/components/core/components/Fee/Fee.tsx:48
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
-#: src/components/pool/PoolInfo.tsx:17
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
@@ -965,6 +968,8 @@ msgstr "檔案名稱"
 msgid "Final folder location"
 msgstr "最終資料夾位置"
 
+#: src/components/blocks/Blocks.tsx:43
+#: src/components/blocks/Blocks.tsx:98
 #: src/components/fullNode/FullNode.jsx:43
 #: src/components/fullNode/FullNode.jsx:98
 msgid "Finished"
@@ -982,14 +987,15 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "常見問題"
 
+#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:323
+#: src/components/fullNode/FullNode.jsx:106
 msgid "Full Node"
 msgstr "完整節點"
 
 #: src/components/fullNode/FullNode.jsx:326
-msgid "Full Node Overview"
-msgstr "完整節點概觀"
+#~ msgid "Full Node Overview"
+#~ msgstr "完整節點概觀"
 
 #: src/components/fullNode/FullNode.jsx:267
 #~ msgid "Full Node Status"
@@ -1007,13 +1013,17 @@ msgstr "生成新顏色"
 #~ msgid "Get Pool Login Link"
 #~ msgstr "Get Pool Login Link"
 
-#: src/components/pool/PoolOverview.tsx:176
+#: src/components/blocks/PoolOverview.tsx:176
 msgid "Grid view"
 msgstr "網格檢視"
 
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "層及式確定性金鑰是一種公鑰/私鑰格式，一個私鑰可以具有幾乎無限數量的不同公鑰（以此類推，同錢包接收地址），最終所有這些公鑰都將回朔於一個私鑰使用／花用。"
+
+#: src/components/fullNode/FullNodeConnections.tsx:79
+msgid "HEIGHT"
+msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Harvester ID"
@@ -1023,6 +1033,7 @@ msgstr "層及式確定性金鑰是一種公鑰/私鑰格式，一個私鑰可�
 msgid "Harvester Plots"
 msgstr "耕地收割機"
 
+#: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
 msgid "Header Hash"
 msgstr "表頭雜湊值"
@@ -1032,8 +1043,8 @@ msgid "Header hash"
 msgstr "表頭雜湊值"
 
 #: src/components/block/Block.jsx:202
+#: src/components/blocks/Blocks.tsx:81
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
 msgstr "高度"
 
@@ -1059,8 +1070,12 @@ msgid "Host Name"
 msgstr "主機名稱"
 
 #: src/components/fullNode/FullNodeConnections.tsx:40
-msgid "IP address"
-msgstr "IP位址"
+msgid "IP"
+msgstr ""
+
+#: src/components/fullNode/FullNodeConnections.tsx:40
+#~ msgid "IP address"
+#~ msgstr "IP位址"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:75
 msgid "IP address / host"
@@ -1078,6 +1093,7 @@ msgstr "以助記符號匯入錢包"
 msgid "Import from Mnemonics (24 words)"
 msgstr "從助記詞(24 字) 匯入"
 
+#: src/components/blocks/Blocks.tsx:45
 #: src/components/fullNode/FullNode.jsx:45
 msgid "In Progress"
 msgstr "進行中"
@@ -1127,14 +1143,14 @@ msgstr "無效狀態"
 msgid "It is a one-time login link that can be used to log in to a pool's website. It contains a signature using the farmer's key from the plot NFT. Not all pools support this feature."
 msgstr "這是一個一次性登錄連結, 可用於登記在農會的網站. 它來自農場, 其包含農民公鑰的簽名. 並非所有農會都支援此功能."
 
+#: src/components/blocks/PoolOverview.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:406
-#: src/components/pool/PoolOverview.tsx:113
 msgid "Join Pool"
 msgstr "加入礦池"
 
+#: src/components/blocks/PoolHero.tsx:31
 #: src/components/plot/add/PlotAddNFT.tsx:59
 #: src/components/plot/add/PlotAddNFT.tsx:141
-#: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr "加入一個農場"
 
@@ -1170,7 +1186,7 @@ msgstr "K-大小"
 msgid "Keyring migration failed: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:66
+#: src/components/dashboard/DashboardSideBar.tsx:72
 msgid "Keys"
 msgstr "金鑰"
 
@@ -1205,13 +1221,13 @@ msgstr "了解更多"
 msgid "Leaving Pool"
 msgstr "離開農會"
 
-#: src/components/pool/PoolOverview.tsx:176
+#: src/components/blocks/PoolOverview.tsx:176
 msgid "List view"
 msgstr "清單檢視"
 
-#: src/components/pool/Pool.tsx:21
-msgid "Loading Plot NFTs"
-msgstr "正在讀取農場"
+#: src/components/blocks/Blocks.tsx:144
+#~ msgid "Loading Plot NFTs"
+#~ msgstr "正在讀取農場"
 
 #: src/components/wallet/Wallets.tsx:117
 msgid "Loading list of wallets"
@@ -1225,7 +1241,7 @@ msgstr "載入中..."
 #~ msgid "Local Harvester Plots"
 #~ msgstr "Local Harvester Plots"
 
-#: src/components/app/AppRouter.tsx:68
+#: src/components/app/AppRouter.tsx:69
 msgid "Logging in"
 msgstr "登入中"
 
@@ -1282,8 +1298,8 @@ msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "管理你的耕種獎勵目標地址"
 
 #: src/components/fullNode/FullNodeConnections.tsx:68
-msgid "MiB Up/Down"
-msgstr "MiB 上傳/下傳"
+#~ msgid "MiB Up/Down"
+#~ msgstr "MiB 上傳/下傳"
 
 #: src/components/selectKey/SelectKey.tsx:137
 msgid "Migrate"
@@ -1306,7 +1322,7 @@ msgstr ""
 msgid "Migration required to support passphrase protection"
 msgstr ""
 
-#: src/components/pool/PoolInfo.tsx:27
+#: src/components/blocks/PoolInfo.tsx:27
 msgid "Minimum Difficulty"
 msgstr "最小難度"
 
@@ -1325,6 +1341,10 @@ msgstr "我的 DID 錢包"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 msgid "My Pubkey"
 msgstr "我的公鑰"
+
+#: src/components/fullNode/FullNodeConnections.tsx:36
+msgid "NODE ID"
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardNetworkName.tsx:19
 msgid "Network Name"
@@ -1388,7 +1408,6 @@ msgstr "一邊或雙邊地址沒有私鑰。只有你發送獎勵到另一個錢
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
-#: src/components/fullNode/FullNodeConnections.tsx:36
 msgid "Node ID"
 msgstr "節點 ID"
 
@@ -1479,6 +1498,10 @@ msgstr "只允許一個備份檔案。"
 #: src/components/wallet/WalletHistory.tsx:23
 msgid "Outgoing"
 msgstr "匯出"
+
+#: src/components/fullNode/FullNodeConnections.tsx:46
+msgid "PORT"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:129
 #: src/components/app/AppKeyringMigrator.tsx:130
@@ -1710,7 +1733,7 @@ msgstr "耕地 ID"
 msgid "Plot Key"
 msgstr "耕地金鑰"
 
-#: src/components/pool/PoolOverview.tsx:40
+#: src/components/blocks/PoolOverview.tsx:40
 msgid "Plot NFT"
 msgstr "農場"
 
@@ -1751,7 +1774,7 @@ msgstr "耕地與 {0} 重複"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr "農場正在切換到 (target state). 這可能會需要一段時間. 在完成之前, 請不要關閉應用程式."
 
-#: src/components/dashboard/DashboardSideBar.tsx:55
+#: src/components/dashboard/DashboardSideBar.tsx:61
 msgid "Plots"
 msgstr "耕地"
 
@@ -1795,8 +1818,8 @@ msgid "Points Successful in Last 24 Hours"
 msgstr "過去24小時有效的積分"
 
 #: src/components/pool/Pool.tsx:25
-msgid "Pool"
-msgstr "農會"
+#~ msgid "Pool"
+#~ msgstr "農會"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:100
 msgid "Pool Contract Address"
@@ -1869,7 +1892,6 @@ msgstr "正在為農會耕種中"
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:46
 msgid "Port"
 msgstr "通訊埠"
 
@@ -1918,7 +1940,7 @@ msgstr "空間證明的大小"
 msgid "Proofs Found"
 msgstr "發現證明數"
 
-#: src/components/pool/PoolInfo.tsx:22
+#: src/components/blocks/PoolInfo.tsx:22
 msgid "Protocol Version"
 msgstr "協議版本"
 
@@ -1962,6 +1984,10 @@ msgstr "最大記憶體使用量"
 #: src/components/wallet/create/WalletCreate.jsx:246
 #~ msgid "RLListItems.title"
 #~ msgstr ""
+
+#: src/components/fullNode/FullNodeConnections.tsx:75
+msgid "ROLE"
+msgstr ""
 
 #: src/components/wallet/create/WalletCreateList.tsx:42
 msgid "Rate Limited"
@@ -2012,7 +2038,7 @@ msgstr "恢復錢包"
 msgid "Refresh Plots"
 msgstr "刷新耕地"
 
-#: src/components/pool/PoolInfo.tsx:32
+#: src/components/blocks/PoolInfo.tsx:32
 msgid "Relative Lock Height"
 msgstr "相對鎖定高度"
 
@@ -2182,7 +2208,7 @@ msgstr ""
 msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:73
+#: src/components/dashboard/DashboardSideBar.tsx:79
 #: src/components/settings/Settings.tsx:239
 msgid "Settings"
 msgstr ""
@@ -2226,7 +2252,7 @@ msgstr ""
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "跳過新增最終資料夾到收割機進行耕種"
 
-#: src/components/pool/PoolHero.tsx:26
+#: src/components/blocks/PoolHero.tsx:26
 msgid "Smooth out your ROLLS farming rewards by joining a pool."
 msgstr "加入農會來獲得穩定的ROLLS獎勵。"
 
@@ -2266,16 +2292,17 @@ msgstr "花費間隔長度 (區塊數量)"
 msgid "Spending Limit (rolls per interval): {0}"
 msgstr "花用限制（每間隔可用 PecanRolls）：{0}"
 
+#: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
 msgstr "狀態"
 
+#: src/components/blocks/PoolOverview.tsx:44
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:60
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:68
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
-#: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
 #: src/components/wallet/WalletStatusCard.tsx:22
@@ -2368,7 +2395,7 @@ msgstr "同步中 <0/> / <1/>"
 #~ msgid "TROLLS User Transaction Fees"
 #~ msgstr ""
 
-#: src/components/pool/PoolInfo.tsx:37
+#: src/components/blocks/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
 msgstr "目標拼圖雜湊值"
 
@@ -2543,6 +2570,7 @@ msgstr "此貿易已包含在區塊鏈中的這個區塊高度"
 msgid "This version of PecanRolls is no longer compatible with the blockchain and can not safely farm."
 msgstr "此版本的 PecanRolls 不再與區塊鏈相容，因此無法安全地進行耕種。"
 
+#: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
 msgstr "建立時間"
@@ -2633,15 +2661,20 @@ msgstr "交易過濾雜湊值"
 msgid "Type"
 msgstr "類型"
 
+#: src/components/fullNode/FullNodeConnections.tsx:68
+msgid "UP/DOWN (M)"
+msgstr ""
+
 #: src/components/plot/add/PlotAdd.tsx:101
 msgid "Unable to create plot NFT"
 msgstr "無法建立農場"
 
+#: src/components/blocks/PoolOverview.tsx:66
 #: src/components/plotNFT/PlotNFTCard.tsx:150
-#: src/components/pool/PoolOverview.tsx:66
 msgid "Unclaimed Rewards"
 msgstr "尚未領取的獎勵"
 
+#: src/components/blocks/Blocks.tsx:98
 #: src/components/fullNode/FullNode.jsx:98
 msgid "Unfinished"
 msgstr "未完成"
@@ -2744,7 +2777,7 @@ msgstr "等待同步中"
 msgid "Waiting for the transaction to be confirmed"
 msgstr "正在等待交易結算"
 
-#: src/components/pool/PoolOverview.tsx:185
+#: src/components/blocks/PoolOverview.tsx:185
 #: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Wallet Status:"
 msgstr "錢包狀態："
@@ -2781,7 +2814,7 @@ msgstr "錢包不存在"
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:50
+#: src/components/dashboard/DashboardSideBar.tsx:56
 #: src/components/wallet/Wallets.tsx:118
 msgid "Wallets"
 msgstr "錢包"
@@ -2894,7 +2927,7 @@ msgstr "你擁有 {0} ％的網路空間，耕種一個區塊預計要 {expected
 #~ msgid "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
-#: src/components/pool/PoolJoin.tsx:37
+#: src/components/blocks/PoolJoin.tsx:37
 msgid "You need to claim your rewards first"
 msgstr "您需要先領取你的獎勵"
 
@@ -2930,7 +2963,7 @@ msgstr "你的完整節點連線"
 msgid "Your Harvester Network"
 msgstr "你的收割機網路"
 
-#: src/components/pool/PoolOverview.tsx:160
+#: src/components/blocks/PoolOverview.tsx:160
 msgid "Your Pool Overview"
 msgstr "您的農場概觀"
 

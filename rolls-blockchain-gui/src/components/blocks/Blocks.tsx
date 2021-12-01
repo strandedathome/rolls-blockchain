@@ -2,7 +2,6 @@ import React from 'react';
 import { Trans } from '@lingui/macro';
 import { get } from 'lodash';
 import {
-  // FormatBytes,
   FormatLargeNumber,
   Flex,
   Card,
@@ -14,17 +13,16 @@ import { Status } from '@rolls/icons';
 import { useRouteMatch, useHistory } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { Box, Tooltip, Typography } from '@material-ui/core';
-// import HelpIcon from '@material-ui/icons/Help';
 import { unix_to_short_date } from '../../util/utils';
-import FullNodeConnections from '../fullNode/FullNodeConnections';
 import LayoutMain from '../layout/LayoutMain';
 import FullNodeBlockSearch from '../fullNode/FullNodeBlockSearch';
-import FullNodeCards from '../fullNode/card/FullNodeCards';
+
+/* global BigInt */
 
 const cols = [
   {
     minWidth: '250px',
-    field(row) {
+    field(row: { isFinished?: false | undefined; header_hash: any; foliage: any; }) {
       const { isFinished = false, header_hash, foliage } = row;
 
       const { foliage_transaction_block_hash } = foliage || {};
@@ -56,10 +54,10 @@ const cols = [
         </Flex>
       );
     },
-    title: <Trans>Header Hash</Trans>,
+    title: <Trans>HASH</Trans>,
   },
   {
-    field(row) {
+    field(row: { isFinished: any; foliage: any; }) {
       const { isFinished, foliage } = row;
 
       const { height: foliageHeight } = foliage || {};
@@ -76,10 +74,10 @@ const cols = [
 
       return <FormatLargeNumber value={height} />;
     },
-    title: <Trans>Height</Trans>,
+    title: <Trans>HEIGHT</Trans>,
   },
   {
-    field(row) {
+    field(row: { isFinished: any; }) {
       const { isFinished } = row;
 
       const timestamp = get(row, 'foliage_transaction_block.timestamp');
@@ -87,15 +85,15 @@ const cols = [
 
       return value ? unix_to_short_date(Number.parseInt(value)) : '';
     },
-    title: <Trans>Time Created</Trans>,
+    title: <Trans>CREATED</Trans>,
   },
   {
-    field(row) {
+    field(row: { isFinished?: false | undefined; }) {
       const { isFinished = false } = row;
 
       return isFinished ? <Trans>Finished</Trans> : <Trans>Unfinished</Trans>;
     },
-    title: <Trans>State</Trans>,
+    title: <Trans>STATE</Trans>,
   },
 ];
 
@@ -111,13 +109,13 @@ const BlocksCard = () => {
 
   const rows = [
     ...unfinishedBlockHeaders,
-    ...latestBlocks.map((row) => ({
+    ...latestBlocks.map((row: any) => ({
       ...row,
       isFinished: true,
     })),
   ];
 
-  function handleRowClick(event, row) {
+  function handleRowClick(event: any, row: { isFinished: any; header_hash: any; }) {
     const { isFinished, header_hash } = row;
 
     if (isFinished && header_hash) {
@@ -136,21 +134,12 @@ const BlocksCard = () => {
   );
 };
 
-export default function Blocks() {
-
+export default function FullNode() {
   return (
-    <LayoutMain
-      loading={loading}
-      loadingTitle={<Trans>Loading Plot NFTs</Trans>}
-      title={
-        <>
-          <Link to="/dashboard/blocks" color="textPrimary">
-            <Trans>Blocks</Trans>
-            <BlocksCard />
-          </Link>
-        </>
-      }
-    >
+    <LayoutMain title={<Trans>Blocks</Trans>}>
+      <Flex flexDirection="column" gap={2}>
+        <BlocksCard />
+      </Flex>
     </LayoutMain>
   );
 }
