@@ -252,6 +252,8 @@ msgstr "Blok sa hashom {headerHash}"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Blok sa hashom {headerHash} ne postoji."
 
+#: src/components/blocks/Blocks.tsx:127
+#: src/components/blocks/Blocks.tsx:139
 #: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "Blokovi"
@@ -283,6 +285,10 @@ msgstr "Kupi"
 #: src/components/wallet/create/WalletCreate.jsx:182
 #~ msgid "CCListItems.title"
 #~ msgstr ""
+
+#: src/components/blocks/Blocks.tsx:88
+msgid "CREATED"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:212
 msgid "Can be backed up to mnemonic seed"
@@ -968,10 +974,8 @@ msgstr "Ime datoteke"
 msgid "Final folder location"
 msgstr "Lokacija krajnjeg direktorija"
 
-#: src/components/blocks/Blocks.tsx:43
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:43
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:39
+#: src/components/blocks/Blocks.tsx:94
 msgid "Finished"
 msgstr "Završeno"
 
@@ -987,9 +991,8 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Često Postavljana Pitanja"
 
-#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:106
+#: src/components/fullNode/FullNode.jsx:24
 msgid "Full Node"
 msgstr "Puni čvor"
 
@@ -1017,10 +1020,15 @@ msgstr "Generiraj novu boju"
 msgid "Grid view"
 msgstr ""
 
+#: src/components/blocks/Blocks.tsx:57
+msgid "HASH"
+msgstr ""
+
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD ili Hijerarhijski deterministički ključevi su vrste javnih/privatnih ključeva gdje jedan privatni ključ može imati neograničen broj različitih javnih ključeva (pa tako i ulazne adrese za novčanik) koji će se u konačnici vratiti i potrošiti jednim privatnim ključem."
 
+#: src/components/blocks/Blocks.tsx:77
 #: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "HEIGHT"
 msgstr ""
@@ -1035,16 +1043,14 @@ msgstr ""
 
 #: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
-msgid "Header Hash"
-msgstr "Hash zaglavlja"
+#~ msgid "Header Hash"
+#~ msgstr "Hash zaglavlja"
 
 #: src/components/block/Block.jsx:186
 msgid "Header hash"
 msgstr "Hash zaglavlja"
 
 #: src/components/block/Block.jsx:202
-#: src/components/blocks/Blocks.tsx:81
-#: src/components/fullNode/FullNode.jsx:81
 msgid "Height"
 msgstr "Visina"
 
@@ -1093,8 +1099,7 @@ msgstr "Uvezi Novčanik sa Mnemonics"
 msgid "Import from Mnemonics (24 words)"
 msgstr "Uvezi sa Mnemonics (24 riječi)"
 
-#: src/components/blocks/Blocks.tsx:45
-#: src/components/fullNode/FullNode.jsx:45
+#: src/components/blocks/Blocks.tsx:41
 msgid "In Progress"
 msgstr "U tijeku"
 
@@ -1431,7 +1436,7 @@ msgstr "Niti jedno tvoje zemljište još nije prošlo filter zemljišta."
 msgid "Not Available"
 msgstr "Nije dostupno"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr "Nije sinkronizirano"
@@ -2081,6 +2086,10 @@ msgstr "Povrati Meta podatke za Obojane Novčiće i druge Pametne Novčanike iz 
 #~ msgid "SB Height"
 #~ msgstr "SB Height"
 
+#: src/components/blocks/Blocks.tsx:96
+msgid "STATE"
+msgstr ""
+
 #: src/components/backup/BackupRestore.tsx:186
 msgid "Safe To Skip"
 msgstr "Sigurno za preskok"
@@ -2294,12 +2303,12 @@ msgstr "Limit potrošnje (rolls po intervalu): {0}"
 
 #: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
-msgid "State"
-msgstr "Stanje"
+#~ msgid "State"
+#~ msgstr "Stanje"
 
 #: src/components/blocks/PoolOverview.tsx:44
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:61
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:69
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2356,7 +2365,7 @@ msgstr "Poslano"
 msgid "Synced"
 msgstr "Sinkronizirano"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:45
 msgid "Synced <0/>"
 msgstr ""
 
@@ -2367,7 +2376,7 @@ msgstr ""
 msgid "Syncing"
 msgstr "Sinkroniziram"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:23
 msgid "Syncing <0/>/<1/>"
 msgstr ""
 
@@ -2420,11 +2429,11 @@ msgstr "Puni čvor na koji je tvoj žetelac spojen naveden je dolje niže. <0>Sa
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Minimalna neophodna veličina za mainnet je k=32"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:41
 msgid "The node is not synced"
 msgstr "Čvor nije sinkroniziran"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:31
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Čvor se sinkronizira, što znači da preuzima blokove sa drugih čvorova, kako bi stigao krajnji blok u lancu"
 
@@ -2538,7 +2547,7 @@ msgstr ""
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr ""
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:48
 msgid "This node is fully caught up and validating the network"
 msgstr "Ovaj čvor je sasvim sinkroniziran i provjerava mrežu"
 
@@ -2572,8 +2581,8 @@ msgstr "Ova verzija PecanRolls vise nije kompatibilna sa blockchainom i ne može
 
 #: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
-msgid "Time Created"
-msgstr "Vrijeme kreiranja"
+#~ msgid "Time Created"
+#~ msgstr "Vrijeme kreiranja"
 
 #: src/components/trading/TradingOverview.jsx:192
 #~ msgid "Time this trade was created at this time"
@@ -2674,8 +2683,7 @@ msgstr ""
 msgid "Unclaimed Rewards"
 msgstr ""
 
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:94
 msgid "Unfinished"
 msgstr "Nedovršeno"
 

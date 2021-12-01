@@ -252,6 +252,8 @@ msgstr "Blok z haszem {headerHash}"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Blok o hashu {headerHash} nie istnieje."
 
+#: src/components/blocks/Blocks.tsx:127
+#: src/components/blocks/Blocks.tsx:139
 #: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "Bloki"
@@ -283,6 +285,10 @@ msgstr "Kup"
 #: src/components/wallet/create/WalletCreate.jsx:182
 #~ msgid "CCListItems.title"
 #~ msgstr ""
+
+#: src/components/blocks/Blocks.tsx:88
+msgid "CREATED"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:212
 msgid "Can be backed up to mnemonic seed"
@@ -968,10 +974,8 @@ msgstr "Nazwa pliku"
 msgid "Final folder location"
 msgstr "Lokalizacja folderu docelowego"
 
-#: src/components/blocks/Blocks.tsx:43
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:43
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:39
+#: src/components/blocks/Blocks.tsx:94
 msgid "Finished"
 msgstr "Zakończono"
 
@@ -987,9 +991,8 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Często zadawane pytania"
 
-#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:106
+#: src/components/fullNode/FullNode.jsx:24
 msgid "Full Node"
 msgstr "Pełen węzeł"
 
@@ -1017,10 +1020,15 @@ msgstr "Wygeneruj nowy kolor"
 msgid "Grid view"
 msgstr ""
 
+#: src/components/blocks/Blocks.tsx:57
+msgid "HASH"
+msgstr ""
+
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD lub Hierarchiczne klucze Deterministyczne to rodzaj systemu klucza publicznego/kluczy prywatnych, w którym jeden klucz prywatny może mieć prawie nieskończoną liczbę różnych kluczy publicznych (i adresów odbierających portfela), które ostatecznie powrócą do jednego klucza prywatnego i będą mogły zostać wydane przez jeden klucz prywatny."
 
+#: src/components/blocks/Blocks.tsx:77
 #: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "HEIGHT"
 msgstr ""
@@ -1035,16 +1043,14 @@ msgstr ""
 
 #: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
-msgid "Header Hash"
-msgstr "Hash Nagłówka"
+#~ msgid "Header Hash"
+#~ msgstr "Hash Nagłówka"
 
 #: src/components/block/Block.jsx:186
 msgid "Header hash"
 msgstr "Hash Nagłówka"
 
 #: src/components/block/Block.jsx:202
-#: src/components/blocks/Blocks.tsx:81
-#: src/components/fullNode/FullNode.jsx:81
 msgid "Height"
 msgstr "Wysokość"
 
@@ -1093,8 +1099,7 @@ msgstr "Importuj portfel z ziarna mnemonicznego"
 msgid "Import from Mnemonics (24 words)"
 msgstr "Importuj z ziarna mnemonicznego (24 słowa)"
 
-#: src/components/blocks/Blocks.tsx:45
-#: src/components/fullNode/FullNode.jsx:45
+#: src/components/blocks/Blocks.tsx:41
 msgid "In Progress"
 msgstr "W toku"
 
@@ -1431,7 +1436,7 @@ msgstr "Żadna z twoich działek nie przeszła jeszcze przez filtr."
 msgid "Not Available"
 msgstr "Nie dostępne"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr "Nie zsynchronizowane"
@@ -2081,6 +2086,10 @@ msgstr "Przywróć metadane kolorowych monet i innych inteligentnych portfeli z 
 #~ msgid "SB Height"
 #~ msgstr "SB Height"
 
+#: src/components/blocks/Blocks.tsx:96
+msgid "STATE"
+msgstr ""
+
 #: src/components/backup/BackupRestore.tsx:186
 msgid "Safe To Skip"
 msgstr "Pominięcie jest bezpieczne"
@@ -2294,12 +2303,12 @@ msgstr "Limit wydawania (rolls/interwał): {0}"
 
 #: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
-msgid "State"
-msgstr "Stan"
+#~ msgid "State"
+#~ msgstr "Stan"
 
 #: src/components/blocks/PoolOverview.tsx:44
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:61
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:69
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2356,7 +2365,7 @@ msgstr "Zatwierdź"
 msgid "Synced"
 msgstr "Zsynchronizowano"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:45
 msgid "Synced <0/>"
 msgstr ""
 
@@ -2367,7 +2376,7 @@ msgstr ""
 msgid "Syncing"
 msgstr "Synchronizowanie"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:23
 msgid "Syncing <0/>/<1/>"
 msgstr "Synchronizacja <0/>/<1/>"
 
@@ -2420,11 +2429,11 @@ msgstr "Poniżej pełen węzeł do którego jest podłączony twój rolnik. <0>D
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Najmniejszy dopuszczalny rozmiar w mainnecie to k=32"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:41
 msgid "The node is not synced"
 msgstr "Węzeł nie jest zsynchronizowany"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:31
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Węzeł jest w trakcie synchronizacji, co znaczy że pobiera bloki z innych węzłów, aby osiągnąć najświeższy element blockchaina"
 
@@ -2538,7 +2547,7 @@ msgstr ""
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr ""
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:48
 msgid "This node is fully caught up and validating the network"
 msgstr "Ten węzeł jest w pełni zsynchronizowany i sprawdza poprawność sieci"
 
@@ -2572,8 +2581,8 @@ msgstr "Ta wersja PecanRolls nie jest już kompatybilna z blockchain i nie może
 
 #: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
-msgid "Time Created"
-msgstr "Czas utworzenia"
+#~ msgid "Time Created"
+#~ msgstr "Czas utworzenia"
 
 #: src/components/trading/TradingOverview.jsx:192
 #~ msgid "Time this trade was created at this time"
@@ -2674,8 +2683,7 @@ msgstr ""
 msgid "Unclaimed Rewards"
 msgstr ""
 
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:94
 msgid "Unfinished"
 msgstr "Niedokończony"
 

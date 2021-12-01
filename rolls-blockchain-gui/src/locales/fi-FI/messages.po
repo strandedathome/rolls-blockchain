@@ -252,6 +252,8 @@ msgstr "Lohko tiivisteellä {headerHash}"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Lohkoa tunnistetiivisteellä {headerHash} ei ole olemassa."
 
+#: src/components/blocks/Blocks.tsx:127
+#: src/components/blocks/Blocks.tsx:139
 #: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "Lohkot"
@@ -283,6 +285,10 @@ msgstr "Osta"
 #: src/components/wallet/create/WalletCreate.jsx:182
 #~ msgid "CCListItems.title"
 #~ msgstr ""
+
+#: src/components/blocks/Blocks.tsx:88
+msgid "CREATED"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:212
 msgid "Can be backed up to mnemonic seed"
@@ -968,10 +974,8 @@ msgstr "Tiedoston nimi"
 msgid "Final folder location"
 msgstr "Lopullinen hakemisto"
 
-#: src/components/blocks/Blocks.tsx:43
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:43
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:39
+#: src/components/blocks/Blocks.tsx:94
 msgid "Finished"
 msgstr "Valmis"
 
@@ -987,9 +991,8 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Usein Kysytyt Kysymykset"
 
-#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:106
+#: src/components/fullNode/FullNode.jsx:24
 msgid "Full Node"
 msgstr "Verkkonoodi"
 
@@ -1017,10 +1020,15 @@ msgstr "Luo lompakko väritetyille kolikoille"
 msgid "Grid view"
 msgstr "Taulukkonäkymä"
 
+#: src/components/blocks/Blocks.tsx:57
+msgid "HASH"
+msgstr ""
+
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD- eli hierarkis-deterministiset avaimet ovat julkisen ja salaisen avaimen toteutus, jossa yhtä salaista avainta kohti voi olla lähes loputon määrä julkisia avaimia (ja lompakon osoitteita). Kaikki nämä osoitteet/avaimet osoittavat samaan salaiseen avaimeen."
 
+#: src/components/blocks/Blocks.tsx:77
 #: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "HEIGHT"
 msgstr ""
@@ -1035,16 +1043,14 @@ msgstr "Harvesterin Plotit"
 
 #: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
-msgid "Header Hash"
-msgstr "Lohkotunniste"
+#~ msgid "Header Hash"
+#~ msgstr "Lohkotunniste"
 
 #: src/components/block/Block.jsx:186
 msgid "Header hash"
 msgstr "Lohkotunniste"
 
 #: src/components/block/Block.jsx:202
-#: src/components/blocks/Blocks.tsx:81
-#: src/components/fullNode/FullNode.jsx:81
 msgid "Height"
 msgstr "Lohkokorkeus"
 
@@ -1093,8 +1099,7 @@ msgstr "Tuo Lompakko Muistisanoista"
 msgid "Import from Mnemonics (24 words)"
 msgstr "Tuo Muistisanoista (24)"
 
-#: src/components/blocks/Blocks.tsx:45
-#: src/components/fullNode/FullNode.jsx:45
+#: src/components/blocks/Blocks.tsx:41
 msgid "In Progress"
 msgstr "Käynnissä"
 
@@ -1431,7 +1436,7 @@ msgstr "Yksikään ploteistasi ei ole vielä päässyt suodatuksesta läpi."
 msgid "Not Available"
 msgstr "Ei Saatavilla"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr "Ei Synkronoitu"
@@ -2081,6 +2086,10 @@ msgstr "Palauta väritettyjen kolikkojen metatiedot ja muut älylompakot varmuus
 #~ msgid "SB Height"
 #~ msgstr "SB Height"
 
+#: src/components/blocks/Blocks.tsx:96
+msgid "STATE"
+msgstr ""
+
 #: src/components/backup/BackupRestore.tsx:186
 msgid "Safe To Skip"
 msgstr "Turvalista Ohittaa"
@@ -2294,12 +2303,12 @@ msgstr "Käyttöraja (PecanRollsa/ajanjakso):{0}"
 
 #: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
-msgid "State"
-msgstr "Tila"
+#~ msgid "State"
+#~ msgstr "Tila"
 
 #: src/components/blocks/PoolOverview.tsx:44
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:61
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:69
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2356,7 +2365,7 @@ msgstr "Lähetä"
 msgid "Synced"
 msgstr "Synkrononissa"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:45
 msgid "Synced <0/>"
 msgstr ""
 
@@ -2367,7 +2376,7 @@ msgstr ""
 msgid "Syncing"
 msgstr "Synkronoi...."
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:23
 msgid "Syncing <0/>/<1/>"
 msgstr "Synkronoi <0/>/<1/>"
 
@@ -2420,11 +2429,11 @@ msgstr "Alla noodi, johon farmarisi on yhteydessä. <0>Katso lisää</0>"
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Lohkoketjun hyväksymä minimiarvo on k=32"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:41
 msgid "The node is not synced"
 msgstr "Noodi ei ole synkronoitu"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:31
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Noodi synkronoi. Se lataa lohkoketjua muilta solmuilta"
 
@@ -2538,7 +2547,7 @@ msgstr "Tämä on Plot-NFT:n yhteispistemäärä edellisen maksun jälkeen. Pool
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr "Tämä on kokonaispistemäärä jotka olet tuottanut tälle Plot-NFT:lle. Jokainen k32-plotti tuottaa noin 10 pistettä päivässä, joten jos sinulla on 10TiB, pitäisi plottien tuottaa noin 1000 pistettä päivässä tai 41 pistettä tunnissa."
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:48
 msgid "This node is fully caught up and validating the network"
 msgstr "Noodi on ajan tasalla ja todentaa lohkoketjuverkkoa"
 
@@ -2572,8 +2581,8 @@ msgstr "Tämä PecanRollsn versio ei ole enää yhteensopiva lohkoketjun kanssa.
 
 #: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
-msgid "Time Created"
-msgstr "Luontiaika"
+#~ msgid "Time Created"
+#~ msgstr "Luontiaika"
 
 #: src/components/trading/TradingOverview.jsx:192
 #~ msgid "Time this trade was created at this time"
@@ -2674,8 +2683,7 @@ msgstr "Ei voitu luoda Plotti-NFT:tä."
 msgid "Unclaimed Rewards"
 msgstr "Lunastamattomat palkkiot"
 
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:94
 msgid "Unfinished"
 msgstr "Kesken"
 

@@ -252,6 +252,8 @@ msgstr "해쉬 {headerHash} 의 블록"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "{headerHash} 에 해당하는 블록이 존재하지 않습니다."
 
+#: src/components/blocks/Blocks.tsx:127
+#: src/components/blocks/Blocks.tsx:139
 #: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "블록"
@@ -283,6 +285,10 @@ msgstr "매수"
 #: src/components/wallet/create/WalletCreate.jsx:182
 #~ msgid "CCListItems.title"
 #~ msgstr ""
+
+#: src/components/blocks/Blocks.tsx:88
+msgid "CREATED"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:212
 msgid "Can be backed up to mnemonic seed"
@@ -968,10 +974,8 @@ msgstr "파일 이름"
 msgid "Final folder location"
 msgstr "최종 폴더 위치"
 
-#: src/components/blocks/Blocks.tsx:43
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:43
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:39
+#: src/components/blocks/Blocks.tsx:94
 msgid "Finished"
 msgstr "완료됨"
 
@@ -987,9 +991,8 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "자주 묻는 질문"
 
-#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:106
+#: src/components/fullNode/FullNode.jsx:24
 msgid "Full Node"
 msgstr "전체 노드"
 
@@ -1017,10 +1020,15 @@ msgstr "새로운 컬러 만들기"
 msgid "Grid view"
 msgstr ""
 
+#: src/components/blocks/Blocks.tsx:57
+msgid "HASH"
+msgstr ""
+
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD키, 또는 \"계층구조 결정성 키\" 라고 부르는 이것은 개인 키 하나에 무한대에 가까운 공개키를 가질 수 있는 공개키 암호화 방식으로, 시드를 안전하게 보관하기만 한다면 언제든 시드로부터 개인키를 순차적으로 재생성할 수 있다는 장점을 지니고 있습니다."
 
+#: src/components/blocks/Blocks.tsx:77
 #: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "HEIGHT"
 msgstr ""
@@ -1035,16 +1043,14 @@ msgstr ""
 
 #: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
-msgid "Header Hash"
-msgstr "헤더 해시"
+#~ msgid "Header Hash"
+#~ msgstr "헤더 해시"
 
 #: src/components/block/Block.jsx:186
 msgid "Header hash"
 msgstr "해더 해시"
 
 #: src/components/block/Block.jsx:202
-#: src/components/blocks/Blocks.tsx:81
-#: src/components/fullNode/FullNode.jsx:81
 msgid "Height"
 msgstr "높이"
 
@@ -1093,8 +1099,7 @@ msgstr "니모닉으로부터 지갑 가져오기"
 msgid "Import from Mnemonics (24 words)"
 msgstr "니모닉에서 불러오기 (24단어)"
 
-#: src/components/blocks/Blocks.tsx:45
-#: src/components/fullNode/FullNode.jsx:45
+#: src/components/blocks/Blocks.tsx:41
 msgid "In Progress"
 msgstr "처리 중"
 
@@ -1431,7 +1436,7 @@ msgstr "아직 플롯 필터를 통과 한 플롯이 없습니다."
 msgid "Not Available"
 msgstr "사용할 수 없음"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr "동기화 되지 않음"
@@ -2081,6 +2086,10 @@ msgstr "백업에서 컬러 코인 및 기타 스마트 지갑에 대한 메타 
 #~ msgid "SB Height"
 #~ msgstr "SB Height"
 
+#: src/components/blocks/Blocks.tsx:96
+msgid "STATE"
+msgstr ""
+
 #: src/components/backup/BackupRestore.tsx:186
 msgid "Safe To Skip"
 msgstr "안전하게 건너 뛰기"
@@ -2294,12 +2303,12 @@ msgstr "지출 한도 (간격 당 rolls): {0}"
 
 #: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
-msgid "State"
-msgstr "상태"
+#~ msgid "State"
+#~ msgstr "상태"
 
 #: src/components/blocks/PoolOverview.tsx:44
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:61
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:69
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2356,7 +2365,7 @@ msgstr "제출"
 msgid "Synced"
 msgstr "동기화됨"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:45
 msgid "Synced <0/>"
 msgstr ""
 
@@ -2367,7 +2376,7 @@ msgstr ""
 msgid "Syncing"
 msgstr "동기화 중"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:23
 msgid "Syncing <0/>/<1/>"
 msgstr "동기화 중... <0/> / <1/>"
 
@@ -2420,11 +2429,11 @@ msgstr "농부가 연결된 전체 노드는 다음과 같습니다. <0> 자세�
 msgid "The minimum required size for mainnet is k=32"
 msgstr "mainnet을 위한 최소 사이즈는 k=32입니다."
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:41
 msgid "The node is not synced"
 msgstr "노드가 동기화되지 않았습니다"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:31
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "노드가 동기화 중입니다. 즉, 체인의 최신 블록에 도달하기 위해 다른 노드에서 블록을 다운로드하고 있습니다."
 
@@ -2538,7 +2547,7 @@ msgstr ""
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr ""
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:48
 msgid "This node is fully caught up and validating the network"
 msgstr "이 노드는 완전히 포착되어 네트워크를 확인하고 있습니다."
 
@@ -2572,8 +2581,8 @@ msgstr "이 버전의 PecanRolls는 더 이상 블록 체인과 호환되지 않
 
 #: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
-msgid "Time Created"
-msgstr "생성 시간"
+#~ msgid "Time Created"
+#~ msgstr "생성 시간"
 
 #: src/components/trading/TradingOverview.jsx:192
 #~ msgid "Time this trade was created at this time"
@@ -2674,8 +2683,7 @@ msgstr ""
 msgid "Unclaimed Rewards"
 msgstr ""
 
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:94
 msgid "Unfinished"
 msgstr "미완성"
 

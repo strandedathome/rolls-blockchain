@@ -252,6 +252,8 @@ msgstr "Blok Hash {headerHash}"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "{headerHash} Hash'li blok mevcut değil."
 
+#: src/components/blocks/Blocks.tsx:127
+#: src/components/blocks/Blocks.tsx:139
 #: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "Bloklar"
@@ -283,6 +285,10 @@ msgstr "Satın Al"
 #: src/components/wallet/create/WalletCreate.jsx:182
 #~ msgid "CCListItems.title"
 #~ msgstr ""
+
+#: src/components/blocks/Blocks.tsx:88
+msgid "CREATED"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:212
 msgid "Can be backed up to mnemonic seed"
@@ -968,10 +974,8 @@ msgstr "Dosya Adı"
 msgid "Final folder location"
 msgstr "Dosya Adresi"
 
-#: src/components/blocks/Blocks.tsx:43
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:43
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:39
+#: src/components/blocks/Blocks.tsx:94
 msgid "Finished"
 msgstr "Bitti"
 
@@ -987,9 +991,8 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Sıkça Sorulan Sorular"
 
-#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:106
+#: src/components/fullNode/FullNode.jsx:24
 msgid "Full Node"
 msgstr "Tam Node"
 
@@ -1017,10 +1020,15 @@ msgstr "Yeni Renk Oluştur"
 msgid "Grid view"
 msgstr ""
 
+#: src/components/blocks/Blocks.tsx:57
+msgid "HASH"
+msgstr ""
+
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD veya Hiyerarşik Deterministik anahtarlar, bir public key/private anahtarın neredeyse sonsuz sayıda farklı genel anahtara sahip olabileceği (ve bu nedenle cüzdanın adresleri alabileceği), hepsi nihayetinde geri dönecek ve tek bir özel anahtar tarafından kullanılabilecek bir tür genel anahtar / özel anahtar şemasıdır."
 
+#: src/components/blocks/Blocks.tsx:77
 #: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "HEIGHT"
 msgstr ""
@@ -1035,16 +1043,14 @@ msgstr "Kazım Arazileri"
 
 #: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
-msgid "Header Hash"
-msgstr "Baştaki Hash"
+#~ msgid "Header Hash"
+#~ msgstr "Baştaki Hash"
 
 #: src/components/block/Block.jsx:186
 msgid "Header hash"
 msgstr "Baştaki hash"
 
 #: src/components/block/Block.jsx:202
-#: src/components/blocks/Blocks.tsx:81
-#: src/components/fullNode/FullNode.jsx:81
 msgid "Height"
 msgstr "Yükseklik"
 
@@ -1093,8 +1099,7 @@ msgstr "Cüzdanı Mnemonics'ten içe aktar"
 msgid "Import from Mnemonics (24 words)"
 msgstr "Mneminocs'ten içe aktar. (24 kelime)"
 
-#: src/components/blocks/Blocks.tsx:45
-#: src/components/fullNode/FullNode.jsx:45
+#: src/components/blocks/Blocks.tsx:41
 msgid "In Progress"
 msgstr "İşlem Sürüyor"
 
@@ -1431,7 +1436,7 @@ msgstr "Henüz plot'larınızdan hiçbiri plot filtresinden geçemedi."
 msgid "Not Available"
 msgstr "Uygun Değil"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr "Senkronize değil"
@@ -2081,6 +2086,10 @@ msgstr "Renkli coinler için metaveriyi ve diğer akıllı cüzdanları yedeklem
 #~ msgid "SB Height"
 #~ msgstr "SB Height"
 
+#: src/components/blocks/Blocks.tsx:96
+msgid "STATE"
+msgstr ""
+
 #: src/components/backup/BackupRestore.tsx:186
 msgid "Safe To Skip"
 msgstr "Geçmek için Güvenli"
@@ -2294,12 +2303,12 @@ msgstr "Harcama Limiti (aralık başına rolls): {0}"
 
 #: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
-msgid "State"
-msgstr "Durum"
+#~ msgid "State"
+#~ msgstr "Durum"
 
 #: src/components/blocks/PoolOverview.tsx:44
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:61
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:69
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2356,7 +2365,7 @@ msgstr "Onayla"
 msgid "Synced"
 msgstr "Senkronize Edildi"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:45
 msgid "Synced <0/>"
 msgstr ""
 
@@ -2367,7 +2376,7 @@ msgstr ""
 msgid "Syncing"
 msgstr "Senkronize ediliyor"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:23
 msgid "Syncing <0/>/<1/>"
 msgstr "Eşitleniyor"
 
@@ -2420,11 +2429,11 @@ msgstr "Çiftçinizin bağlı olduğu tam düğüm aşağıdadır. <0> Daha fazl
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Ana ağ için gerekli minimum boyut k=32'dir"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:41
 msgid "The node is not synced"
 msgstr "Düğüm senkronize edilmedi"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:31
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Düğüm senkronize oluyor, ki bu zincirdeki en son bloğa ulaşmak için diğer düğümlerden bloklar indirildiği anlamına geliyor"
 
@@ -2538,7 +2547,7 @@ msgstr ""
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr ""
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:48
 msgid "This node is fully caught up and validating the network"
 msgstr "Bu düğüm tamamen yakalandı ve ağı doğruluyor"
 
@@ -2572,8 +2581,8 @@ msgstr "PecanRolls'nın bu sürümü artık blockchain ile uyumlu değil ve güv
 
 #: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
-msgid "Time Created"
-msgstr "Oluşturulma Zamanı"
+#~ msgid "Time Created"
+#~ msgstr "Oluşturulma Zamanı"
 
 #: src/components/trading/TradingOverview.jsx:192
 #~ msgid "Time this trade was created at this time"
@@ -2674,8 +2683,7 @@ msgstr ""
 msgid "Unclaimed Rewards"
 msgstr ""
 
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:94
 msgid "Unfinished"
 msgstr "Bitmemiş"
 

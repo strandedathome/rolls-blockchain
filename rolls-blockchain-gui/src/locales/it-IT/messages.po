@@ -252,6 +252,8 @@ msgstr "Blocco con hash {headerHash}"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Il blocco con hash {headerHash} non esiste."
 
+#: src/components/blocks/Blocks.tsx:127
+#: src/components/blocks/Blocks.tsx:139
 #: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "Blocchi"
@@ -283,6 +285,10 @@ msgstr "Compra"
 #: src/components/wallet/create/WalletCreate.jsx:182
 #~ msgid "CCListItems.title"
 #~ msgstr ""
+
+#: src/components/blocks/Blocks.tsx:88
+msgid "CREATED"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:212
 msgid "Can be backed up to mnemonic seed"
@@ -968,10 +974,8 @@ msgstr "Nome del file"
 msgid "Final folder location"
 msgstr "Seleziona la destinazione finale per la tua cartella plot"
 
-#: src/components/blocks/Blocks.tsx:43
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:43
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:39
+#: src/components/blocks/Blocks.tsx:94
 msgid "Finished"
 msgstr "Finito"
 
@@ -987,9 +991,8 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Domande Frequenti"
 
-#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:106
+#: src/components/fullNode/FullNode.jsx:24
 msgid "Full Node"
 msgstr "Full Node"
 
@@ -1017,10 +1020,15 @@ msgstr "Genera Nuovo Colore"
 msgid "Grid view"
 msgstr "Visualizza come griglia"
 
+#: src/components/blocks/Blocks.tsx:57
+msgid "HASH"
+msgstr ""
+
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD o Hierarchical Deterministic keys sono un tipo di schema a rollsve pubblica/rollsve privata dove una rollsve privata può avere un numero quasi infinito di rollsvi pubbliche diverse (e quindi indirizzi di ricezione del wallet) che sono spendibili da una singola rollsve privata."
 
+#: src/components/blocks/Blocks.tsx:77
 #: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "HEIGHT"
 msgstr ""
@@ -1035,16 +1043,14 @@ msgstr "Plot Harvester Locale"
 
 #: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
-msgid "Header Hash"
-msgstr "Hash Header"
+#~ msgid "Header Hash"
+#~ msgstr "Hash Header"
 
 #: src/components/block/Block.jsx:186
 msgid "Header hash"
 msgstr "Hash Header"
 
 #: src/components/block/Block.jsx:202
-#: src/components/blocks/Blocks.tsx:81
-#: src/components/fullNode/FullNode.jsx:81
 msgid "Height"
 msgstr "Altezza"
 
@@ -1093,8 +1099,7 @@ msgstr "Importa Wallet dalle Mnemonic"
 msgid "Import from Mnemonics (24 words)"
 msgstr "Importa dalle Mnemonic (24 parole)"
 
-#: src/components/blocks/Blocks.tsx:45
-#: src/components/fullNode/FullNode.jsx:45
+#: src/components/blocks/Blocks.tsx:41
 msgid "In Progress"
 msgstr "In Corso"
 
@@ -1431,7 +1436,7 @@ msgstr "Nessuno dei tuoi plot ha ancora passato il filtro per plot."
 msgid "Not Available"
 msgstr "Non Disponibile"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr "Non Sincronizzato"
@@ -2081,6 +2086,10 @@ msgstr "Ripristinare i Metadati per le Monete Colorate e altri Wallet Intelligen
 #~ msgid "SB Height"
 #~ msgstr "SB Height"
 
+#: src/components/blocks/Blocks.tsx:96
+msgid "STATE"
+msgstr ""
+
 #: src/components/backup/BackupRestore.tsx:186
 msgid "Safe To Skip"
 msgstr "Sicuro da Saltare"
@@ -2294,12 +2303,12 @@ msgstr "Limite di Spesa (rolls per intervallo): {0}"
 
 #: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
-msgid "State"
-msgstr "Condizione"
+#~ msgid "State"
+#~ msgstr "Condizione"
 
 #: src/components/blocks/PoolOverview.tsx:44
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:61
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:69
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2356,7 +2365,7 @@ msgstr "Invia"
 msgid "Synced"
 msgstr "Sincronizzato"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:45
 msgid "Synced <0/>"
 msgstr ""
 
@@ -2367,7 +2376,7 @@ msgstr ""
 msgid "Syncing"
 msgstr "Sincronizzando"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:23
 msgid "Syncing <0/>/<1/>"
 msgstr "Sincronizzazione <0/>/<1/>"
 
@@ -2420,11 +2429,11 @@ msgstr "Il full node a cui è connesso il tuo farmer è di seguito. <0>Per saper
 msgid "The minimum required size for mainnet is k=32"
 msgstr "La dimensione minima richiesta per la mainnet è k=32"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:41
 msgid "The node is not synced"
 msgstr "Il nodo non è sincronizzato"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:31
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Il nodo si sta sincronizzando, ovvero sta scaricando i blocchi da altri nodi, per raggiungere l'ultimo blocco nella blockchain"
 
@@ -2538,7 +2547,7 @@ msgstr "Questo è il numero totale di punti che questo plotNFT ha con questa poo
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr "Questo è il numero totale di punti che il tuo farmer ha trovato per questo plot NFT. Ogni plot k32 otterrà circa 10 punti al giorno, quindi se hai 10TiB, dovresti avere circa 1000 punti al giorno, o 41 punti all'ora."
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:48
 msgid "This node is fully caught up and validating the network"
 msgstr "Questo nodo è pronto e sta validando la rete"
 
@@ -2572,8 +2581,8 @@ msgstr "Questa versione di PecanRolls non è più compatibile con la blockchain 
 
 #: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
-msgid "Time Created"
-msgstr "Creato al Tempo"
+#~ msgid "Time Created"
+#~ msgstr "Creato al Tempo"
 
 #: src/components/trading/TradingOverview.jsx:192
 #~ msgid "Time this trade was created at this time"
@@ -2674,8 +2683,7 @@ msgstr "Impossibile creare plot NFT"
 msgid "Unclaimed Rewards"
 msgstr "Ricompense Non Reclamate"
 
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:94
 msgid "Unfinished"
 msgstr "Non completato"
 

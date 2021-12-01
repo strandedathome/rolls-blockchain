@@ -252,6 +252,8 @@ msgstr "Blok s hashem {headerHash}"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Blok s hashem {headerHash} neexistuje."
 
+#: src/components/blocks/Blocks.tsx:127
+#: src/components/blocks/Blocks.tsx:139
 #: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "Bloky"
@@ -283,6 +285,10 @@ msgstr "Koupit"
 #: src/components/wallet/create/WalletCreate.jsx:182
 #~ msgid "CCListItems.title"
 #~ msgstr ""
+
+#: src/components/blocks/Blocks.tsx:88
+msgid "CREATED"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:212
 msgid "Can be backed up to mnemonic seed"
@@ -968,10 +974,8 @@ msgstr "Název souboru"
 msgid "Final folder location"
 msgstr "Umístění konečné složky"
 
-#: src/components/blocks/Blocks.tsx:43
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:43
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:39
+#: src/components/blocks/Blocks.tsx:94
 msgid "Finished"
 msgstr "Dokončeno"
 
@@ -987,9 +991,8 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Často kladené otázky"
 
-#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:106
+#: src/components/fullNode/FullNode.jsx:24
 msgid "Full Node"
 msgstr "Uzel"
 
@@ -1017,10 +1020,15 @@ msgstr "Generovat novou barvu"
 msgid "Grid view"
 msgstr "Mřížkové zobrazení"
 
+#: src/components/blocks/Blocks.tsx:57
+msgid "HASH"
+msgstr ""
+
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD nebo Hierarchické Deterministické klíče jsou typy veřejného/soukromého klíče, kde jeden soukromý klíč může mít téměř nekonečný počet různých veřejných klíčů (a tedy i příchozích adres peněženky). Všechny adresy tedy končí v jedné a té samé peněžence."
 
+#: src/components/blocks/Blocks.tsx:77
 #: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "HEIGHT"
 msgstr ""
@@ -1035,16 +1043,14 @@ msgstr "Sklízecí pole"
 
 #: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
-msgid "Header Hash"
-msgstr "Hash hlavičky"
+#~ msgid "Header Hash"
+#~ msgstr "Hash hlavičky"
 
 #: src/components/block/Block.jsx:186
 msgid "Header hash"
 msgstr "Hash hlavičky"
 
 #: src/components/block/Block.jsx:202
-#: src/components/blocks/Blocks.tsx:81
-#: src/components/fullNode/FullNode.jsx:81
 msgid "Height"
 msgstr "Výška"
 
@@ -1093,8 +1099,7 @@ msgstr "Importovat peněženku"
 msgid "Import from Mnemonics (24 words)"
 msgstr "Import pomocí 24 slov"
 
-#: src/components/blocks/Blocks.tsx:45
-#: src/components/fullNode/FullNode.jsx:45
+#: src/components/blocks/Blocks.tsx:41
 msgid "In Progress"
 msgstr "Probíhá"
 
@@ -1431,7 +1436,7 @@ msgstr "Žádné z vašich polí dosud neprošlo filtrem poli."
 msgid "Not Available"
 msgstr "Nedostupný"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr " Není synchronizováno"
@@ -2081,6 +2086,10 @@ msgstr "Obnovit data pro barevné mince a další Smart peněženky ze zálohy"
 #~ msgid "SB Height"
 #~ msgstr "SB Height"
 
+#: src/components/blocks/Blocks.tsx:96
+msgid "STATE"
+msgstr ""
+
 #: src/components/backup/BackupRestore.tsx:186
 msgid "Safe To Skip"
 msgstr "Přeskočit"
@@ -2294,12 +2303,12 @@ msgstr "Limit výdajů (rolls na interval): {0}"
 
 #: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
-msgid "State"
-msgstr "Stav"
+#~ msgid "State"
+#~ msgstr "Stav"
 
 #: src/components/blocks/PoolOverview.tsx:44
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:61
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:69
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2356,7 +2365,7 @@ msgstr "Odeslat"
 msgid "Synced"
 msgstr "Synchronizováno"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:45
 msgid "Synced <0/>"
 msgstr ""
 
@@ -2367,7 +2376,7 @@ msgstr ""
 msgid "Syncing"
 msgstr "Synchronizace"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:23
 msgid "Syncing <0/>/<1/>"
 msgstr "Synchronizuji <0/>/<1/>"
 
@@ -2420,11 +2429,11 @@ msgstr "Uzel ke kterému je váš farmer (farmář) připojen. <0>Zjistit více<
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Minimální požadovaná velikost sítě je k=32"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:41
 msgid "The node is not synced"
 msgstr "Uzel není synchronizován"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:31
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Uzel se synchronizuje, což znamená, že stahuje bloky z jiných uzlů, aby se dostal k nejnovějšímu bloku řetězce"
 
@@ -2538,7 +2547,7 @@ msgstr "Jedná se o celkový počet bodů, které má toto NFT pole s tímto poo
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr "Toto je celkový počet bodů, které váš farmář nalezl pro toto NFT pole. Každé k32 pole dostane asi 10 bodů denně, takže pokud máte 10TiB, měl by očekávat okolo 1000 bodů denně, nebo 41 bodů za hodinu."
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:48
 msgid "This node is fully caught up and validating the network"
 msgstr "Jste plně synchronizováni se sítí"
 
@@ -2572,8 +2581,8 @@ msgstr "Tato verze PecanRolls již není kompatibilní s blockchainem a nemůže
 
 #: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
-msgid "Time Created"
-msgstr "Vytvořeno"
+#~ msgid "Time Created"
+#~ msgstr "Vytvořeno"
 
 #: src/components/trading/TradingOverview.jsx:192
 #~ msgid "Time this trade was created at this time"
@@ -2674,8 +2683,7 @@ msgstr "Nelze vytvořit NFT pole"
 msgid "Unclaimed Rewards"
 msgstr "Nevyzvednuté odměny"
 
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:94
 msgid "Unfinished"
 msgstr "Nedokončeno"
 

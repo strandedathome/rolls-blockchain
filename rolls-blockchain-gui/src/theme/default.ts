@@ -12,6 +12,9 @@ export default {
       main: '#dc3545',
       contrastText: '#FEFEFE',
     },
+    success: {
+      main: '#59A96A'
+    }
   },
   drawer: {
     width: '100px',

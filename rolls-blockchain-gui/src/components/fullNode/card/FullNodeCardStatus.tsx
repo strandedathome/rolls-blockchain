@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import FarmCard from '../../farm/card/FarmCard';
 import type { RootState } from '../../../modules/rootReducer';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import RollsPalette from '../../layout/RollsPalette';
 
 const StyledWarning = styled.span`
   color: #f7ca3e;

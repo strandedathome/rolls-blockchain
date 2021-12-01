@@ -252,6 +252,8 @@ msgstr "帶雜湊值 {headerHash} 的區塊"
 msgid "Block with hash {headerHash} does not exist."
 msgstr "帶雜湊值 {headerHash} 的區塊不存在。"
 
+#: src/components/blocks/Blocks.tsx:127
+#: src/components/blocks/Blocks.tsx:139
 #: src/components/dashboard/DashboardSideBar.tsx:50
 msgid "Blocks"
 msgstr "區塊"
@@ -283,6 +285,10 @@ msgstr "購買"
 #: src/components/wallet/create/WalletCreate.jsx:182
 #~ msgid "CCListItems.title"
 #~ msgstr ""
+
+#: src/components/blocks/Blocks.tsx:88
+msgid "CREATED"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:212
 msgid "Can be backed up to mnemonic seed"
@@ -968,10 +974,8 @@ msgstr "檔案名稱"
 msgid "Final folder location"
 msgstr "最終資料夾位置"
 
-#: src/components/blocks/Blocks.tsx:43
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:43
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:39
+#: src/components/blocks/Blocks.tsx:94
 msgid "Finished"
 msgstr "已完成"
 
@@ -987,9 +991,8 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "常見問題"
 
-#: src/components/blocks/Blocks.tsx:106
 #: src/components/dashboard/DashboardSideBar.tsx:44
-#: src/components/fullNode/FullNode.jsx:106
+#: src/components/fullNode/FullNode.jsx:24
 msgid "Full Node"
 msgstr "完整節點"
 
@@ -1017,10 +1020,15 @@ msgstr "生成新顏色"
 msgid "Grid view"
 msgstr "網格檢視"
 
+#: src/components/blocks/Blocks.tsx:57
+msgid "HASH"
+msgstr ""
+
 #: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "層及式確定性金鑰是一種公鑰/私鑰格式，一個私鑰可以具有幾乎無限數量的不同公鑰（以此類推，同錢包接收地址），最終所有這些公鑰都將回朔於一個私鑰使用／花用。"
 
+#: src/components/blocks/Blocks.tsx:77
 #: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "HEIGHT"
 msgstr ""
@@ -1035,16 +1043,14 @@ msgstr "耕地收割機"
 
 #: src/components/blocks/Blocks.tsx:61
 #: src/components/fullNode/FullNode.jsx:61
-msgid "Header Hash"
-msgstr "表頭雜湊值"
+#~ msgid "Header Hash"
+#~ msgstr "表頭雜湊值"
 
 #: src/components/block/Block.jsx:186
 msgid "Header hash"
 msgstr "表頭雜湊值"
 
 #: src/components/block/Block.jsx:202
-#: src/components/blocks/Blocks.tsx:81
-#: src/components/fullNode/FullNode.jsx:81
 msgid "Height"
 msgstr "高度"
 
@@ -1093,8 +1099,7 @@ msgstr "以助記符號匯入錢包"
 msgid "Import from Mnemonics (24 words)"
 msgstr "從助記詞(24 字) 匯入"
 
-#: src/components/blocks/Blocks.tsx:45
-#: src/components/fullNode/FullNode.jsx:45
+#: src/components/blocks/Blocks.tsx:41
 msgid "In Progress"
 msgstr "進行中"
 
@@ -1431,7 +1436,7 @@ msgstr "你還沒有任何的耕地通過篩選。"
 msgid "Not Available"
 msgstr "尚無"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr "未同步"
@@ -2081,6 +2086,10 @@ msgstr "從備份還原有色代幣和其他智慧錢包的元數據"
 #~ msgid "SB Height"
 #~ msgstr "SB Height"
 
+#: src/components/blocks/Blocks.tsx:96
+msgid "STATE"
+msgstr ""
+
 #: src/components/backup/BackupRestore.tsx:186
 msgid "Safe To Skip"
 msgstr "可安全跳過"
@@ -2294,12 +2303,12 @@ msgstr "花用限制（每間隔可用 PecanRolls）：{0}"
 
 #: src/components/blocks/Blocks.tsx:100
 #: src/components/fullNode/FullNode.jsx:100
-msgid "State"
-msgstr "狀態"
+#~ msgid "State"
+#~ msgstr "狀態"
 
 #: src/components/blocks/PoolOverview.tsx:44
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:61
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:69
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2356,7 +2365,7 @@ msgstr "確認"
 msgid "Synced"
 msgstr "已同步"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:45
 msgid "Synced <0/>"
 msgstr ""
 
@@ -2367,7 +2376,7 @@ msgstr ""
 msgid "Syncing"
 msgstr "同步中"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:23
 msgid "Syncing <0/>/<1/>"
 msgstr "同步中 <0/> / <1/>"
 
@@ -2420,11 +2429,11 @@ msgstr "你的塊農連接上的完整節點列在下方。<0>了解更多</0>"
 msgid "The minimum required size for mainnet is k=32"
 msgstr "主網最小要求的大小是 k=32"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:41
 msgid "The node is not synced"
 msgstr "此節點尚未同步"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:31
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "節點同步中，這代表正從其他節點中下載區塊，直到到達區塊鏈的最新區塊"
 
@@ -2538,7 +2547,7 @@ msgstr "自上次支付以來該農場在該池中的總積分。農會在支付
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr "這是您的農夫為此農場找到的總積分。 每個 K32 圖每天將獲得大約 10 點積分，所以如果您有 10TiB，則每天大約 1000 點積分，或每小時 41 點積分。"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:48
 msgid "This node is fully caught up and validating the network"
 msgstr "此節點已完全跟上和驗證網路"
 
@@ -2572,8 +2581,8 @@ msgstr "此版本的 PecanRolls 不再與區塊鏈相容，因此無法安全地
 
 #: src/components/blocks/Blocks.tsx:92
 #: src/components/fullNode/FullNode.jsx:92
-msgid "Time Created"
-msgstr "建立時間"
+#~ msgid "Time Created"
+#~ msgstr "建立時間"
 
 #: src/components/trading/TradingOverview.jsx:192
 #~ msgid "Time this trade was created at this time"
@@ -2674,8 +2683,7 @@ msgstr "無法建立農場"
 msgid "Unclaimed Rewards"
 msgstr "尚未領取的獎勵"
 
-#: src/components/blocks/Blocks.tsx:98
-#: src/components/fullNode/FullNode.jsx:98
+#: src/components/blocks/Blocks.tsx:94
 msgid "Unfinished"
 msgstr "未完成"
 

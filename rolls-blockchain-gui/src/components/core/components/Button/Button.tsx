@@ -9,6 +9,7 @@ import {
 const StyledBaseButton = styled(({ nowrap: boolean, ...rest }) => (
   <BaseButton {...rest} />
 ))`
+  border-radius: 4rem;
   white-space: ${({ nowrap }) => (nowrap ? 'nowrap' : 'normal')};
 `;
 
