@@ -1,16 +1,17 @@
 export default {
   palette: {
     primary: {
-      main: '#3AAC59',
-      contrastText: '#ffffff',
+      main: '#59A96A',
+      // main: '#221825',
+      contrastText: '#FEFEFE',
     },
     secondary: {
       main: '#000000',
-      contrastText: '#ffffff',
+      contrastText: '#FEFEFE',
     },
     danger: {
       main: '#dc3545',
-      contrastText: '#ffffff',
+      contrastText: '#FEFEFE',
     },
   },
   drawer: {

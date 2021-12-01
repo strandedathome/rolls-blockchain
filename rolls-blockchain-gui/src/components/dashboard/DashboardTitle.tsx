@@ -1,13 +1,14 @@
 import React, { ReactNode } from 'react';
-import { Typography } from '@material-ui/core';
+// import { Typography } from '@material-ui/core';
 import { Flex } from '@rolls/core';
 import { createTeleporter } from 'react-teleporter';
+import { Typography } from '@mui/material';
 
 const DashboardTitleTeleporter = createTeleporter();
 
 export function DashboardTitleTarget() {
   return (
-    <Typography component="h1" variant="h6" noWrap>
+    <Typography align="center" component="h1" variant="h4" noWrap>
       <DashboardTitleTeleporter.Target />
     </Typography>
   );

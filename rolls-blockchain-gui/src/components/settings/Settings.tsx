@@ -124,7 +124,7 @@ const SecurityCard = () => {
       tooltipTitle = (<Trans>Secure your keychain using a strong passphrase</Trans>);
       
       if (userPassphraseIsSet) {
-        icon = (<LockIcon style={{ color: '#3AAC59',  marginRight: 6 }} />);
+        icon = (<LockIcon style={{ color: '#59A96A',  marginRight: 6 }} />);
         statusMessage = (<Trans>Passphrase protection is enabled</Trans>);
       } else {
         icon = (<NoEncryptionIcon style={{ color: 'red',  marginRight: 6 }} />);

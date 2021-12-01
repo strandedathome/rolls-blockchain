@@ -3,7 +3,7 @@ export { default as Farm } from './Farm';
 export { default as Home } from './Home';
 export { default as Keys } from './Keys';
 export { default as Plot } from './Plot';
-export { default as Pool } from './Pool';
+export { default as Blocks } from './Blocks';
 export { default as PlotHero } from './PlotHero';
 export { default as Settings } from './Settings';
 export { default as Status } from './Status';

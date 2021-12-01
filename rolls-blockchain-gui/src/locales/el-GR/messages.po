@@ -46,8 +46,8 @@ msgstr "Συνιστάται η χρήση 128 bucket"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Ο harvester είναι μια υπηρεσία που εκτελείται σε ένα μηχάνημα(τα) όπου βρίσκονται αποθηκευμένο(-α) τα plot(s). Ο farmer και ο harvester αλληλεπιδρούν σε έναν πλήρη κόμβο για να δουν την κατάσταση της αλυσίδας(chain). Δείτε το δίκτυο συνδεδεμένων harvester παρακάτω. Μάθετε περισσότερα"
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:475
+#: src/electron/main.tsx:562
 msgid "About PecanRolls Blockchain"
 msgstr "Περί PecanRolls Blockchain"
 
@@ -120,12 +120,12 @@ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:561
 #: src/components/wallet/coloured/WalletColoured.tsx:657
-#: src/components/wallet/standard/WalletStandard.tsx:599
+#: src/components/wallet/standard/WalletStandard.tsx:589
 msgid "Address"
 msgstr "Διεύθυνση"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:701
-#: src/components/wallet/standard/WalletStandard.tsx:506
+#: src/components/wallet/standard/WalletStandard.tsx:496
 msgid "Address / Puzzle hash"
 msgstr "Διεύθυνση / Puzzle hash"
 
@@ -139,7 +139,7 @@ msgstr ""
 #: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
-#: src/components/wallet/standard/WalletStandard.tsx:516
+#: src/components/wallet/standard/WalletStandard.tsx:506
 msgid "Amount"
 msgstr "Ποσό"
 
@@ -161,7 +161,7 @@ msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το plot?? Το plot δεν μπορεί να ανακτηθεί."
 
 #: src/components/plotNFT/PlotNFTCard.tsx:125
-#: src/components/wallet/standard/WalletStandard.tsx:636
+#: src/components/wallet/standard/WalletStandard.tsx:626
 msgid "Are you sure you want to delete unconfirmed transactions?"
 msgstr ""
 
@@ -300,7 +300,6 @@ msgstr "Μπορεί να δημιουργηθεί αντίγραφο ασφαλ
 #: src/components/trading/CreateOffer.jsx:139
 #: src/components/trading/TradingOverview.jsx:400
 #: src/components/trading/ViewOffer.jsx:71
-#: src/components/wallet/EnterPassphrasePrompt.tsx:137
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -336,20 +335,8 @@ msgid "Change Pool"
 msgstr ""
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "Συνομιλήστε στο KeyBase"
-
-#: src/electron/main.tsx:419
-msgid "PecanRolls"
-msgstr "PecanRolls"
-
-#: src/electron/main.tsx:358
-msgid "PecanRolls Blockchain Wiki"
-msgstr "PecanRolls Blockchain Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:652
-msgid "PecanRolls Wallet"
-msgstr "Πορτοφόλι PecanRolls"
+#~ msgid "Chat on KeyBase"
+#~ msgstr "Συνομιλήστε στο KeyBase"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -427,7 +414,7 @@ msgid "Confirm Passphrase"
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTCard.tsx:121
-#: src/components/wallet/standard/WalletStandard.tsx:632
+#: src/components/wallet/standard/WalletStandard.tsx:622
 msgid "Confirmation"
 msgstr ""
 
@@ -450,6 +437,10 @@ msgstr "Σύνδεση με άλλους υπολογιστές"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:116
 msgid "Connect to pool"
+msgstr ""
+
+#: src/electron/main.tsx:442
+msgid "Connect with us on Facebook"
 msgstr ""
 
 #: src/components/core/components/FormatConnectionStatus/FormatConnectionStatus.tsx:51
@@ -550,7 +541,7 @@ msgstr "Δημιουργία Προσφοράς Συναλλαγής"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:543
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:684
-#: src/components/wallet/standard/WalletStandard.tsx:486
+#: src/components/wallet/standard/WalletStandard.tsx:476
 msgid "Create Transaction"
 msgstr "Δημιουργία Συναλλαγής"
 
@@ -661,7 +652,7 @@ msgstr "Καθυστέρηση"
 #: src/components/wallet/did/WalletDID.tsx:862
 #: src/components/wallet/did/WalletDIDCreate.tsx:194
 #: src/components/wallet/did/WalletDIDRecovery.tsx:101
-#: src/components/wallet/standard/WalletStandard.tsx:633
+#: src/components/wallet/standard/WalletStandard.tsx:623
 msgid "Delete"
 msgstr "Διαγραφή"
 
@@ -675,7 +666,7 @@ msgid "Delete Plot"
 msgstr "Διαγραφή Plot"
 
 #: src/components/plotNFT/PlotNFTCard.tsx:315
-#: src/components/wallet/standard/WalletStandard.tsx:677
+#: src/components/wallet/standard/WalletStandard.tsx:667
 msgid "Delete Unconfirmed Transactions"
 msgstr ""
 
@@ -786,8 +777,8 @@ msgid "Edit Payout Instructions"
 msgstr ""
 
 #: src/components/wallet/EnterPassphrasePrompt.tsx:111
-msgid "Enter Passphrase"
-msgstr ""
+#~ msgid "Enter Passphrase"
+#~ msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:119
 msgid "Enter a strong passphrase and click Migrate Keys to secure your keys"
@@ -802,7 +793,6 @@ msgid "Enter the 24 word mnemonic that you have saved in order to restore your P
 msgstr "Εισάγετε το μνημονικό 24ων λέξεων που έχετε αποθηκεύσει για να επαναφέρετε το PecanRolls πορτοφόλι σας."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:115
-#: src/components/wallet/EnterPassphrasePrompt.tsx:115
 msgid "Enter your passphrase:"
 msgstr ""
 
@@ -816,7 +806,7 @@ msgstr ""
 msgid "Error"
 msgstr "Σφάλμα"
 
-#: src/components/wallet/standard/WalletStandard.tsx:460
+#: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send rolls to coloured address. Please enter a rolls address."
 msgstr "Σφάλμα: Δεν μπορείτε να στείλετε rolls σε χρωματισμένη διεύθυνση. Παρακαλώ εισάγετε μια διεύθυνση rolls."
 
@@ -862,9 +852,9 @@ msgstr ""
 msgid "Failed to update passphrase: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:58
+#: src/components/dashboard/DashboardSideBar.tsx:60
 #: src/components/wallet/coloured/WalletColoured.tsx:610
-#: src/components/wallet/standard/WalletStandard.tsx:535
+#: src/components/wallet/standard/WalletStandard.tsx:525
 msgid "Farm"
 msgstr "Farm"
 
@@ -935,7 +925,7 @@ msgstr "Κατάσταση Συγκομιδής"
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
-#: src/components/wallet/standard/WalletStandard.tsx:527
+#: src/components/wallet/standard/WalletStandard.tsx:517
 msgid "Fee"
 msgstr "Προμήθεια"
 
@@ -960,7 +950,7 @@ msgstr "Ποσό Τέλων"
 #~ msgstr ""
 
 #: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:509
 msgid "File"
 msgstr "Αρχείο"
 
@@ -981,14 +971,18 @@ msgid "Finished"
 msgstr "Ολοκληρώθηκε"
 
 #: src/electron/main.tsx:407
-msgid "Follow on Twitter"
-msgstr "Ακολουθήστε μας στο Τwitter"
+#~ msgid "Follow on Twitter"
+#~ msgstr "Ακολουθήστε μας στο Τwitter"
+
+#: src/electron/main.tsx:426
+msgid "Follow us on Twitter"
+msgstr ""
 
 #: src/electron/main.tsx:366
 msgid "Frequently Asked Questions"
 msgstr "Συχνές ερωτήσεις"
 
-#: src/components/dashboard/DashboardSideBar.tsx:42
+#: src/components/dashboard/DashboardSideBar.tsx:44
 #: src/components/fullNode/FullNode.jsx:323
 msgid "Full Node"
 msgstr "Πλήρης Κόμβος"
@@ -1017,7 +1011,7 @@ msgstr "Δημιουργία Νέου Χρώματος"
 msgid "Grid view"
 msgstr ""
 
-#: src/components/wallet/standard/WalletStandard.tsx:586
+#: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "Τα HD ή τα Hierarchical Deterministic keys είναι ένας τύπος δημόσιου κλειδιού/ιδιωτικού κλειδιού όπου ένα ιδιωτικό κλειδί μπορεί να έχει ένα σχεδόν άπειρο αριθμό διαφορετικών δημόσιων κλειδιών (και συνεπώς και διευθύνσεις λήψης πορτοφολιού) που όλα τελικά θα επανέλθουν και θα δαπανηθούν από ένα μόνο ιδιωτικό κλειδί."
 
@@ -1156,6 +1150,18 @@ msgstr ""
 msgid "Join a pool and get more consistent ROLLS farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
+#: src/electron/main.tsx:418
+msgid "Join our Discord Server"
+msgstr ""
+
+#: src/electron/main.tsx:458
+msgid "Join our Reddit Community"
+msgstr ""
+
+#: src/electron/main.tsx:450
+msgid "Join our group on Telegram"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "K-Size"
 msgstr "K-Size"
@@ -1164,7 +1170,7 @@ msgstr "K-Size"
 msgid "Keyring migration failed: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:69
+#: src/components/dashboard/DashboardSideBar.tsx:66
 msgid "Keys"
 msgstr "Κλειδιά"
 
@@ -1333,7 +1339,7 @@ msgstr "Όνομα Δικτύου"
 #~ msgstr "Network not launched yet, waiting for genesis challenge!"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:685
-#: src/components/wallet/standard/WalletStandard.tsx:582
+#: src/components/wallet/standard/WalletStandard.tsx:572
 msgid "New Address"
 msgstr "Νέα διεύθυνση"
 
@@ -1406,7 +1412,7 @@ msgstr "Κανένα από τα οικόπεδά σας δεν έχει περ�
 msgid "Not Available"
 msgstr "Δεν είναι διαθέσιμο"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:37
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr "Δεν Είναι Συγχρονισμένο"
@@ -1458,7 +1464,7 @@ msgstr "Προσφορά"
 msgid "Offers Created"
 msgstr "Δημιουργήθηκαν Προσφορές"
 
-#: src/components/wallet/standard/WalletStandard.tsx:488
+#: src/components/wallet/standard/WalletStandard.tsx:478
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "Κατά μέσο όρο υπάρχει ένα λεπτό μεταξύ κάθε μπλοκ συναλλαγών. Αν δεν υπάρχει συμφόρηση, μπορείτε να περιμένετε ότι η συναλλαγή σας θα συμπεριληφθεί σε λιγότερο από ένα λεπτό."
 
@@ -1479,7 +1485,6 @@ msgstr "Εξερχόμενες"
 #: src/components/app/AppPassPrompt.tsx:221
 #: src/components/settings/RemovePassphrasePrompt.tsx:123
 #: src/components/settings/SetPassphrasePrompt.tsx:142
-#: src/components/wallet/EnterPassphrasePrompt.tsx:123
 msgid "Passphrase"
 msgstr ""
 
@@ -1489,7 +1494,6 @@ msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:149
 #: src/components/settings/RemovePassphrasePrompt.tsx:64
-#: src/components/wallet/EnterPassphrasePrompt.tsx:66
 msgid "Passphrase is incorrect"
 msgstr ""
 
@@ -1524,6 +1528,18 @@ msgstr "Peak Height"
 #: src/components/fullNode/card/FullNodeCardPeakTime.tsx:23
 msgid "Peak Time"
 msgstr "Peak Time"
+
+#: src/electron/main.tsx:472
+msgid "PecanRolls"
+msgstr "PecanRolls"
+
+#: src/electron/main.tsx:358
+msgid "PecanRolls Blockchain Wiki"
+msgstr "PecanRolls Blockchain Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:642
+msgid "PecanRolls Wallet"
+msgstr "Πορτοφόλι PecanRolls"
 
 #: src/components/plotNFT/PlotNFTState.tsx:43
 #: src/components/wallet/WalletHistory.tsx:53
@@ -1591,7 +1607,7 @@ msgstr ""
 
 #: src/components/wallet/create/createNewColouredCoin.jsx:69
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:639
-#: src/components/wallet/standard/WalletStandard.tsx:440
+#: src/components/wallet/standard/WalletStandard.tsx:430
 msgid "Please enter a valid numeric amount"
 msgstr "Παρακαλώ εισάγετε ένα έγκυρο αριθμητικό ποσό"
 
@@ -1603,7 +1619,7 @@ msgstr ""
 #: src/components/wallet/create/createNewColouredCoin.jsx:79
 #: src/components/wallet/create/createRLAdmin.jsx:150
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:649
-#: src/components/wallet/standard/WalletStandard.tsx:450
+#: src/components/wallet/standard/WalletStandard.tsx:440
 msgid "Please enter a valid numeric fee"
 msgstr "Παρακαλώ εισάγετε μια έγκυρη αριθμητική χρέωση"
 
@@ -1626,7 +1642,6 @@ msgstr ""
 #: src/components/app/AppPassPrompt.tsx:182
 #: src/components/app/AppPassPrompt.tsx:198
 #: src/components/settings/RemovePassphrasePrompt.tsx:47
-#: src/components/wallet/EnterPassphrasePrompt.tsx:48
 msgid "Please enter your passphrase"
 msgstr ""
 
@@ -1635,7 +1650,7 @@ msgid "Please enter your passphrase to proceed"
 msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:623
-#: src/components/wallet/standard/WalletStandard.tsx:430
+#: src/components/wallet/standard/WalletStandard.tsx:420
 msgid "Please finish syncing before making a transaction"
 msgstr "Παρακαλώ ολοκληρώστε το συγχρονισμό πριν πραγματοποιήσετε μια συναλλαγή"
 
@@ -1736,7 +1751,7 @@ msgstr "Plot is duplicate of {0}"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:53
+#: src/components/dashboard/DashboardSideBar.tsx:55
 msgid "Plots"
 msgstr "Plots"
 
@@ -1779,7 +1794,6 @@ msgstr ""
 msgid "Points Successful in Last 24 Hours"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:63
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr ""
@@ -1967,7 +1981,7 @@ msgid "Rate Limited User Wallet Setup"
 msgstr "Rate Limited User Wallet Setup"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:650
-#: src/components/wallet/standard/WalletStandard.tsx:579
+#: src/components/wallet/standard/WalletStandard.tsx:569
 msgid "Receive Address"
 msgstr "Διεύθυνση Λήψης"
 
@@ -2146,7 +2160,7 @@ msgstr "Πώληση"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:620
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
-#: src/components/wallet/standard/WalletStandard.tsx:545
+#: src/components/wallet/standard/WalletStandard.tsx:535
 msgid "Send"
 msgstr "Αποστολή"
 
@@ -2168,7 +2182,7 @@ msgstr ""
 msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:76
+#: src/components/dashboard/DashboardSideBar.tsx:73
 #: src/components/settings/Settings.tsx:239
 msgid "Settings"
 msgstr ""
@@ -2220,7 +2234,7 @@ msgstr ""
 msgid "Something went wrong"
 msgstr ""
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:523
 msgid "Speech"
 msgstr "Speech"
 
@@ -2256,8 +2270,8 @@ msgstr "Όριο δαπανών (rolls ανά διάστημα): {0}"
 msgid "State"
 msgstr "Κατάσταση"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:59
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:67
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2308,13 +2322,16 @@ msgid "Submit"
 msgstr "Υποβολή"
 
 #: src/components/wallet/EnterPassphrasePrompt.tsx:146
-msgid "Submit Passphrase"
-msgstr ""
+#~ msgid "Submit Passphrase"
+#~ msgstr ""
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:43
 #: src/components/wallet/WalletStatus.tsx:33
 msgid "Synced"
 msgstr "Συγχρονίστηκε"
+
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+msgid "Synced <0/>"
+msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
@@ -2323,7 +2340,7 @@ msgstr "Συγχρονίστηκε"
 msgid "Syncing"
 msgstr "Συγχρονισμός..."
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:21
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
 msgid "Syncing <0/>/<1/>"
 msgstr ""
 
@@ -2376,11 +2393,11 @@ msgstr "Ο πλήρης κόμβος στον οποίο είναι συνδεδ
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Το ελάχιστο απαιτούμενο μέγεθος για το mainnet είναι k=32"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
 msgid "The node is not synced"
 msgstr "Ο κόμβος δεν είναι συγχρονισμένος"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:29
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Ο κόμβος συγχρονίζεται, πράγμα που σημαίνει ότι γίνεται λήψη μπλοκ από άλλους κόμβους, για να φτάσει το τελευταίο μπλοκ στην αλυσίδα"
 
@@ -2494,7 +2511,7 @@ msgstr ""
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr ""
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:46
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
 msgid "This node is fully caught up and validating the network"
 msgstr "Αυτός ο κόμβος είναι πλήρως παγιδευμένος και επικυρώνει το δίκτυο"
 
@@ -2548,10 +2565,6 @@ msgstr "Προς"
 msgid "Total Balance"
 msgstr "Συνολικό Υπόλοιπο"
 
-#: src/components/farm/card/FarmCardTotalPecanRollsFarmed.tsx:15
-#~ msgid "Total PecanRolls Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
 msgid "Total Iterations"
 msgstr "Σύνολο Επαναλήψεων"
@@ -2559,6 +2572,10 @@ msgstr "Σύνολο Επαναλήψεων"
 #: src/components/farm/card/FarmCardTotalNetworkSpace.tsx:15
 msgid "Total Network Space"
 msgstr "Συνολικός Χώρος Δικτύου"
+
+#: src/components/farm/card/FarmCardTotalPecanRollsFarmed.tsx:15
+#~ msgid "Total PecanRolls Farmed"
+#~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:146
 msgid "Total Plot Size:"
@@ -2700,6 +2717,14 @@ msgstr "Προβολή εκκρεμών υπολοίπων"
 msgid "View pending balances..."
 msgstr "Προβολή εκκρεμών υπολοίπων..."
 
+#: src/electron/main.tsx:410
+msgid "Visit PecanRolls Website"
+msgstr ""
+
+#: src/electron/main.tsx:434
+msgid "Visit our YouTube Channel"
+msgstr ""
+
 #: src/components/farm/card/FarmCardNotAvailable.tsx:26
 #: src/components/plot/PlotStatus.tsx:26
 #: src/components/plot/PlotStatus.tsx:27
@@ -2720,7 +2745,7 @@ msgid "Waiting for the transaction to be confirmed"
 msgstr ""
 
 #: src/components/pool/PoolOverview.tsx:185
-#: src/components/wallet/standard/WalletStandard.tsx:659
+#: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Wallet Status:"
 msgstr ""
 
@@ -2732,16 +2757,16 @@ msgstr ""
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.rollsWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
 #~ msgid "WalletItem.rlWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.rollsWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:107
@@ -2756,7 +2781,7 @@ msgstr ""
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:48
+#: src/components/dashboard/DashboardSideBar.tsx:50
 #: src/components/wallet/Wallets.tsx:118
 msgid "Wallets"
 msgstr "Πορτοφόλια"
@@ -2994,6 +3019,10 @@ msgstr ""
 msgid "{0} points {1} - {2} hours ago"
 msgstr ""
 
+#: src/components/core/components/Amount/Amount.tsx:82
+#~ msgid "{byte, plural, one {byte} other {bytes}}"
+#~ msgstr ""
+
 #: src/components/farm/card/FarmCardBlockRewards.tsx:35
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Ανταμοιβές μπλοκ"
@@ -3007,5 +3036,5 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Τέλη Συναλλαγής Χρήστη"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-msgid "{byte, plural, one {byte} other {bytes}}"
+msgid "{pecan, plural, one {pecan} other {pecans}}"
 msgstr ""

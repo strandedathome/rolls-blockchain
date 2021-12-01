@@ -21,8 +21,8 @@ import {
   Radio,
   Collapse,
 } from '@material-ui/core';
-import PoolInfo from '../../pool/PoolInfo';
-import usePoolInfo from '../../../hooks/usePoolInfo';
+// import PoolInfo from '../../blocks/PoolInfo';
+// import usePoolInfo from '../../../hooks/usePoolInfo';
 // import usePlotNFTs from '../../../hooks/usePlotNFTs';
 
 const StyledCollapse = styled(Collapse)`

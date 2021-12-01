@@ -46,8 +46,8 @@ msgstr "建議使用 128 個桶"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "收割機是在實際存放耕地的機器上運作的服務。塊農和收割機會與一個完整節點溝通以取得區塊鍵狀態。以下是你的收割機與塊農網路 學習更多"
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:475
+#: src/electron/main.tsx:562
 msgid "About PecanRolls Blockchain"
 msgstr "關於 PecanRolls 區塊鏈"
 
@@ -120,12 +120,12 @@ msgstr "從水龍頭新增{currencyCode}."
 
 #: src/components/wallet/coloured/WalletColoured.tsx:561
 #: src/components/wallet/coloured/WalletColoured.tsx:657
-#: src/components/wallet/standard/WalletStandard.tsx:599
+#: src/components/wallet/standard/WalletStandard.tsx:589
 msgid "Address"
 msgstr "位址"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:701
-#: src/components/wallet/standard/WalletStandard.tsx:506
+#: src/components/wallet/standard/WalletStandard.tsx:496
 msgid "Address / Puzzle hash"
 msgstr "位址 / 拼圖雜湊值"
 
@@ -139,7 +139,7 @@ msgstr ""
 #: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
-#: src/components/wallet/standard/WalletStandard.tsx:516
+#: src/components/wallet/standard/WalletStandard.tsx:506
 msgid "Amount"
 msgstr "數量"
 
@@ -161,7 +161,7 @@ msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
 msgstr "你確要刪除這個耕地嗎？此耕地將無法尋回。"
 
 #: src/components/plotNFT/PlotNFTCard.tsx:125
-#: src/components/wallet/standard/WalletStandard.tsx:636
+#: src/components/wallet/standard/WalletStandard.tsx:626
 msgid "Are you sure you want to delete unconfirmed transactions?"
 msgstr "你確認要刪除未確認的交易?"
 
@@ -300,7 +300,6 @@ msgstr "可以備份到助記符號種子"
 #: src/components/trading/CreateOffer.jsx:139
 #: src/components/trading/TradingOverview.jsx:400
 #: src/components/trading/ViewOffer.jsx:71
-#: src/components/wallet/EnterPassphrasePrompt.tsx:137
 msgid "Cancel"
 msgstr "取消"
 
@@ -336,20 +335,8 @@ msgid "Change Pool"
 msgstr "變更農會"
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "在 KeyBase 上閒聊"
-
-#: src/electron/main.tsx:419
-msgid "PecanRolls"
-msgstr "PecanRolls"
-
-#: src/electron/main.tsx:358
-msgid "PecanRolls Blockchain Wiki"
-msgstr "PecanRolls 區塊鏈維基"
-
-#: src/components/wallet/standard/WalletStandard.tsx:652
-msgid "PecanRolls Wallet"
-msgstr "PecanRolls 錢包"
+#~ msgid "Chat on KeyBase"
+#~ msgstr "在 KeyBase 上閒聊"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -427,7 +414,7 @@ msgid "Confirm Passphrase"
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTCard.tsx:121
-#: src/components/wallet/standard/WalletStandard.tsx:632
+#: src/components/wallet/standard/WalletStandard.tsx:622
 msgid "Confirmation"
 msgstr "確認"
 
@@ -451,6 +438,10 @@ msgstr "連線到其他同儕"
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:116
 msgid "Connect to pool"
 msgstr "連線至農會"
+
+#: src/electron/main.tsx:442
+msgid "Connect with us on Facebook"
+msgstr ""
 
 #: src/components/core/components/FormatConnectionStatus/FormatConnectionStatus.tsx:51
 #: src/components/fullNode/card/FullNodeCardConnectionStatus.tsx:17
@@ -550,7 +541,7 @@ msgstr "建立貿易提案"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:543
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:684
-#: src/components/wallet/standard/WalletStandard.tsx:486
+#: src/components/wallet/standard/WalletStandard.tsx:476
 msgid "Create Transaction"
 msgstr "建立交易"
 
@@ -661,7 +652,7 @@ msgstr "延遲"
 #: src/components/wallet/did/WalletDID.tsx:862
 #: src/components/wallet/did/WalletDIDCreate.tsx:194
 #: src/components/wallet/did/WalletDIDRecovery.tsx:101
-#: src/components/wallet/standard/WalletStandard.tsx:633
+#: src/components/wallet/standard/WalletStandard.tsx:623
 msgid "Delete"
 msgstr "刪除"
 
@@ -675,7 +666,7 @@ msgid "Delete Plot"
 msgstr "刪除耕地"
 
 #: src/components/plotNFT/PlotNFTCard.tsx:315
-#: src/components/wallet/standard/WalletStandard.tsx:677
+#: src/components/wallet/standard/WalletStandard.tsx:667
 msgid "Delete Unconfirmed Transactions"
 msgstr "刪除未確認的交易"
 
@@ -786,8 +777,8 @@ msgid "Edit Payout Instructions"
 msgstr "編輯支付說明"
 
 #: src/components/wallet/EnterPassphrasePrompt.tsx:111
-msgid "Enter Passphrase"
-msgstr ""
+#~ msgid "Enter Passphrase"
+#~ msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:119
 msgid "Enter a strong passphrase and click Migrate Keys to secure your keys"
@@ -802,7 +793,6 @@ msgid "Enter the 24 word mnemonic that you have saved in order to restore your P
 msgstr "輸入你已存的 24 字助記符號以復原您的 PecanRolls 錢包。"
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:115
-#: src/components/wallet/EnterPassphrasePrompt.tsx:115
 msgid "Enter your passphrase:"
 msgstr ""
 
@@ -816,7 +806,7 @@ msgstr ""
 msgid "Error"
 msgstr "錯誤"
 
-#: src/components/wallet/standard/WalletStandard.tsx:460
+#: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send rolls to coloured address. Please enter a rolls address."
 msgstr "錯誤：不能發送 PecanRolls 到有色地址。請輸入 PecanRolls 地址。"
 
@@ -862,9 +852,9 @@ msgstr ""
 msgid "Failed to update passphrase: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:58
+#: src/components/dashboard/DashboardSideBar.tsx:60
 #: src/components/wallet/coloured/WalletColoured.tsx:610
-#: src/components/wallet/standard/WalletStandard.tsx:535
+#: src/components/wallet/standard/WalletStandard.tsx:525
 msgid "Farm"
 msgstr "耕種"
 
@@ -935,7 +925,7 @@ msgstr "耕種狀態"
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
-#: src/components/wallet/standard/WalletStandard.tsx:527
+#: src/components/wallet/standard/WalletStandard.tsx:517
 msgid "Fee"
 msgstr "費用"
 
@@ -960,7 +950,7 @@ msgstr "費用數量"
 #~ msgstr ""
 
 #: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:509
 msgid "File"
 msgstr "檔案"
 
@@ -981,14 +971,18 @@ msgid "Finished"
 msgstr "已完成"
 
 #: src/electron/main.tsx:407
-msgid "Follow on Twitter"
-msgstr "Twitter 上追隨"
+#~ msgid "Follow on Twitter"
+#~ msgstr "Twitter 上追隨"
+
+#: src/electron/main.tsx:426
+msgid "Follow us on Twitter"
+msgstr ""
 
 #: src/electron/main.tsx:366
 msgid "Frequently Asked Questions"
 msgstr "常見問題"
 
-#: src/components/dashboard/DashboardSideBar.tsx:42
+#: src/components/dashboard/DashboardSideBar.tsx:44
 #: src/components/fullNode/FullNode.jsx:323
 msgid "Full Node"
 msgstr "完整節點"
@@ -1017,7 +1011,7 @@ msgstr "生成新顏色"
 msgid "Grid view"
 msgstr "網格檢視"
 
-#: src/components/wallet/standard/WalletStandard.tsx:586
+#: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "層及式確定性金鑰是一種公鑰/私鑰格式，一個私鑰可以具有幾乎無限數量的不同公鑰（以此類推，同錢包接收地址），最終所有這些公鑰都將回朔於一個私鑰使用／花用。"
 
@@ -1156,6 +1150,18 @@ msgstr "加入農會並獲得持續的ROLLS 耕種獎勵。雖然平均報酬一
 msgid "Join a pool and get more consistent ROLLS farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr "加入農會以獲得更多持續性的 ROLLS 耕種獎勵。建立農場並分配您的新耕地到群組。"
 
+#: src/electron/main.tsx:418
+msgid "Join our Discord Server"
+msgstr ""
+
+#: src/electron/main.tsx:458
+msgid "Join our Reddit Community"
+msgstr ""
+
+#: src/electron/main.tsx:450
+msgid "Join our group on Telegram"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "K-Size"
 msgstr "K-大小"
@@ -1164,7 +1170,7 @@ msgstr "K-大小"
 msgid "Keyring migration failed: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:69
+#: src/components/dashboard/DashboardSideBar.tsx:66
 msgid "Keys"
 msgstr "金鑰"
 
@@ -1333,7 +1339,7 @@ msgstr "網路名稱"
 #~ msgstr "Network not launched yet, waiting for genesis challenge!"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:685
-#: src/components/wallet/standard/WalletStandard.tsx:582
+#: src/components/wallet/standard/WalletStandard.tsx:572
 msgid "New Address"
 msgstr "新位址"
 
@@ -1406,7 +1412,7 @@ msgstr "你還沒有任何的耕地通過篩選。"
 msgid "Not Available"
 msgstr "尚無"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:37
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr "未同步"
@@ -1458,7 +1464,7 @@ msgstr "提案"
 msgid "Offers Created"
 msgstr "已建立提案"
 
-#: src/components/wallet/standard/WalletStandard.tsx:488
+#: src/components/wallet/standard/WalletStandard.tsx:478
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "平均每個交易區塊之間有 1 分鐘的時間。除非出現擁塞，否則你可以在不到 1 分鐘的時間內完成交易。"
 
@@ -1479,7 +1485,6 @@ msgstr "匯出"
 #: src/components/app/AppPassPrompt.tsx:221
 #: src/components/settings/RemovePassphrasePrompt.tsx:123
 #: src/components/settings/SetPassphrasePrompt.tsx:142
-#: src/components/wallet/EnterPassphrasePrompt.tsx:123
 msgid "Passphrase"
 msgstr ""
 
@@ -1489,7 +1494,6 @@ msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:149
 #: src/components/settings/RemovePassphrasePrompt.tsx:64
-#: src/components/wallet/EnterPassphrasePrompt.tsx:66
 msgid "Passphrase is incorrect"
 msgstr ""
 
@@ -1524,6 +1528,18 @@ msgstr "峰值高度"
 #: src/components/fullNode/card/FullNodeCardPeakTime.tsx:23
 msgid "Peak Time"
 msgstr "峰值時間"
+
+#: src/electron/main.tsx:472
+msgid "PecanRolls"
+msgstr "PecanRolls"
+
+#: src/electron/main.tsx:358
+msgid "PecanRolls Blockchain Wiki"
+msgstr "PecanRolls 區塊鏈維基"
+
+#: src/components/wallet/standard/WalletStandard.tsx:642
+msgid "PecanRolls Wallet"
+msgstr "PecanRolls 錢包"
 
 #: src/components/plotNFT/PlotNFTState.tsx:43
 #: src/components/wallet/WalletHistory.tsx:53
@@ -1591,7 +1607,7 @@ msgstr ""
 
 #: src/components/wallet/create/createNewColouredCoin.jsx:69
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:639
-#: src/components/wallet/standard/WalletStandard.tsx:440
+#: src/components/wallet/standard/WalletStandard.tsx:430
 msgid "Please enter a valid numeric amount"
 msgstr "請輸入有效的數字值"
 
@@ -1603,7 +1619,7 @@ msgstr "請輸入有效的數值。"
 #: src/components/wallet/create/createNewColouredCoin.jsx:79
 #: src/components/wallet/create/createRLAdmin.jsx:150
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:649
-#: src/components/wallet/standard/WalletStandard.tsx:450
+#: src/components/wallet/standard/WalletStandard.tsx:440
 msgid "Please enter a valid numeric fee"
 msgstr "請輸入有效的數字費用值"
 
@@ -1626,7 +1642,6 @@ msgstr ""
 #: src/components/app/AppPassPrompt.tsx:182
 #: src/components/app/AppPassPrompt.tsx:198
 #: src/components/settings/RemovePassphrasePrompt.tsx:47
-#: src/components/wallet/EnterPassphrasePrompt.tsx:48
 msgid "Please enter your passphrase"
 msgstr ""
 
@@ -1635,7 +1650,7 @@ msgid "Please enter your passphrase to proceed"
 msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:623
-#: src/components/wallet/standard/WalletStandard.tsx:430
+#: src/components/wallet/standard/WalletStandard.tsx:420
 msgid "Please finish syncing before making a transaction"
 msgstr "請在交易前先完成同步"
 
@@ -1736,7 +1751,7 @@ msgstr "耕地與 {0} 重複"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr "農場正在切換到 (target state). 這可能會需要一段時間. 在完成之前, 請不要關閉應用程式."
 
-#: src/components/dashboard/DashboardSideBar.tsx:53
+#: src/components/dashboard/DashboardSideBar.tsx:55
 msgid "Plots"
 msgstr "耕地"
 
@@ -1779,7 +1794,6 @@ msgstr "最近 24 小時內所發現的積分"
 msgid "Points Successful in Last 24 Hours"
 msgstr "過去24小時有效的積分"
 
-#: src/components/dashboard/DashboardSideBar.tsx:63
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr "農會"
@@ -1967,7 +1981,7 @@ msgid "Rate Limited User Wallet Setup"
 msgstr "速率限制使用者錢包設定"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:650
-#: src/components/wallet/standard/WalletStandard.tsx:579
+#: src/components/wallet/standard/WalletStandard.tsx:569
 msgid "Receive Address"
 msgstr "接收位址"
 
@@ -2146,7 +2160,7 @@ msgstr "賣出"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:620
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
-#: src/components/wallet/standard/WalletStandard.tsx:545
+#: src/components/wallet/standard/WalletStandard.tsx:535
 msgid "Send"
 msgstr "發送"
 
@@ -2168,7 +2182,7 @@ msgstr ""
 msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:76
+#: src/components/dashboard/DashboardSideBar.tsx:73
 #: src/components/settings/Settings.tsx:239
 msgid "Settings"
 msgstr ""
@@ -2220,7 +2234,7 @@ msgstr "加入農會來獲得穩定的ROLLS獎勵。"
 msgid "Something went wrong"
 msgstr "某個地方出錯了"
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:523
 msgid "Speech"
 msgstr "語音"
 
@@ -2256,8 +2270,8 @@ msgstr "花用限制（每間隔可用 PecanRolls）：{0}"
 msgid "State"
 msgstr "狀態"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:59
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:67
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2308,13 +2322,16 @@ msgid "Submit"
 msgstr "確認"
 
 #: src/components/wallet/EnterPassphrasePrompt.tsx:146
-msgid "Submit Passphrase"
-msgstr ""
+#~ msgid "Submit Passphrase"
+#~ msgstr ""
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:43
 #: src/components/wallet/WalletStatus.tsx:33
 msgid "Synced"
 msgstr "已同步"
+
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+msgid "Synced <0/>"
+msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
@@ -2323,7 +2340,7 @@ msgstr "已同步"
 msgid "Syncing"
 msgstr "同步中"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:21
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
 msgid "Syncing <0/>/<1/>"
 msgstr "同步中 <0/> / <1/>"
 
@@ -2376,11 +2393,11 @@ msgstr "你的塊農連接上的完整節點列在下方。<0>了解更多</0>"
 msgid "The minimum required size for mainnet is k=32"
 msgstr "主網最小要求的大小是 k=32"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
 msgid "The node is not synced"
 msgstr "此節點尚未同步"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:29
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "節點同步中，這代表正從其他節點中下載區塊，直到到達區塊鏈的最新區塊"
 
@@ -2494,7 +2511,7 @@ msgstr "自上次支付以來該農場在該池中的總積分。農會在支付
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr "這是您的農夫為此農場找到的總積分。 每個 K32 圖每天將獲得大約 10 點積分，所以如果您有 10TiB，則每天大約 1000 點積分，或每小時 41 點積分。"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:46
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
 msgid "This node is fully caught up and validating the network"
 msgstr "此節點已完全跟上和驗證網路"
 
@@ -2548,10 +2565,6 @@ msgstr "到"
 msgid "Total Balance"
 msgstr "總餘額"
 
-#: src/components/farm/card/FarmCardTotalPecanRollsFarmed.tsx:15
-#~ msgid "Total PecanRolls Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
 msgid "Total Iterations"
 msgstr "總疊代次數"
@@ -2559,6 +2572,10 @@ msgstr "總疊代次數"
 #: src/components/farm/card/FarmCardTotalNetworkSpace.tsx:15
 msgid "Total Network Space"
 msgstr "總網路空間"
+
+#: src/components/farm/card/FarmCardTotalPecanRollsFarmed.tsx:15
+#~ msgid "Total PecanRolls Farmed"
+#~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:146
 msgid "Total Plot Size:"
@@ -2700,6 +2717,14 @@ msgstr "檢視未結餘額"
 msgid "View pending balances..."
 msgstr "檢視未結餘額..."
 
+#: src/electron/main.tsx:410
+msgid "Visit PecanRolls Website"
+msgstr ""
+
+#: src/electron/main.tsx:434
+msgid "Visit our YouTube Channel"
+msgstr ""
+
 #: src/components/farm/card/FarmCardNotAvailable.tsx:26
 #: src/components/plot/PlotStatus.tsx:26
 #: src/components/plot/PlotStatus.tsx:27
@@ -2720,7 +2745,7 @@ msgid "Waiting for the transaction to be confirmed"
 msgstr "正在等待交易結算"
 
 #: src/components/pool/PoolOverview.tsx:185
-#: src/components/wallet/standard/WalletStandard.tsx:659
+#: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Wallet Status:"
 msgstr "錢包狀態："
 
@@ -2732,16 +2757,16 @@ msgstr "錢包不存在"
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.rollsWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
 #~ msgid "WalletItem.rlWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.rollsWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:107
@@ -2756,7 +2781,7 @@ msgstr "錢包不存在"
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:48
+#: src/components/dashboard/DashboardSideBar.tsx:50
 #: src/components/wallet/Wallets.tsx:118
 msgid "Wallets"
 msgstr "錢包"
@@ -2994,6 +3019,10 @@ msgstr ""
 msgid "{0} points {1} - {2} hours ago"
 msgstr "{0} 積分 {1} - {2} 小時前"
 
+#: src/components/core/components/Amount/Amount.tsx:82
+#~ msgid "{byte, plural, one {byte} other {bytes}}"
+#~ msgstr "{byte, plural, other {bytes}}"
+
 #: src/components/farm/card/FarmCardBlockRewards.tsx:35
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} 區塊獎勵"
@@ -3007,5 +3036,5 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} 使用者交易費用"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-msgid "{byte, plural, one {byte} other {bytes}}"
-msgstr "{byte, plural, other {bytes}}"
+msgid "{pecan, plural, one {pecan} other {pecans}}"
+msgstr ""

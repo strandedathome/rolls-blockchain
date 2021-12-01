@@ -5,6 +5,7 @@ import { FormatLargeNumber } from '@rolls/core';
 import styled from 'styled-components';
 import FarmCard from '../../farm/card/FarmCard';
 import type { RootState } from '../../../modules/rootReducer';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const StyledWarning = styled.span`
   color: #f7ca3e;
@@ -40,12 +41,12 @@ function getData(sync) {
     };
   } else {
     return {
-      value: <Trans>Synced</Trans>,
+      value: <Trans>Synced <CheckCircleIcon /></Trans>,
       color: 'primary',
       tooltip: (
         <Trans>This node is fully caught up and validating the network</Trans>
       ),
-    };
+    }
   }
 }
 

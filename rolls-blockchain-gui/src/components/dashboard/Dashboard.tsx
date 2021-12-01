@@ -14,13 +14,14 @@ import Wallets from '../wallet/Wallets';
 import FullNode from '../fullNode/FullNode';
 import Plot from '../plot/Plot';
 import Farm from '../farm/Farm';
-import Pool from '../pool/Pool';
+import Blocks from '../blocks/Blocks';
 import Block from '../block/Block';
 import Settings from '../settings/Settings';
 import DashboardSideBar from './DashboardSideBar';
 import { DashboardTitleTarget } from './DashboardTitle';
 import TradeManager from '../trading/TradeManager';
 import BackupCreate from '../backup/BackupCreate';
+import RollsPalette from '../layout/RollsPalette';
 
 const StyledRoot = styled(Flex)`
   height: 100%;
@@ -29,7 +30,7 @@ const StyledRoot = styled(Flex)`
 
 const StyledAppBar = styled(AppBar)`
   background-color: ${({ theme }) =>
-    theme.palette.type === 'dark' ? '#424242' : 'white'};
+    theme.palette.type === 'dark' ? RollsPalette.rolls_dark : 'white'};
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
   width: ${({ theme }) => `calc(100% - ${theme.drawer.width})`};
   margin-left: ${({ theme }) => theme.drawer.width};
@@ -64,7 +65,8 @@ export default function Dashboard() {
   return (
     <StyledRoot>
       <BackupCreate />
-      <StyledAppBar position="fixed" color="transparent" elevation={0}>
+      
+      <StyledAppBar color="transparent" elevation={0}>
         <Toolbar>
           <DashboardTitleTarget />
           <Flex flexGrow={1} />
@@ -97,8 +99,8 @@ export default function Dashboard() {
           <Route path={`${path}/farm`}>
             <Farm />
           </Route>
-          <Route path={`${path}/pool`}>
-            <Pool />
+          <Route path={`${path}/blocks`}>
+            <Blocks />
           </Route>
           <Route path={`${path}/trade`}>
             <TradeManager />

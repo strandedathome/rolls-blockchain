@@ -58,7 +58,7 @@ export default function Card(props: Props) {
         <StyledCardTitle>
           <Flex gap={2} alignItems="center" flexWrap="wrap">
             <Box flexGrow={1}>
-              <Typography variant="h5">{headerTitle}</Typography>
+              <Typography variant="h4">{headerTitle}</Typography>
             </Box>
             {action && <Box>{action}</Box>}
           </Flex>

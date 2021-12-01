@@ -8,7 +8,7 @@ export default (locale: object) =>
       palette: {
         ...theme.palette,
         secondary: {
-          main: '#ffffff',
+          main: '#FEFEFE',
         },
         type: 'dark',
       },

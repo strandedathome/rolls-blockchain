@@ -46,8 +46,8 @@ msgstr "Odporúčame 128 sektorov"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Kombajn je služba bežiaca na stroji, kde sú uložené polia. Farmár a kombajn komunikujú s plným uzlom, aby zistili stav reťaze. Nižšie si pozrite svoju sieť prepojených kombajnov. Viac informácií"
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:475
+#: src/electron/main.tsx:562
 msgid "About PecanRolls Blockchain"
 msgstr "O PecanRolls blockchaine"
 
@@ -120,12 +120,12 @@ msgstr "Pridať {currencyCode} z Faucetu"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:561
 #: src/components/wallet/coloured/WalletColoured.tsx:657
-#: src/components/wallet/standard/WalletStandard.tsx:599
+#: src/components/wallet/standard/WalletStandard.tsx:589
 msgid "Address"
 msgstr "Adresa"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:701
-#: src/components/wallet/standard/WalletStandard.tsx:506
+#: src/components/wallet/standard/WalletStandard.tsx:496
 msgid "Address / Puzzle hash"
 msgstr "Adresa"
 
@@ -139,7 +139,7 @@ msgstr ""
 #: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
-#: src/components/wallet/standard/WalletStandard.tsx:516
+#: src/components/wallet/standard/WalletStandard.tsx:506
 msgid "Amount"
 msgstr "Suma"
 
@@ -161,7 +161,7 @@ msgid "Are you sure you want to delete the plot? The plot cannot be recovered."
 msgstr "Naozaj chcete odstrániť pole? Pole nie je možné obnoviť."
 
 #: src/components/plotNFT/PlotNFTCard.tsx:125
-#: src/components/wallet/standard/WalletStandard.tsx:636
+#: src/components/wallet/standard/WalletStandard.tsx:626
 msgid "Are you sure you want to delete unconfirmed transactions?"
 msgstr "Naozaj chcete odstrániť nepotvrdené transakcie?"
 
@@ -300,7 +300,6 @@ msgstr "Možnosť zálohovať pomocou mnemotechnickej pomôcky"
 #: src/components/trading/CreateOffer.jsx:139
 #: src/components/trading/TradingOverview.jsx:400
 #: src/components/trading/ViewOffer.jsx:71
-#: src/components/wallet/EnterPassphrasePrompt.tsx:137
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -336,20 +335,8 @@ msgid "Change Pool"
 msgstr "Zmeniť združenie"
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "Chatovať na KeyBase"
-
-#: src/electron/main.tsx:419
-msgid "PecanRolls"
-msgstr "PecanRolls"
-
-#: src/electron/main.tsx:358
-msgid "PecanRolls Blockchain Wiki"
-msgstr "PecanRolls Blockchain Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:652
-msgid "PecanRolls Wallet"
-msgstr "PecanRolls peňaženka"
+#~ msgid "Chat on KeyBase"
+#~ msgstr "Chatovať na KeyBase"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -427,7 +414,7 @@ msgid "Confirm Passphrase"
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTCard.tsx:121
-#: src/components/wallet/standard/WalletStandard.tsx:632
+#: src/components/wallet/standard/WalletStandard.tsx:622
 msgid "Confirmation"
 msgstr "Potvrdenie"
 
@@ -451,6 +438,10 @@ msgstr "Pripojiť k iným uzlom"
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:116
 msgid "Connect to pool"
 msgstr "Pripojiť k združeniu"
+
+#: src/electron/main.tsx:442
+msgid "Connect with us on Facebook"
+msgstr ""
 
 #: src/components/core/components/FormatConnectionStatus/FormatConnectionStatus.tsx:51
 #: src/components/fullNode/card/FullNodeCardConnectionStatus.tsx:17
@@ -550,7 +541,7 @@ msgstr "Vytvorte obchodnú ponuku"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:543
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:684
-#: src/components/wallet/standard/WalletStandard.tsx:486
+#: src/components/wallet/standard/WalletStandard.tsx:476
 msgid "Create Transaction"
 msgstr "Vytvoriť transakciu"
 
@@ -661,7 +652,7 @@ msgstr "Oneskorenie"
 #: src/components/wallet/did/WalletDID.tsx:862
 #: src/components/wallet/did/WalletDIDCreate.tsx:194
 #: src/components/wallet/did/WalletDIDRecovery.tsx:101
-#: src/components/wallet/standard/WalletStandard.tsx:633
+#: src/components/wallet/standard/WalletStandard.tsx:623
 msgid "Delete"
 msgstr "Zmazať"
 
@@ -675,7 +666,7 @@ msgid "Delete Plot"
 msgstr "Zmazať pole"
 
 #: src/components/plotNFT/PlotNFTCard.tsx:315
-#: src/components/wallet/standard/WalletStandard.tsx:677
+#: src/components/wallet/standard/WalletStandard.tsx:667
 msgid "Delete Unconfirmed Transactions"
 msgstr "Odstrániť nepotvrdené transakcie"
 
@@ -786,8 +777,8 @@ msgid "Edit Payout Instructions"
 msgstr "Upraviť platobné pokyny"
 
 #: src/components/wallet/EnterPassphrasePrompt.tsx:111
-msgid "Enter Passphrase"
-msgstr ""
+#~ msgid "Enter Passphrase"
+#~ msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:119
 msgid "Enter a strong passphrase and click Migrate Keys to secure your keys"
@@ -802,7 +793,6 @@ msgid "Enter the 24 word mnemonic that you have saved in order to restore your P
 msgstr "Zadajte 24 slov, ktoré ste si uložili pre účely obnovenia vašej peňaženky PecanRolls."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:115
-#: src/components/wallet/EnterPassphrasePrompt.tsx:115
 msgid "Enter your passphrase:"
 msgstr ""
 
@@ -816,7 +806,7 @@ msgstr ""
 msgid "Error"
 msgstr "Chyba"
 
-#: src/components/wallet/standard/WalletStandard.tsx:460
+#: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send rolls to coloured address. Please enter a rolls address."
 msgstr "Chyba: PecanRolls nie je možné odoslať na farebnú adresu. Zadajte prosím PecanRolls adresu."
 
@@ -862,9 +852,9 @@ msgstr ""
 msgid "Failed to update passphrase: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:58
+#: src/components/dashboard/DashboardSideBar.tsx:60
 #: src/components/wallet/coloured/WalletColoured.tsx:610
-#: src/components/wallet/standard/WalletStandard.tsx:535
+#: src/components/wallet/standard/WalletStandard.tsx:525
 msgid "Farm"
 msgstr "Farma"
 
@@ -935,7 +925,7 @@ msgstr "Stav ťažby"
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
-#: src/components/wallet/standard/WalletStandard.tsx:527
+#: src/components/wallet/standard/WalletStandard.tsx:517
 msgid "Fee"
 msgstr "Poplatok"
 
@@ -960,7 +950,7 @@ msgstr "Výška poplatkov"
 #~ msgstr ""
 
 #: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:509
 msgid "File"
 msgstr "Súbor"
 
@@ -981,14 +971,18 @@ msgid "Finished"
 msgstr "Dokončené"
 
 #: src/electron/main.tsx:407
-msgid "Follow on Twitter"
-msgstr "Sledovať na Twitteri"
+#~ msgid "Follow on Twitter"
+#~ msgstr "Sledovať na Twitteri"
+
+#: src/electron/main.tsx:426
+msgid "Follow us on Twitter"
+msgstr ""
 
 #: src/electron/main.tsx:366
 msgid "Frequently Asked Questions"
 msgstr "Často kladené otázky (FAQ)"
 
-#: src/components/dashboard/DashboardSideBar.tsx:42
+#: src/components/dashboard/DashboardSideBar.tsx:44
 #: src/components/fullNode/FullNode.jsx:323
 msgid "Full Node"
 msgstr "Celý uzol"
@@ -1017,7 +1011,7 @@ msgstr "Generovať novú farbu"
 msgid "Grid view"
 msgstr "Mriežkové zobrazenie"
 
-#: src/components/wallet/standard/WalletStandard.tsx:586
+#: src/components/wallet/standard/WalletStandard.tsx:576
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefor wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
 msgstr "HD alebo Hierarchické Deterministické kľúče sú typ schémy verejného kľúča/súkromného kľúča, kde jeden súkromný kľúč môže mať takmer nekonečný počet rôznych verejných kľúčov (a tým pádom adries pre príjem do peňaženky), ktoré sa nakoniec vrátia k jedinému súkromnému kľúču a budú z neho utratiteľné."
 
@@ -1156,6 +1150,18 @@ msgstr "Pripojte sa k združeniu a získajte konzistentné farmárske ROLLS odme
 msgid "Join a pool and get more consistent ROLLS farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr "Pripojte sa k združeniu a získajte konzistentnejšie farmárske ROLLS odmeny. Vytvorte NFT poľa a priraďte svoje nové polia do skupiny."
 
+#: src/electron/main.tsx:418
+msgid "Join our Discord Server"
+msgstr ""
+
+#: src/electron/main.tsx:458
+msgid "Join our Reddit Community"
+msgstr ""
+
+#: src/electron/main.tsx:450
+msgid "Join our group on Telegram"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "K-Size"
 msgstr "K-veľkosť"
@@ -1164,7 +1170,7 @@ msgstr "K-veľkosť"
 msgid "Keyring migration failed: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:69
+#: src/components/dashboard/DashboardSideBar.tsx:66
 msgid "Keys"
 msgstr "Kľúče"
 
@@ -1333,7 +1339,7 @@ msgstr "Názov siete"
 #~ msgstr "Network not launched yet, waiting for genesis challenge!"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:685
-#: src/components/wallet/standard/WalletStandard.tsx:582
+#: src/components/wallet/standard/WalletStandard.tsx:572
 msgid "New Address"
 msgstr "Nová adresa"
 
@@ -1406,7 +1412,7 @@ msgstr "Žiadne z vašich polí zatiaľ neprešlo filtrom polí."
 msgid "Not Available"
 msgstr "Nie je k dispozícií"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:37
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:38
 #: src/components/wallet/WalletStatus.tsx:28
 msgid "Not Synced"
 msgstr "Nesynchronizované"
@@ -1458,7 +1464,7 @@ msgstr "Ponuka"
 msgid "Offers Created"
 msgstr "Vytvorené ponuky"
 
-#: src/components/wallet/standard/WalletStandard.tsx:488
+#: src/components/wallet/standard/WalletStandard.tsx:478
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "Priemerný čas medzi jednotlivými blokmi transakcií je jedna minúta. Ak nedôjde k preťaženiu, môžete očakávať, že vaša transakcia bude zahrnutá za menej ako minútu."
 
@@ -1479,7 +1485,6 @@ msgstr "Odchádzajúce"
 #: src/components/app/AppPassPrompt.tsx:221
 #: src/components/settings/RemovePassphrasePrompt.tsx:123
 #: src/components/settings/SetPassphrasePrompt.tsx:142
-#: src/components/wallet/EnterPassphrasePrompt.tsx:123
 msgid "Passphrase"
 msgstr ""
 
@@ -1489,7 +1494,6 @@ msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:149
 #: src/components/settings/RemovePassphrasePrompt.tsx:64
-#: src/components/wallet/EnterPassphrasePrompt.tsx:66
 msgid "Passphrase is incorrect"
 msgstr ""
 
@@ -1524,6 +1528,18 @@ msgstr "Najvyššia pozícia"
 #: src/components/fullNode/card/FullNodeCardPeakTime.tsx:23
 msgid "Peak Time"
 msgstr "Vrchol času"
+
+#: src/electron/main.tsx:472
+msgid "PecanRolls"
+msgstr "PecanRolls"
+
+#: src/electron/main.tsx:358
+msgid "PecanRolls Blockchain Wiki"
+msgstr "PecanRolls Blockchain Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:642
+msgid "PecanRolls Wallet"
+msgstr "PecanRolls peňaženka"
 
 #: src/components/plotNFT/PlotNFTState.tsx:43
 #: src/components/wallet/WalletHistory.tsx:53
@@ -1591,7 +1607,7 @@ msgstr "Zadajte prosím platné celé číslo od 0 alebo vyššie pre počet zá
 
 #: src/components/wallet/create/createNewColouredCoin.jsx:69
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:639
-#: src/components/wallet/standard/WalletStandard.tsx:440
+#: src/components/wallet/standard/WalletStandard.tsx:430
 msgid "Please enter a valid numeric amount"
 msgstr "Prosím zadajte platnú číselnú sumu"
 
@@ -1603,7 +1619,7 @@ msgstr "Zadajte prosím platnú číselnú sumu."
 #: src/components/wallet/create/createNewColouredCoin.jsx:79
 #: src/components/wallet/create/createRLAdmin.jsx:150
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:649
-#: src/components/wallet/standard/WalletStandard.tsx:450
+#: src/components/wallet/standard/WalletStandard.tsx:440
 msgid "Please enter a valid numeric fee"
 msgstr "Prosím zadajte platný číselný poplatok"
 
@@ -1626,7 +1642,6 @@ msgstr ""
 #: src/components/app/AppPassPrompt.tsx:182
 #: src/components/app/AppPassPrompt.tsx:198
 #: src/components/settings/RemovePassphrasePrompt.tsx:47
-#: src/components/wallet/EnterPassphrasePrompt.tsx:48
 msgid "Please enter your passphrase"
 msgstr ""
 
@@ -1635,7 +1650,7 @@ msgid "Please enter your passphrase to proceed"
 msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:623
-#: src/components/wallet/standard/WalletStandard.tsx:430
+#: src/components/wallet/standard/WalletStandard.tsx:420
 msgid "Please finish syncing before making a transaction"
 msgstr "Pred uskutočnením transakcie dokončite synchronizáciu"
 
@@ -1736,7 +1751,7 @@ msgstr "Pole je duplikátom {0}"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr "NFT poľa prechádza do (cieľového stavu). Môže to chvíľu trvať. Prosím nezatvárajte aplikáciu, kým nebude prechod dokončený."
 
-#: src/components/dashboard/DashboardSideBar.tsx:53
+#: src/components/dashboard/DashboardSideBar.tsx:55
 msgid "Plots"
 msgstr "Polia"
 
@@ -1779,7 +1794,6 @@ msgstr "Body nájdené za posledných 24 hodín"
 msgid "Points Successful in Last 24 Hours"
 msgstr "Úspešné body za posledných 24 hodín"
 
-#: src/components/dashboard/DashboardSideBar.tsx:63
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr "Združenie"
@@ -1967,7 +1981,7 @@ msgid "Rate Limited User Wallet Setup"
 msgstr "Nastavenia používateľskej peňaženky s obmedzenou sadzbou"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:650
-#: src/components/wallet/standard/WalletStandard.tsx:579
+#: src/components/wallet/standard/WalletStandard.tsx:569
 msgid "Receive Address"
 msgstr "Adresa príjemcu"
 
@@ -2146,7 +2160,7 @@ msgstr "Predať"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:620
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
-#: src/components/wallet/standard/WalletStandard.tsx:545
+#: src/components/wallet/standard/WalletStandard.tsx:535
 msgid "Send"
 msgstr "Odoslať"
 
@@ -2168,7 +2182,7 @@ msgstr ""
 msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:76
+#: src/components/dashboard/DashboardSideBar.tsx:73
 #: src/components/settings/Settings.tsx:239
 msgid "Settings"
 msgstr ""
@@ -2220,7 +2234,7 @@ msgstr "Zjemnite si svoje farmárske ROLLS odmeny pripojením sa k združeniu."
 msgid "Something went wrong"
 msgstr "Niečo sa pokazilo"
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:523
 msgid "Speech"
 msgstr "Reč"
 
@@ -2256,8 +2270,8 @@ msgstr "Limit výdavkov (rolls na interval): {0}"
 msgid "State"
 msgstr "Stav"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:59
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:67
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:60
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:68
 #: src/components/plot/overview/PlotOverviewPlots.tsx:110
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:113
 #: src/components/plotNFT/PlotNFTCard.tsx:145
@@ -2308,13 +2322,16 @@ msgid "Submit"
 msgstr "Odoslať"
 
 #: src/components/wallet/EnterPassphrasePrompt.tsx:146
-msgid "Submit Passphrase"
-msgstr ""
+#~ msgid "Submit Passphrase"
+#~ msgstr ""
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:43
 #: src/components/wallet/WalletStatus.tsx:33
 msgid "Synced"
 msgstr "Synchronizované"
+
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:44
+msgid "Synced <0/>"
+msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
@@ -2323,7 +2340,7 @@ msgstr "Synchronizované"
 msgid "Syncing"
 msgstr "Synchronizácia"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:21
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:22
 msgid "Syncing <0/>/<1/>"
 msgstr "Synchronizácia <0/>/<1/>"
 
@@ -2376,11 +2393,11 @@ msgstr "Celý uzol, ku ktorému je váš farmár pripojený, je uvedený nižši
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Minimálna požadovaná veľkosť pre sieť mainnet je k = 32"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:39
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:40
 msgid "The node is not synced"
 msgstr "Uzol nie je synchronizovaný"
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:29
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:30
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Uzol sa synchronizuje, čo znamená, že sťahuje bloky z iných uzlov, aby sa dostal k najnovšiemu bloku v reťazci"
 
@@ -2494,7 +2511,7 @@ msgstr "Toto je celkový počet bodov, ktoré má tento NFT v tomto združení o
 msgid "This is the total number of points your farmer has found for this plot NFT. Each k32 plot will get around 10 points per day, so if you have 10TiB, should should expect around 1000 points per day, or 41 points per hour."
 msgstr "Toto je celkový počet bodov, ktoré váš farmár našiel pre tento NFT poľa. Každé k32 pole získa okolo 10 bodov za deň, takže ak máte 10TiB, mali by ste očakávať okolo 1000 bodov za deň, alebo 41 bodov za hodinu."
 
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:46
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:47
 msgid "This node is fully caught up and validating the network"
 msgstr "Tento uzol je plne aktualizovaný a overuje sieť"
 
@@ -2548,10 +2565,6 @@ msgstr "Príjemca"
 msgid "Total Balance"
 msgstr "Celkový zostatok"
 
-#: src/components/farm/card/FarmCardTotalPecanRollsFarmed.tsx:15
-#~ msgid "Total PecanRolls Farmed"
-#~ msgstr ""
-
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
 msgid "Total Iterations"
 msgstr "Celkový počet iterácií"
@@ -2559,6 +2572,10 @@ msgstr "Celkový počet iterácií"
 #: src/components/farm/card/FarmCardTotalNetworkSpace.tsx:15
 msgid "Total Network Space"
 msgstr "Celková veľkosť siete"
+
+#: src/components/farm/card/FarmCardTotalPecanRollsFarmed.tsx:15
+#~ msgid "Total PecanRolls Farmed"
+#~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:146
 msgid "Total Plot Size:"
@@ -2700,6 +2717,14 @@ msgstr "Zobraziť nespracované zostatky"
 msgid "View pending balances..."
 msgstr "Zobraziť nespracované zostatky..."
 
+#: src/electron/main.tsx:410
+msgid "Visit PecanRolls Website"
+msgstr ""
+
+#: src/electron/main.tsx:434
+msgid "Visit our YouTube Channel"
+msgstr ""
+
 #: src/components/farm/card/FarmCardNotAvailable.tsx:26
 #: src/components/plot/PlotStatus.tsx:26
 #: src/components/plot/PlotStatus.tsx:27
@@ -2720,7 +2745,7 @@ msgid "Waiting for the transaction to be confirmed"
 msgstr "Čaká sa na potvrdenie transakcie"
 
 #: src/components/pool/PoolOverview.tsx:185
-#: src/components/wallet/standard/WalletStandard.tsx:659
+#: src/components/wallet/standard/WalletStandard.tsx:649
 msgid "Wallet Status:"
 msgstr "Stav peňaženky:"
 
@@ -2732,16 +2757,16 @@ msgstr "Peňaženka neexistuje"
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
-#: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.rollsWallet"
-#~ msgstr ""
-
 #: src/components/wallet/Wallets.tsx:48
 #~ msgid "WalletItem.didWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:41
 #~ msgid "WalletItem.rlWallet"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:30
+#~ msgid "WalletItem.rollsWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:107
@@ -2756,7 +2781,7 @@ msgstr "Peňaženka neexistuje"
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:48
+#: src/components/dashboard/DashboardSideBar.tsx:50
 #: src/components/wallet/Wallets.tsx:118
 msgid "Wallets"
 msgstr "Peňaženky"
@@ -2994,6 +3019,10 @@ msgstr ""
 msgid "{0} points {1} - {2} hours ago"
 msgstr "{0} bodov pred {1} - {2} hodinami"
 
+#: src/components/core/components/Amount/Amount.tsx:82
+#~ msgid "{byte, plural, one {byte} other {bytes}}"
+#~ msgstr "{byte, plural, one {byte} few {bytes} many {bytes} other {bytes}}"
+
 #: src/components/farm/card/FarmCardBlockRewards.tsx:35
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Odmena za blok"
@@ -3007,5 +3036,5 @@ msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Užívateľské poplatky za transakcie"
 
 #: src/components/core/components/Amount/Amount.tsx:82
-msgid "{byte, plural, one {byte} other {bytes}}"
-msgstr "{byte, plural, one {byte} few {bytes} many {bytes} other {bytes}}"
+msgid "{pecan, plural, one {pecan} other {pecans}}"
+msgstr ""

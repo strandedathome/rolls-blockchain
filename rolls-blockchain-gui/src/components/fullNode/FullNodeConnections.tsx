@@ -33,17 +33,17 @@ const cols = [
         </Tooltip>
       );
     },
-    title: <Trans>Node ID</Trans>,
+    title: <Trans>NODE ID</Trans>,
   },
   {
     field: 'peer_host',
-    title: <Trans>IP address</Trans>,
+    title: <Trans>IP</Trans>,
   },
   {
     field(row: Connection) {
       return `${row.peer_port}/${row.peer_server_port}`;
     },
-    title: <Trans>Port</Trans>,
+    title: <Trans>PORT</Trans>,
   },
   {
     field(row: Connection) {
@@ -65,21 +65,21 @@ const cols = [
         </>
       );
     },
-    title: <Trans>MiB Up/Down</Trans>,
+    title: <Trans>UP/DOWN (M)</Trans>,
   },
   {
     field(row: Connection) {
       // @ts-ignore
       return service_connection_types[row.type];
     },
-    title: <Trans>Connection type</Trans>,
+    title: <Trans>ROLE</Trans>,
   },
   {
     field: (row: Connection) => <FormatLargeNumber value={row.peak_height} />,
-    title: <Trans>Height</Trans>,
+    title: <Trans>HEIGHT</Trans>,
   },
   {
-    title: <Trans>Actions</Trans>,
+    title: <Trans>ACTIONS</Trans>,
     field(row: Connection) {
       return (
         <FullNodeCloseConnection nodeId={row.node_id}>

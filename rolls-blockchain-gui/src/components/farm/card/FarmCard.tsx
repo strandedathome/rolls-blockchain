@@ -9,11 +9,14 @@ import {
   TypographyProps,
   CircularProgress,
 } from '@material-ui/core';
+import RollsPalette from '../../layout/RollsPalette';
 
 const StyledCard = styled(Card)`
   height: 100%;
   overflow: visible;
   margin-bottom: -0.5rem;
+  border-radius: 1rem;
+  background-color: ${RollsPalette.rolls_dark};
 `;
 
 const StyledTitle = styled.div`
@@ -50,7 +53,7 @@ export default function FarmCard(props: Props) {
             <CircularProgress color="secondary" size={25} />
           </Box>
         ) : (
-          <StyledValue variant="h5" color={valueColor}>
+          <StyledValue variant="h6" color={valueColor}>
             {value}
           </StyledValue>
         )}

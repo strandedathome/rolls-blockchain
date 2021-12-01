@@ -9,12 +9,13 @@ import {
   Keys as KeysIcon,
   Home as HomeIcon,
   Plot as PlotIcon,
-  Pool as PoolIcon,
+  Home as BlocksIcon,
   Settings as SettingsIcon,
 } from '@rolls/icons';
 import { Flex, SideBarItem } from '@rolls/core';
 import { logOut } from '../../modules/message';
 import { RootState } from '../../modules/rootReducer';
+import RollsPalette from '../layout/RollsPalette';
 
 const StyledRoot = styled(Flex)`
   height: 100%;
@@ -23,6 +24,7 @@ const StyledRoot = styled(Flex)`
 
 const StyledList = styled(List)`
   width: 100%;
+  background-color: ${RollsPalette.rolls_dark};
 `;
 
 export default function DashboardSideBar() {
@@ -43,6 +45,12 @@ export default function DashboardSideBar() {
           exact
         />
         <SideBarItem
+          to="/blocks"
+          icon={<HomeIcon fontSize="large" />}
+          title={<Trans>Blocks</Trans>}
+          exact
+        />
+        <SideBarItem
           to="/dashboard/wallets"
           icon={<WalletIcon fontSize="large" />}
           title={<Trans>Wallets</Trans>}
@@ -56,11 +64,6 @@ export default function DashboardSideBar() {
           to="/dashboard/farm"
           icon={<FarmIcon fontSize="large" />}
           title={<Trans>Farm</Trans>}
-        />
-        <SideBarItem
-          to="/dashboard/pool"
-          icon={<PoolIcon fontSize="large" />}
-          title={<Trans>Pool</Trans>}
         />
         <SideBarItem
           to="/"

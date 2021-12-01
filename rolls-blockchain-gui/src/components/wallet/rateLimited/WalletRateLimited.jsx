@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: '0px',
   },
   resultSuccess: {
-    color: '#3AAC59',
+    color: '#59A96A',
   },
   resultFailure: {
     color: 'red',

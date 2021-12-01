@@ -21,7 +21,7 @@ export default makeStyles((theme: Theme) => ({
     marginTop: theme.spacing(5),
   },
   textField: {
-    borderColor: '#ffffff',
+    borderColor: '#FEFEFE',
   },
   submit: {
     marginTop: theme.spacing(8),
@@ -44,21 +44,21 @@ export default makeStyles((theme: Theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     backgroundColor: '#444444',
-    color: '#ffffff',
+    color: '#FEFEFE',
     height: 60,
   },
   title: {
-    color: '#ffffff',
+    color: '#FEFEFE',
     marginTop: theme.spacing(4),
     marginBottom: theme.spacing(8),
   },
   titleSmallMargin: {
-    color: '#ffffff',
+    color: '#FEFEFE',
     marginTop: theme.spacing(4),
     marginBottom: theme.spacing(2),
   },
   navigator: {
-    color: '#ffffff',
+    color: '#FEFEFE',
     marginTop: theme.spacing(4),
     marginLeft: theme.spacing(4),
     fontSize: 35,
@@ -67,7 +67,7 @@ export default makeStyles((theme: Theme) => ({
     cursor: 'pointer',
   },
   instructions: {
-    color: '#ffffff',
+    color: '#FEFEFE',
     fontSize: 18,
   },
   dragContainer: {

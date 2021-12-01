@@ -12,7 +12,7 @@ const StyledWrapper = styled(Box)`
   background: ${({ theme }) =>
     theme.palette.type === 'dark'
       ? `linear-gradient(45deg, #222222 30%, #333333 90%)`
-      : `linear-gradient(45deg, #ffffff 30%, #fdfdfd 90%)`};
+      : `linear-gradient(45deg, #FEFEFE 30%, #fdfdfd 90%)`};
 `;
 
 const StyledBody = styled(Box)`

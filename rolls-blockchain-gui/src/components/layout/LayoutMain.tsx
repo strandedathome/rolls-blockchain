@@ -3,17 +3,20 @@ import { Container } from '@material-ui/core';
 import styled from 'styled-components';
 import { Flex, Loading } from '@rolls/core';
 import DashboardTitle from '../dashboard/DashboardTitle';
+import RollsPalette from '../layout/RollsPalette';
 
 const StyledContainer = styled(Container)`
-  padding-top: ${({ theme }) => `${theme.spacing(3)}px`};
-  padding-bottom: ${({ theme }) => `${theme.spacing(3)}px`};
+  padding-top: ${({ theme }) => `${theme.spacing(2)}px`};
+  padding-bottom: ${({ theme }) => `${theme.spacing(2)}px`};
   flex-grow: 1;
   display: flex;
+  background-color: ${RollsPalette.rolls_darkest};
 `;
 
 const StyledInnerContainer = styled(Flex)`
   box-shadow: inset 6px 0 8px -8px rgba(0, 0, 0, 0.2);
   flex-grow: 1;
+  background-color: ${RollsPalette.rolls_darkest};
 `;
 
 type Props = {
