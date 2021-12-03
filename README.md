@@ -43,7 +43,7 @@ Farming PecanRolls is the same as Chia™, it does not consume significant amoun
 * long term value
 * innovation for the future
 * strength in community
-* build and maintain a collaborative team
+* active development
 
 
 ### BLOCKCHAIN SPECIFICATIONS
