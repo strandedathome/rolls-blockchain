@@ -1,5 +1,6 @@
 # Welcome to the PecanRolls Blockchain!
 [![Chat](https://img.shields.io/badge/chat-discord-7289da.svg)](https://discord.gg/xA9FHJpfEB)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://pecanrolls.net/)
 
 ![spinning pecan roll gif](https://github.com/strandedathome/rolls-blockchain/blob/main/pecanroll-spinning-128.gif)
 
