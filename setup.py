@@ -45,8 +45,8 @@ dev_dependencies = [
 
 kwargs = dict(
     name="rolls-blockchain",
-    author="Mariano Sorgente",
-    author_email="mariano@pecanrolls.net",
+    author="nickhenry.eth",
+    author_email="nick.henryhousehold@gmail.com",
     description="PecanRolls blockchain full node, farmer, timelord, and wallet.",
     url="https://pecanrolls.net/",
     license="Apache License",
