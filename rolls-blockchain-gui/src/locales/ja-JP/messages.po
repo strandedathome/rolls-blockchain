@@ -63,9 +63,9 @@ msgstr "承諾"
 msgid "Accepted at time:"
 msgstr "承諾日時:"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 #: src/components/plot/PlotsFailed.tsx:19
 #: src/components/plot/PlotsNotFound.tsx:19
-#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 msgid "Action"
 msgstr "操作"
 
@@ -97,9 +97,9 @@ msgstr "耕地をキューに追加"
 #~ msgstr "Add Wallet"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
-#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
+#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:230
 #: src/components/plotNFT/PlotNFTCard.tsx:272
 msgid "Add a Plot"
@@ -139,10 +139,10 @@ msgstr ""
 #: src/components/core/components/Amount/Amount.tsx:99
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
 #: src/components/wallet/standard/WalletStandard.tsx:506
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "金額"
 
@@ -805,10 +805,10 @@ msgstr "チアウォレットを復元するには、24語の合言葉を入力�
 msgid "Enter your passphrase:"
 msgstr ""
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:35
 #: src/components/farm/card/FarmCardStatus.tsx:49
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:22
@@ -909,9 +909,9 @@ msgstr ""
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "農家は空いている容量をネットワークに提供することで取引の正確性を担保し、対価としてブロック報酬や取引手数料を得られます。耕地を追加したら、ここにあなたの畑が表示されます。<0>詳しく</0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "耕作中"
@@ -928,13 +928,13 @@ msgstr "耕作の状態"
 #: src/components/core/components/Fee/Fee.tsx:48
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
 #: src/components/wallet/standard/WalletStandard.tsx:517
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "手数料"
 
@@ -963,9 +963,9 @@ msgstr "全手数料"
 msgid "File"
 msgstr "ファイル"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
-#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 #: src/components/wallet/did/WalletDID.tsx:975
 msgid "Filename"
 msgstr "ファイル名"
@@ -1428,9 +1428,9 @@ msgstr ""
 msgid "None of your plots have passed the plot filter yet."
 msgstr "お持ちの耕地は現在、どれも耕地フィルターを通過できていません。"
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 #: src/components/plotNFT/PlotNFTCard.tsx:365
 msgid "Not Available"
@@ -2038,8 +2038,8 @@ msgstr ""
 msgid "Recover Wallet"
 msgstr ""
 
-#: src/components/plot/PlotHeader.tsx:78
 #: src/components/plot/overview/PlotOverviewHero.tsx:62
+#: src/components/plot/PlotHeader.tsx:78
 msgid "Refresh Plots"
 msgstr "耕地一覧を更新"
 
@@ -2314,8 +2314,8 @@ msgstr "支払い額上限 (チア毎インターバル): {0}"
 #: src/components/plotNFT/PlotNFTCard.tsx:145
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
-#: src/components/wallet/WalletStatusCard.tsx:22
 #: src/components/wallet/Wallets.tsx:50
+#: src/components/wallet/WalletStatusCard.tsx:22
 msgid "Status"
 msgstr "状態"
 
@@ -2369,8 +2369,8 @@ msgstr "同期完了"
 msgid "Synced <0/>"
 msgstr ""
 
-#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/plot/PlotStatus.tsx:18
 #: src/components/wallet/WalletStatus.tsx:38
 msgid "Syncing"
@@ -3011,13 +3011,13 @@ msgstr "[エラー 13] 不許可。あなたがアクセスしようとしてい
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr "[エラー 22] ファイルが見つかりません。恐らく config.yaml 内の耕地フォルダのいずれかに問題があります。"
 
-#: src/components/wallet/WalletStatusCard.tsx:41
 #: src/components/wallet/Wallets.tsx:75
+#: src/components/wallet/WalletStatusCard.tsx:41
 msgid "connections:"
 msgstr "接続数:"
 
-#: src/components/wallet/WalletStatusCard.tsx:33
 #: src/components/wallet/Wallets.tsx:67
+#: src/components/wallet/WalletStatusCard.tsx:33
 msgid "height:"
 msgstr "高さ:"
 
@@ -3029,18 +3029,18 @@ msgstr "同期されていません"
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr ""
 
-#: src/components/wallet/WalletStatusCard.tsx:27
 #: src/components/wallet/Wallets.tsx:55
+#: src/components/wallet/WalletStatusCard.tsx:27
 msgid "status:"
 msgstr "状態:"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:60
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "synced"
 msgstr "同期完了"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:59
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "syncing"
 msgstr "同期中"
 
