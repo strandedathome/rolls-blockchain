@@ -54,7 +54,7 @@
         "lodash": "^4.17.21",
         "make-plural": "^6.2.2",
         "match-sorter": "^6.3.0",
-        "moment": "^2.29.1",
+        "moment": "^2.29.2",
         "normalize-url": "^7.0.2",
         "npm-audit-resolver": "^2.3.1",
         "polished": "^4.1.3",
